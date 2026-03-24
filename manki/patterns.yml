@@ -1194,8 +1194,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774384273953
-  finding_title: sigterm after timeout may not kill the process — no sigkill fallback
+- id: pat-1774384274877
+  finding_title: partial threshold override allows cross-field validation bypass
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
