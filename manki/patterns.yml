@@ -1767,9 +1767,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774386034727
-  finding_title: spawn is called with '-p' flag but prompt is sent via stdin —
-    missing '--' or stdin flag
+- id: pat-1774386035578
+  finding_title: no test for spawn-based cli invocation in claude.ts
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
