@@ -2402,8 +2402,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774389393516
-  finding_title: no test coverage for generalfindings path in postreview
+- id: pat-1774389394515
+  finding_title: generalfindings count not included in log output
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
