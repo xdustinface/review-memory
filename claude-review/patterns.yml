@@ -153,3 +153,11 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
+- id: pat-1774343366049
+  finding_title: finding title used as pattern key may not be stable or unique
+  occurrences: 1
+  repos:
+    - claude-review
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
