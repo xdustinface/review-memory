@@ -1326,8 +1326,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774384831976
-  finding_title: no tests for rewritten sendviacli spawn logic
+- id: pat-1774384832590
+  finding_title: "missing edge-case test: selectteam with zero-line diff"
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
