@@ -2261,8 +2261,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774388948812
-  finding_title: buffer.tostring() may corrupt multi-byte utf-8 characters split across chunks
+- id: pat-1774388952830
+  finding_title: scoring heuristic for performance agent matches overly broad path patterns
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
