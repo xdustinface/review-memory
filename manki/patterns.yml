@@ -454,8 +454,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774380173853
-  finding_title: diff truncation at 50000 chars may split mid-line or mid-hunk
+- id: pat-1774380174625
+  finding_title: unanimous agreement escalation may be too aggressive
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
@@ -464,8 +464,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774380175543
-  finding_title: vote parsing trusts agent-supplied index without bounds check
+- id: pat-1774380176506
+  finding_title: no validation that review_thresholds.small < review_thresholds.medium
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
@@ -474,8 +474,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774380177164
-  finding_title: scoring heuristic uses fragile string matching
+- id: pat-1774380178068
+  finding_title: unanimous agreement escalation is too aggressive
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
@@ -484,8 +484,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774380178999
-  finding_title: tallyvotes has overlapping escalation conditions
+- id: pat-1774380179610
+  finding_title: split vote keeps finding but downgrades — intended for 'question' severity?
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
