@@ -3407,8 +3407,9 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774393615272
-  finding_title: sanitizemarkdown test suite lacks coverage for nested/malformed html
+- id: pat-1774393615962
+  finding_title: selectteam test for custom reviewers on small teams asserts >= 4
+    but not exact count
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
