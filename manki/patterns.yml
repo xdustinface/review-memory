@@ -3111,8 +3111,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774392436085
-  finding_title: invalidcomments path does not sanitize title/description
+- id: pat-1774392436880
+  finding_title: dangling sigkill timer in stdin catch block
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
@@ -3121,8 +3121,9 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774392437645
-  finding_title: repeated timer-cleanup boilerplate across three code paths
+- id: pat-1774392438314
+  finding_title: invalidcomments not sanitized — markdown/html injection from
+    untrusted pr content
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
@@ -3131,8 +3132,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774392439055
-  finding_title: leaked settimeout on stdin write failure — sigkill timer never cleared
+- id: pat-1774392439789
+  finding_title: no test for sanitizemarkdown stripping html/comments from general findings
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
