@@ -466,14 +466,14 @@
   escalated: false
 - id: pat-1774380176506
   finding_title: no validation that review_thresholds.small < review_thresholds.medium
-  occurrences: 5
+  occurrences: 4
   accepted_count: 0
   rejected_count: 0
   repos:
     - manki
   first_seen: 2026-03-24
   last_seen: 2026-03-24
-  escalated: true
+  escalated: false
 - id: pat-1774380178068
   finding_title: unanimous agreement escalation is too aggressive
   occurrences: 1
@@ -596,6 +596,16 @@
   escalated: false
 - id: pat-1774380197540
   finding_title: scoring heuristics are fragile keyword matches
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
+- id: pat-1774380199170
+  finding_title: unanimous agree escalation ignores vote count vs team size
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
