@@ -47,3 +47,11 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
+- id: pat-1774355426172
+  finding_title: missing test for multiple separate json objects in input
+  occurrences: 1
+  repos:
+    - manki
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
