@@ -1377,3 +1377,13 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
+- id: pat-1774385201956
+  finding_title: agent_pool is mutable — core_agents indices could become stale
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
