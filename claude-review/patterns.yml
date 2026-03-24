@@ -104,3 +104,11 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
+- id: pat-1774342278548
+  finding_title: fetchconfigfile not visible in imports within the diff
+  occurrences: 1
+  repos:
+    - claude-review
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
