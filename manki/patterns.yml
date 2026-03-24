@@ -3600,8 +3600,18 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774394399084
-  finding_title: duplicate timer-cleanup blocks in spawn wrapper
+- id: pat-1774394398295
+  finding_title: inconsistent file path sanitization in invalidcomments
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
+- id: pat-1774394399912
+  finding_title: missing backtick escape on f.file in invalidcomments (else branch)
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
