@@ -877,8 +877,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774381125341
-  finding_title: missing error handler on child.stdin causes unhandled epipe
+- id: pat-1774381124625
+  finding_title: selectteam scoring matches 'test' substring too broadly
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
@@ -887,8 +887,18 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774381126993
-  finding_title: scoring keyword 'index' is overly broad for performance matching
+- id: pat-1774381126277
+  finding_title: parseconsolidatedreview is now dead code outside of tests
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
+- id: pat-1774381127651
+  finding_title: no error handler on child.stdin — unhandled epipe crash risk
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
