@@ -1726,8 +1726,19 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774386030030
-  finding_title: no test for out-of-bounds findingindex votes being filtered
+- id: pat-1774386029356
+  finding_title: no test for titlesmatch when both titles are exactly 10 chars
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
+- id: pat-1774386031069
+  finding_title: tallyvotes split-vote path assigns severity 'suggestion'
+    regardless of original
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
