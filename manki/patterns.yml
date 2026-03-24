@@ -4199,8 +4199,18 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774396324707
-  finding_title: sanitizemarkdown misses plain html tags without attributes
+- id: pat-1774396323915
+  finding_title: body truncation can split mid-markdown structure
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
+- id: pat-1774396325703
+  finding_title: no test for sanitizemarkdown with attributeless non-dangerous html tags
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
