@@ -249,8 +249,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774369982651
-  finding_title: hardcoded tag loop overwrites all major version tags to the same commit
+- id: pat-1774369983446
+  finding_title: no error handling if force-push of a version tag fails
   occurrences: 1
   repos:
     - manki
