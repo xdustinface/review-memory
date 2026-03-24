@@ -1,1 +1,8 @@
-[]
+- id: pat-1774341370837
+  finding_title: hardcoded 'main' baseref — ternary is a no-op
+  occurrences: 1
+  repos:
+    - claude-review
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
