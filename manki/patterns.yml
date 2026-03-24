@@ -1960,7 +1960,7 @@
   escalated: false
 - id: pat-1774387341408
   finding_title: double deduplication of votes — once in rundeliberation, again in tallyvotes
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
