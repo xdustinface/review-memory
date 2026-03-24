@@ -4259,8 +4259,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774396329531
-  finding_title: sanitizemarkdown tests don't cover nested or chained dangerous patterns
+- id: pat-1774396330288
+  finding_title: sanitizemarkdown regex doesn't strip simple html tags without attributes
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
