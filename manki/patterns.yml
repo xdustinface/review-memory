@@ -3419,7 +3419,7 @@
   escalated: false
 - id: pat-1774393616854
   finding_title: no test for tallyvotes with out-of-bounds findingindex in votes
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
