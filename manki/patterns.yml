@@ -1216,7 +1216,7 @@
   escalated: false
 - id: pat-1774384278296
   finding_title: no test for invalid review_level config validation
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -1643,18 +1643,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774385594359
-  finding_title: no tests for claude.ts spawn refactor
-  occurrences: 1
-  accepted_count: 0
-  rejected_count: 0
-  repos:
-    - manki
-  first_seen: 2026-03-24
-  last_seen: 2026-03-24
-  escalated: false
-- id: pat-1774385595998
-  finding_title: no boundary test for selectteam threshold values
+- id: pat-1774385596727
+  finding_title: custom reviewer boost test relies on subtle scoring internals
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
