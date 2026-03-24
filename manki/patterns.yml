@@ -1509,9 +1509,9 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774385579035
-  finding_title: selectteam always adds custom reviewers beyond team size — is
-    unbounded growth intended?
+- id: pat-1774385579704
+  finding_title: content-relevance scoring heuristics are tightly coupled to
+    specific filenames
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
