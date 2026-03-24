@@ -336,3 +336,12 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
+- id: pat-1774375967197
+  finding_title: discarding the initial receiver from engine::new() — is this safe
+    and necessary?
+  occurrences: 1
+  repos:
+    - fridi
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
