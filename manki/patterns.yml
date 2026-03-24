@@ -103,8 +103,17 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774356182555
-  finding_title: mergeindividualfindings uses reviewers from finding, not from af.reviewer
+- id: pat-1774356181606
+  finding_title: unmatched bracket in extractjson falls through silently
+  occurrences: 1
+  repos:
+    - manki
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
+- id: pat-1774356183930
+  finding_title: parseconsolidatedreview now throws — update jsdoc / callers to
+    reflect new contract
   occurrences: 1
   repos:
     - manki
