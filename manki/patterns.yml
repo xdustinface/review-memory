@@ -3061,8 +3061,19 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774392430607
-  finding_title: formatfindingcomment also lacks sanitizemarkdown on title/description
+- id: pat-1774392429853
+  finding_title: sanitizemarkdown not applied to invalidcomments — inconsistent
+    xss/injection protection
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
+- id: pat-1774392431363
+  finding_title: suggestedfix in generalfindings is not sanitized before rendering
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
