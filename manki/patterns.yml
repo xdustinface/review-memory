@@ -4159,8 +4159,18 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774396319015
-  finding_title: duplicate invalidcomments formatting logic
+- id: pat-1774396318250
+  finding_title: sanitizemarkdown does not strip simple html tags without attributes
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
+- id: pat-1774396319742
+  finding_title: tallyvotes escalation only applies to 'suggestion' severity, not 'question'
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
