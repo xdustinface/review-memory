@@ -1,1 +1,8 @@
-[]
+- id: pat-1774345903542
+  finding_title: "race condition: engine events can be lost before receiver is wired up"
+  occurrences: 1
+  repos:
+    - fridi
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
