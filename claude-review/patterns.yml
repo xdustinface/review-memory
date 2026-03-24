@@ -31,3 +31,11 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
+- id: pat-1774341373586
+  finding_title: success log is misleading when individual pattern updates fail
+  occurrences: 1
+  repos:
+    - claude-review
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
