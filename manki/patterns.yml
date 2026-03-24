@@ -3752,8 +3752,19 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774394811844
-  finding_title: duplicated timer-cleanup logic across three sites in sendviacli
+- id: pat-1774394811083
+  finding_title: sanitizemarkdown tests don't cover unclosed html comments or tags
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
+- id: pat-1774394812598
+  finding_title: inconsistent description truncation limits between general and
+    invalid findings
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
