@@ -2302,9 +2302,18 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774388969492
-  finding_title: test missing assertion on total agent count in custom reviewers
-    beyond teamsize test
+- id: pat-1774388968350
+  finding_title: selectteam scoring 'requirements' pattern matches too broadly
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
+- id: pat-1774388970619
+  finding_title: no unit test for deliberation dedup severity upgrade
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
