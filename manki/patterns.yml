@@ -306,9 +306,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774373684872
-  finding_title: unsanitized fields interpolated into github issue body allow
-    markdown injection
+- id: pat-1774373685846
+  finding_title: extract langmap to a module-level constant
   occurrences: 1
   repos:
     - manki
