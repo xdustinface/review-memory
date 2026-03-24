@@ -6,3 +6,12 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
+- id: pat-1774341371501
+  finding_title: untrusted pr comment body stored directly as learning — prompt
+    injection vector
+  occurrences: 1
+  repos:
+    - claude-review
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
