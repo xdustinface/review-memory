@@ -1840,7 +1840,7 @@
   escalated: false
 - id: pat-1774386986470
   finding_title: performance scoring heuristic matches overly broad path patterns
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
