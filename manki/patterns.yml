@@ -2039,8 +2039,19 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774387750284
-  finding_title: performance scoring heuristic triggers on all medium+ diffs
+- id: pat-1774387749509
+  finding_title: stdin.end() never called when drain fires after process exits
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
+- id: pat-1774387751235
+  finding_title: titlesmatch substring check matches unrelated findings sharing
+    common prefixes
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
