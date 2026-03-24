@@ -2029,9 +2029,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774387355639
-  finding_title: selectteam scoring test for 'maintainability' agent lacks
-    assertion on agent presence
+- id: pat-1774387356986
+  finding_title: selectteam performance scoring test missing
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
