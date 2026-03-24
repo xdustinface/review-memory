@@ -2141,8 +2141,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774388194820
-  finding_title: agents that failed review still participate in deliberation voting
+- id: pat-1774388196023
+  finding_title: stdin error handler does not destroy stream — child may wait for eof
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
@@ -2151,8 +2151,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774388197244
-  finding_title: drain handler can call end() on a destroyed stdin stream
+- id: pat-1774388198763
+  finding_title: teamsize passed to tallyvotes doesn't reflect actual voter count
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
