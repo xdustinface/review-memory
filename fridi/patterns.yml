@@ -1,5 +1,5 @@
-- id: pat-1774345903542
-  finding_title: "race condition: engine events can be lost before receiver is wired up"
+- id: pat-1774345904317
+  finding_title: unwrap_or_default on repo path silently yields empty string
   occurrences: 1
   repos:
     - fridi
