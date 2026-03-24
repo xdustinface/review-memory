@@ -86,8 +86,9 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774347361099
-  finding_title: vec<u8> in broadcast channel causes expensive clones to all subscribers
+- id: pat-1774347361721
+  finding_title: draining byte buffer at arbitrary position can split multi-byte
+    utf-8 sequences
   occurrences: 1
   repos:
     - fridi
