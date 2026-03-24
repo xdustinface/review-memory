@@ -604,8 +604,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774380199871
-  finding_title: prompt injection via config.instructions in deliberation prompt
+- id: pat-1774380199170
+  finding_title: unanimous agree escalation ignores vote count vs team size
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
