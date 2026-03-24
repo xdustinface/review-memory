@@ -4036,8 +4036,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774395649944
-  finding_title: result.summary not sanitized before inclusion in review body
+- id: pat-1774395650861
+  finding_title: fallback review body can exceed github's 65536 char limit
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
