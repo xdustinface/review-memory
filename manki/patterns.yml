@@ -55,8 +55,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774355426875
-  finding_title: parsefindings silently returns empty array on malformed json
+- id: pat-1774355427519
+  finding_title: "mergeindividualfindings always sets reviewcomplete: true"
   occurrences: 1
   repos:
     - manki
