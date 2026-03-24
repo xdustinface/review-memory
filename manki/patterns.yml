@@ -466,7 +466,7 @@
   escalated: false
 - id: pat-1774380176506
   finding_title: no validation that review_thresholds.small < review_thresholds.medium
-  occurrences: 4
+  occurrences: 3
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -564,8 +564,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774380191635
-  finding_title: tallyvotes escalates unanimous agree even for already-blocking findings
+- id: pat-1774380192309
+  finding_title: split vote test has wrong expectations given the logic
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
@@ -574,8 +574,18 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774380195038
-  finding_title: escalate votes count as agree for majority but unclear if intended
+- id: pat-1774380194287
+  finding_title: no test for runagentvote handling of malformed json responses
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
+- id: pat-1774380195768
+  finding_title: unanimous agree escalates suggestions to blocking incorrectly
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
