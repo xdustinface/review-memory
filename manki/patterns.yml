@@ -3550,8 +3550,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774394016296
-  finding_title: no test for description truncation at 300 chars in general findings
+- id: pat-1774394016894
+  finding_title: no test for mixed inline and general findings in same review
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
