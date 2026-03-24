@@ -185,8 +185,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774358072761
-  finding_title: test does not verify closing </details> tag for ai agent prompt
+- id: pat-1774358073391
+  finding_title: no test for combined suggestedfix + ai prompt + reviewer attribution ordering
   occurrences: 1
   repos:
     - manki
