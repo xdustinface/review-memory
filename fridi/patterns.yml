@@ -544,8 +544,17 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774382288252
-  finding_title: ansi stripping on raw byte chunks may split multi-byte escape sequences
+- id: pat-1774382287320
+  finding_title: "race condition: fixed sleep instead of readiness check before
+    writing prompt to pty"
+  occurrences: 1
+  repos:
+    - fridi
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
+- id: pat-1774382289068
+  finding_title: detect_repo_in duplicates detect_repo logic
   occurrences: 1
   repos:
     - fridi
