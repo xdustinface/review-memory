@@ -4117,9 +4117,9 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774396313104
-  finding_title: sanitizemarkdown does not strip attribute-less html tags outside
-    the blocklist
+- id: pat-1774396314069
+  finding_title: body truncation can split inside a code fence, swallowing the
+    truncation notice
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
