@@ -1958,9 +1958,18 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774387342682
-  finding_title: selectteam passes team.agents.length as teamsize to tallyvotes,
-    not the nominal teamsize
+- id: pat-1774387341408
+  finding_title: double deduplication of votes — once in rundeliberation, again in tallyvotes
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
+- id: pat-1774387343858
+  finding_title: deduplication in rundeliberation iterates deduped twice per duplicate
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
