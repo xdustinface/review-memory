@@ -328,3 +328,11 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
+- id: pat-1774375966331
+  finding_title: unbounded polling loop can spin forever
+  occurrences: 1
+  repos:
+    - fridi
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
