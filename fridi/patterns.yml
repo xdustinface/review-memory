@@ -14,3 +14,11 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
+- id: pat-1774345907359
+  finding_title: orchestratorspawner visibility widened to pub; consider narrower re-export
+  occurrences: 1
+  repos:
+    - fridi
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
