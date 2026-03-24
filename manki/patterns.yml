@@ -4138,8 +4138,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774396315867
-  finding_title: duplicated invalidcomment formatting logic
+- id: pat-1774396316670
+  finding_title: stdinkilltimer leaks when process already exited before stdin write fails
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
