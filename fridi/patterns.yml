@@ -6,8 +6,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774345905327
-  finding_title: workflow start errors only written to stderr, invisible in gui
+- id: pat-1774345906290
+  finding_title: load_agent_definitions error silently swallowed
   occurrences: 1
   repos:
     - fridi
