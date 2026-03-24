@@ -466,7 +466,7 @@
   escalated: false
 - id: pat-1774380176506
   finding_title: no validation that review_thresholds.small < review_thresholds.medium
-  occurrences: 2
+  occurrences: 3
   accepted_count: 0
   rejected_count: 0
   repos:
