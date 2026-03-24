@@ -1613,9 +1613,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774385589776
-  finding_title: selectteam always adds custom reviewers beyond teamsize — is
-    unbounded growth intended?
+- id: pat-1774385590467
+  finding_title: stderr accumulation has no independent cap from stdout
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
@@ -1624,8 +1623,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774385591417
-  finding_title: close handler ignores signal parameter — confusing error on external kill
+- id: pat-1774385592702
+  finding_title: stdin write error handler swallows the error silently
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
