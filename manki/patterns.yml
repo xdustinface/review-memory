@@ -3448,9 +3448,18 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774394007086
-  finding_title: finding.suggestedfix not sanitized in formatfindingcomment — html
-    injection risk
+- id: pat-1774394006254
+  finding_title: f.file not sanitized — markdown injection via backticks in file path
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
+- id: pat-1774394008132
+  finding_title: timers keep event loop alive if stdin write catch fires before process exits
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
