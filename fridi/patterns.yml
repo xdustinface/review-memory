@@ -54,8 +54,16 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774346681601
-  finding_title: cloning full vec<u8> on every render cycle
+- id: pat-1774346680773
+  finding_title: unbounded memory growth in agent_outputs
+  occurrences: 1
+  repos:
+    - fridi
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
+- id: pat-1774346682685
+  finding_title: from_utf8_lossy called on every render
   occurrences: 1
   repos:
     - fridi
