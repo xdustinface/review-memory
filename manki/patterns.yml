@@ -209,3 +209,11 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
+- id: pat-1774367563256
+  finding_title: redundant `fetchbotreviewthreads` call creates toctou inconsistency
+  occurrences: 1
+  repos:
+    - manki
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
