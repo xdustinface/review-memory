@@ -3051,8 +3051,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774392428302
-  finding_title: formatfindingcomment does not sanitize title or description
+- id: pat-1774392429031
+  finding_title: orphaned sigkill timer on stdin write failure path
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
