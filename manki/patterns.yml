@@ -4159,8 +4159,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774396318250
-  finding_title: sanitizemarkdown does not strip simple html tags without attributes
+- id: pat-1774396319015
+  finding_title: duplicate invalidcomments formatting logic
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
