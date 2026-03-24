@@ -847,8 +847,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774381121319
-  finding_title: tallyvotes tests don't verify index/originalreviewer are stripped from output
+- id: pat-1774381121876
+  finding_title: no test for runagentvote vote defaulting behavior
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
