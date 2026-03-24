@@ -241,3 +241,11 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
+- id: pat-1774368279270
+  finding_title: when can a release already exist on tag push?
+  occurrences: 1
+  repos:
+    - manki
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
