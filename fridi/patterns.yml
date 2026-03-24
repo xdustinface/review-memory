@@ -384,8 +384,16 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774376494350
-  finding_title: no space between priority prefix and text in to_line output
+- id: pat-1774376493565
+  finding_title: consider fromstr impl for priority instead of standalone parse_priority
+  occurrences: 1
+  repos:
+    - fridi
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
+- id: pat-1774376495498
+  finding_title: parse_comment_metadata falls back to utc::now() on malformed comment
   occurrences: 1
   repos:
     - fridi
