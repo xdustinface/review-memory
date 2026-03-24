@@ -2231,3 +2231,13 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
+- id: pat-1774388940948
+  finding_title: stdin drain handler may never call end() if process exits first
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
