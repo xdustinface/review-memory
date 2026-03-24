@@ -6,8 +6,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774349464972
-  finding_title: date.now()-based learning id may collide under concurrency
+- id: pat-1774349465477
+  finding_title: no tests for handleremember logic branches
   occurrences: 1
   repos:
     - manki
