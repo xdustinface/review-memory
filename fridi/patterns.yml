@@ -167,8 +167,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774348490088
-  finding_title: https url parser accepts malformed urls with fewer than 5 path segments
+- id: pat-1774348490693
+  finding_title: add tests for ssh:// scheme urls and https urls with credentials
   occurrences: 1
   repos:
     - fridi
