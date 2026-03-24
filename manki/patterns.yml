@@ -3499,8 +3499,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774394011718
-  finding_title: sanitizemarkdown bypassed via markdown image/link injection
+- id: pat-1774394012371
+  finding_title: suggestedfix not sanitized in formatfindingcomment or generalfindings
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
