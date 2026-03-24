@@ -867,8 +867,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774381123281
-  finding_title: spawn timeout produces misleading 'exit null' error message
+- id: pat-1774381123873
+  finding_title: no test coverage for spawn error and timeout paths
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
