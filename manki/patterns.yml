@@ -1216,7 +1216,7 @@
   escalated: false
 - id: pat-1774384278296
   finding_title: no test for invalid review_level config validation
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -1635,16 +1635,6 @@
   escalated: false
 - id: pat-1774385593733
   finding_title: selectteam scoring uses path.includes('test') which matches non-test paths
-  occurrences: 1
-  accepted_count: 0
-  rejected_count: 0
-  repos:
-    - manki
-  first_seen: 2026-03-24
-  last_seen: 2026-03-24
-  escalated: false
-- id: pat-1774385594359
-  finding_title: no tests for claude.ts spawn refactor
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
