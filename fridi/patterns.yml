@@ -22,8 +22,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774345908126
-  finding_title: only the first workflow is executed; rest silently ignored
+- id: pat-1774345908780
+  finding_title: agents_dir is a relative path resolved against cwd
   occurrences: 1
   repos:
     - fridi
