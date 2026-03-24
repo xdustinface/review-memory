@@ -271,8 +271,16 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774370401113
-  finding_title: inline import of serde_yaml
+- id: pat-1774370400330
+  finding_title: to_string_lossy may silently corrupt non-utf-8 paths
+  occurrences: 1
+  repos:
+    - fridi
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
+- id: pat-1774370401981
+  finding_title: potential race condition with concurrent session creation
   occurrences: 1
   repos:
     - fridi
