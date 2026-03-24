@@ -183,9 +183,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774349106156
-  finding_title: empty repo_val in interpolate_with_repo produces malformed
-    strings and shadows env fallback
+- id: pat-1774349107076
+  finding_title: no tests for interpolate_with_repo
   occurrences: 1
   repos:
     - fridi
