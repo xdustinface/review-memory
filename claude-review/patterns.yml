@@ -169,8 +169,16 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774345003273
-  finding_title: "inconsistent reaction placement: before vs. after the operation"
+- id: pat-1774345002650
+  finding_title: unsafe type assertion on comment.id
+  occurrences: 1
+  repos:
+    - claude-review
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
+- id: pat-1774345004496
+  finding_title: deduplicate reaction helper functions
   occurrences: 1
   repos:
     - claude-review
