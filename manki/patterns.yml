@@ -38,3 +38,12 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
+- id: pat-1774355425357
+  finding_title: mergeindividualfindings shallow-copies reviewers and omits
+    current reviewer name
+  occurrences: 1
+  repos:
+    - manki
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
