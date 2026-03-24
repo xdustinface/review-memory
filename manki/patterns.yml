@@ -980,8 +980,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774382301399
-  finding_title: scoring keyword `depend` falsely matches agent focus containing `independent`
+- id: pat-1774382302225
+  finding_title: deduplication logic in rundeliberation has no direct unit test
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
