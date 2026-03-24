@@ -2090,8 +2090,19 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774387755369
-  finding_title: data handlers keep buffering after output limit exceeded
+- id: pat-1774387754684
+  finding_title: vote prompt includes raw diff without truncation notice — agent
+    may see incomplete code
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
+- id: pat-1774387756355
+  finding_title: performance scoring misses root-level entry-point files
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
