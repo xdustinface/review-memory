@@ -1491,7 +1491,7 @@
   escalated: false
 - id: pat-1774385224354
   finding_title: no test for invalid review_level config values
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
