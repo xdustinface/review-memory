@@ -2332,8 +2332,18 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774389383707
-  finding_title: drain handler never calls end() if process exits before drain fires
+- id: pat-1774389382931
+  finding_title: selectteam may return fewer agents than teamsize
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
+- id: pat-1774389384833
+  finding_title: performance path scoring checks against bare filenames without directories
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
