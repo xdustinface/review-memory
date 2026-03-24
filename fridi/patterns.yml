@@ -528,8 +528,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774382224650
-  finding_title: empty or whitespace-only text not validated
+- id: pat-1774382225478
+  finding_title: "remove #[allow(dead_code)] now that backlog module is public?"
   occurrences: 1
   repos:
     - fridi
