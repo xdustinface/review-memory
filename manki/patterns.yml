@@ -4097,8 +4097,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774395657306
-  finding_title: weak assertion in backticked mentions test
+- id: pat-1774395658021
+  finding_title: postreview tests don't cover the invalidcomments sanitization path
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
