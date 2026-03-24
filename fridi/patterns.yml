@@ -496,8 +496,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774380869226
-  finding_title: take_initial_receiver requires &mut self which limits future arc usage
+- id: pat-1774380870216
+  finding_title: unnecessary engine_tx.clone() in both spawner tests
   occurrences: 1
   repos:
     - fridi
