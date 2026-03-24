@@ -137,8 +137,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774343363504
-  finding_title: sanitizememoryfield not applied to parentcomment.path
+- id: pat-1774343364265
+  finding_title: triplicated memory token/octokit resolution should be extracted
   occurrences: 1
   repos:
     - claude-review
