@@ -1020,8 +1020,9 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774383787751
-  finding_title: large stdin writes may silently truncate without error propagation
+- id: pat-1774383788808
+  finding_title: overflow comment title extraction regex may miss findings with
+    unexpected format
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
