@@ -151,8 +151,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774348487466
-  finding_title: std::env::set_var is unsafe and unsound in multi-threaded context
+- id: pat-1774348488145
+  finding_title: detect_repo() and set_var called on every re-render
   occurrences: 1
   repos:
     - fridi
