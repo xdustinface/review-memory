@@ -1061,9 +1061,18 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774383795065
-  finding_title: sigterm may not kill child process tree, leaving orphaned claude
-    cli processes
+- id: pat-1774383794067
+  finding_title: fallback review loses inline comment detail
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
+- id: pat-1774383796046
+  finding_title: stdin.write of large prompt can fail silently — no backpressure handling
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
