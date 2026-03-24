@@ -1326,8 +1326,18 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774384832590
-  finding_title: "missing edge-case test: selectteam with zero-line diff"
+- id: pat-1774384831976
+  finding_title: no tests for rewritten sendviacli spawn logic
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
+- id: pat-1774384833386
+  finding_title: selectteam dependency-file scoring path untested
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
