@@ -1092,8 +1092,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774383798749
-  finding_title: comment body regex for overflow titles may not match all severity formats
+- id: pat-1774383799613
+  finding_title: tallyvotes escalation with escalate votes has no severity guard
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
