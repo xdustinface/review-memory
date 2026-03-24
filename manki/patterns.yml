@@ -3793,8 +3793,19 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774394817019
-  finding_title: duplicate timer-cleanup logic across three handlers
+- id: pat-1774394816238
+  finding_title: stdinkilltimer set in catch block is never cleared if child exits
+    normally after stdin error
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
+- id: pat-1774394818144
+  finding_title: dynamic fence computation duplicated 4 times
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
