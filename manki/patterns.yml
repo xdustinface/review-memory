@@ -2919,3 +2919,14 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
+- id: pat-1774391382771
+  finding_title: backtick-escape regex replaces 3+ backticks but a fix containing
+    exactly 2 backticks bypasses code-fence rendering
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
