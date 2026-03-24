@@ -3925,8 +3925,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774395261045
-  finding_title: sanitizemarkdown double-wraps @mentions already inside backticks
+- id: pat-1774395261786
+  finding_title: general findings body has no size cap — may exceed github review body limit
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
@@ -3935,8 +3935,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774395262637
-  finding_title: sanitizemarkdown @mention regex matches email-like patterns
+- id: pat-1774395263501
+  finding_title: general finding suggestedfix not sanitized before inline rendering
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
