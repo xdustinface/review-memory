@@ -807,8 +807,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774381116701
-  finding_title: spawn() silently ignores the timeout option — cli can hang forever
+- id: pat-1774381117420
+  finding_title: is `-p` a boolean flag or does it consume the next argument?
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
