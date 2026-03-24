@@ -466,7 +466,7 @@
   escalated: false
 - id: pat-1774380176506
   finding_title: no validation that review_thresholds.small < review_thresholds.medium
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -486,16 +486,6 @@
   escalated: false
 - id: pat-1774380179610
   finding_title: split vote keeps finding but downgrades — intended for 'question' severity?
-  occurrences: 1
-  accepted_count: 0
-  rejected_count: 0
-  repos:
-    - manki
-  first_seen: 2026-03-24
-  last_seen: 2026-03-24
-  escalated: false
-- id: pat-1774380180747
-  finding_title: diff truncation at 50000 chars may cut mid-line
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
