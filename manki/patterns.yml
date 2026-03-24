@@ -168,3 +168,12 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
+- id: pat-1774358071282
+  finding_title: unsanitized finding fields inside code fences could break
+    markdown or enable injection
+  occurrences: 1
+  repos:
+    - manki
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
