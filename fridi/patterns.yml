@@ -360,8 +360,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774376489635
-  finding_title: sanitize_metadata_field does not strip nested/partial comment markers
+- id: pat-1774376490412
+  finding_title: no test for sanitize_metadata_field behavior
   occurrences: 1
   repos:
     - fridi
