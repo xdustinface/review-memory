@@ -2332,8 +2332,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774389382931
-  finding_title: selectteam may return fewer agents than teamsize
+- id: pat-1774389383707
+  finding_title: drain handler never calls end() if process exits before drain fires
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
@@ -2342,8 +2342,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774389384833
-  finding_title: performance path scoring checks against bare filenames without directories
+- id: pat-1774389386006
+  finding_title: repeated severitylabel ternary should be extracted to a helper
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
