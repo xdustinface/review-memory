@@ -295,8 +295,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774375954571
-  finding_title: fallback to utc::now() silently corrupts timestamps on parse failure
+- id: pat-1774375955296
+  finding_title: context field with spaces breaks round-trip parsing
   occurrences: 1
   repos:
     - fridi
