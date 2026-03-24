@@ -152,8 +152,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774357748742
-  finding_title: inline bot-comment check duplicates isbotcomment()
+- id: pat-1774357749554
+  finding_title: no negative test that @claude mentions are now ignored
   occurrences: 1
   repos:
     - manki
