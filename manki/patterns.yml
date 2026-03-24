@@ -1418,8 +1418,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774385208809
-  finding_title: core_agents indices are fragile but now have dedicated tests
+- id: pat-1774385210396
+  finding_title: custom reviewers can exceed intended team size without bound
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
