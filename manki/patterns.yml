@@ -514,8 +514,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774380184726
-  finding_title: prompt injection via config.instructions in deliberation vote prompt
+- id: pat-1774380185423
+  finding_title: rawdiff truncated to 50000 chars in vote prompt but not in review prompt
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
