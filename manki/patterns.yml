@@ -674,8 +674,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774380824494
-  finding_title: revieweragent.systemprompt added but never read
+- id: pat-1774380825525
+  finding_title: partial review_thresholds override bypasses small < medium validation
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
@@ -684,9 +684,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774380826182
-  finding_title: default_reviewers always passed as custom reviewers, duplicating
-    agent coverage
+- id: pat-1774380827026
+  finding_title: custom reviewers excluded from small teams despite documentation
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
@@ -695,9 +694,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774380827714
-  finding_title: escalate vote path promotes question findings to blocking without
-    severity guard
+- id: pat-1774380828606
+  finding_title: no test for partial voting — unanimous escalation is falsely triggered
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
