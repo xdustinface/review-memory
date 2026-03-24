@@ -1275,8 +1275,18 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774384827667
-  finding_title: max_output kill produces misleading error message
+- id: pat-1774384826863
+  finding_title: parseconsolidatedreview and determineverdict may be orphaned
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
+- id: pat-1774384828473
+  finding_title: output exceeded max_output kills process but does not set rejection reason
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
