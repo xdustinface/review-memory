@@ -3324,8 +3324,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774393606066
-  finding_title: fixed triple-backtick fence in ai agents section allows markdown injection
+- id: pat-1774393607037
+  finding_title: claude_code_oauth_token set unconditionally — leaks empty string into env
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
