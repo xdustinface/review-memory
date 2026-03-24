@@ -355,16 +355,17 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774374365271
-  finding_title: pr-only commands (check, explain) will 404 when invoked from issues
+- id: pat-1774374365944
+  finding_title: user-controlled content injected into created issue bodies via
+    regex extraction
   occurrences: 1
   repos:
     - manki
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774374366661
-  finding_title: race condition potential in memory id generation
+- id: pat-1774374367633
+  finding_title: config always fetched from hardcoded 'main' branch for issues
   occurrences: 1
   repos:
     - manki
