@@ -4199,8 +4199,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774396323915
-  finding_title: body truncation can split mid-markdown structure
+- id: pat-1774396324707
+  finding_title: sanitizemarkdown misses plain html tags without attributes
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
