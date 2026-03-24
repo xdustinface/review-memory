@@ -360,3 +360,11 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
+- id: pat-1774376489635
+  finding_title: sanitize_metadata_field does not strip nested/partial comment markers
+  occurrences: 1
+  repos:
+    - fridi
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
