@@ -569,3 +569,11 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
+- id: pat-1774382290929
+  finding_title: inline import of std::env::var
+  occurrences: 1
+  repos:
+    - fridi
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
