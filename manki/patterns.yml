@@ -1798,8 +1798,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774386980673
-  finding_title: selectteam returns 'auto' as impossible level in teamroster type
+- id: pat-1774386981754
+  finding_title: drain handler may fire after process exits — potential use-after-close
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
