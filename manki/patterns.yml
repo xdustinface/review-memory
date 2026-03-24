@@ -177,3 +177,11 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
+- id: pat-1774358072015
+  finding_title: escaped backticks around file path are redundant inside a code fence
+  occurrences: 1
+  repos:
+    - manki
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
