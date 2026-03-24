@@ -120,3 +120,11 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
+- id: pat-1774356186032
+  finding_title: titlesmatch minimum-length threshold is arbitrary and untested for edge cases
+  occurrences: 1
+  repos:
+    - manki
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
