@@ -396,3 +396,11 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
+- id: pat-1774376023063
+  finding_title: setup.md config example uses uncommented project-specific values
+  occurrences: 1
+  repos:
+    - manki
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
