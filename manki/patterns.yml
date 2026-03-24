@@ -1551,8 +1551,19 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774385583774
-  finding_title: titlesmatch used in dedup but not exported or tested directly
+- id: pat-1774385583133
+  finding_title: killtimer can be set twice without clearing the first one
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
+- id: pat-1774385584468
+  finding_title: runagentvote vote fallback defaults unknown votes to 'agree'
+    instead of ignoring
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
