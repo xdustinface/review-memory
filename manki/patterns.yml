@@ -1163,8 +1163,19 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774384269444
-  finding_title: stdin.write of large prompts has no backpressure handling
+- id: pat-1774384268259
+  finding_title: unbounded stdout/stderr accumulation removes maxbuffer protection
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
+- id: pat-1774384270693
+  finding_title: single escalate vote from any agent promotes any non-question
+    finding to blocking
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
