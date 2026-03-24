@@ -1868,8 +1868,18 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774386992349
-  finding_title: selectteam returns 'auto' as teamroster.level when level is never reassigned?
+- id: pat-1774386991237
+  finding_title: no test for rundeliberation fallback path when deliberation throws
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
+- id: pat-1774386993522
+  finding_title: no test for deduplication in rundeliberation
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
