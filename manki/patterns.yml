@@ -2271,8 +2271,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774388956898
-  finding_title: inconsistent try/catch on sigterm vs sigkill
+- id: pat-1774388959785
+  finding_title: performance scoring path check could false-match
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
