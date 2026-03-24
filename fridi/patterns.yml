@@ -303,8 +303,9 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774375956104
-  finding_title: html comment injection via context or text fields
+- id: pat-1774375956788
+  finding_title: extract_tags assumes ascii-only input — add a comment documenting
+    the invariant
   occurrences: 1
   repos:
     - fridi
