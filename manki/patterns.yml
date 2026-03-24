@@ -725,9 +725,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774380831580
-  finding_title: tallyvotes leaks internal `index` and `originalreviewer`
-    properties into output findings
+- id: pat-1774380830797
+  finding_title: tallyvotes split-vote test has only 4 voters for teamsize 5 — intentional?
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
@@ -736,9 +735,19 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774380832886
-  finding_title: no test for selectteam deduplication when custom reviewer name
-    matches a pool agent
+- id: pat-1774380832173
+  finding_title: selectteam custom reviewer scoring boost test doesn't actually
+    validate the boost
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
+- id: pat-1774380833983
+  finding_title: partial review_thresholds override bypasses cross-validation
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
