@@ -3021,8 +3021,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774391914501
-  finding_title: no test for generalfindings containing findings with both file set and line=0
+- id: pat-1774391915267
+  finding_title: no test for suggestedfix containing newlines
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
