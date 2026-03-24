@@ -136,8 +136,9 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774356188219
-  finding_title: no test for deeply nested or malformed json bracket sequences
+- id: pat-1774356189161
+  finding_title: parseconsolidatedreview now throws — callers outside runreview
+    are unprotected
   occurrences: 1
   repos:
     - manki
