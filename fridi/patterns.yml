@@ -408,16 +408,16 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774379484914
-  finding_title: stale ui state carried across sessions
+- id: pat-1774379485637
+  finding_title: broadcast lagged errors silently terminate event processing
   occurrences: 1
   repos:
     - fridi
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774379486437
-  finding_title: unbounded polling loop with no cancellation mechanism
+- id: pat-1774379487471
+  finding_title: redundant let binding for receiver
   occurrences: 1
   repos:
     - fridi
