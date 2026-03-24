@@ -2382,9 +2382,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774389390678
-  finding_title: dependency file matching uses wrong case — 'cargo.toml' never
-    matches lowercased paths
+- id: pat-1774389391621
+  finding_title: stdin drain handler leaks if process exits before drain fires
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
