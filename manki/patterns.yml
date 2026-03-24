@@ -2453,8 +2453,18 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774389399300
-  finding_title: selectteam scoring test doesn't verify score ordering
+- id: pat-1774389398602
+  finding_title: split-vote reviewers array not tested
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
+- id: pat-1774389400695
+  finding_title: no test for rundeliberation deduplication behavior
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
