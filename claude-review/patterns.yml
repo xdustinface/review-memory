@@ -39,8 +39,16 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774341374781
-  finding_title: duplicate memoryconfig interface — should be imported from shared type
+- id: pat-1774341374190
+  finding_title: substantive reply check is brittle — misses punctuation variants
+  occurrences: 1
+  repos:
+    - claude-review
+  first_seen: 2026-03-24
+  last_seen: 2026-03-24
+  escalated: false
+- id: pat-1774341375358
+  finding_title: inconsistent error logging for memory write failures
   occurrences: 1
   repos:
     - claude-review
