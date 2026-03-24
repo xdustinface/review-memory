@@ -71,8 +71,8 @@
   first_seen: 2026-03-24
   last_seen: 2026-03-24
   escalated: false
-- id: pat-1774355441618
-  finding_title: legacy threads invisible to auto-approve logic
+- id: pat-1774355442268
+  finding_title: setup.md workflow still requires 'review' keyword, inconsistent with readme
   occurrences: 1
   repos:
     - manki
