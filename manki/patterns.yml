@@ -8789,7 +8789,7 @@
   escalated: false
 - id: pat-1774429477578
   finding_title: growing parameter list on buildreviewerusermessage
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -8827,18 +8827,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774429493195
-  finding_title: duplicate prcontext construction logic
-  occurrences: 1
-  accepted_count: 0
-  rejected_count: 0
-  repos:
-    - manki
-  first_seen: 2026-03-25
-  last_seen: 2026-03-25
-  escalated: false
-- id: pat-1774429495157
-  finding_title: pr title is not length-limited before prompt injection
+- id: pat-1774429496241
+  finding_title: magic number 2000 for body truncation
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
