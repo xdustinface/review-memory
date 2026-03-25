@@ -9138,8 +9138,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774431533009
-  finding_title: no test for when getcontent returns data without 'content' field
+- id: pat-1774431534220
+  finding_title: missing test for recursive reference with different basepath
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
