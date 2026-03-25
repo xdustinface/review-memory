@@ -6340,7 +6340,7 @@
   escalated: false
 - id: pat-1774412389910
   finding_title: extra blank line added in memory.test.ts
-  occurrences: 2
+  occurrences: 1
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -7264,6 +7264,26 @@
   escalated: false
 - id: pat-1774415348346
   finding_title: judged findings can be matched to multiple originals
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774415349055
+  finding_title: position-based match applies wrong verdict when titles don't match
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774415350745
+  finding_title: unsanitized project instructions injected into judge system prompt
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
