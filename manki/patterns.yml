@@ -4301,7 +4301,7 @@
   escalated: false
 - id: pat-1774396907187
   finding_title: sanitizemarkdown recompiles large regex on every call
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
