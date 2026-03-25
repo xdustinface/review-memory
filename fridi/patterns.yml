@@ -1969,8 +1969,19 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774427745793
-  finding_title: progress bar jumps in 1-second increments due to integer truncation
+- id: pat-1774427744563
+  finding_title: shown_count becomes stale when notifications source resets
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - fridi
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774427746759
+  finding_title: push_toast calls use_context (a hook) but is shaped like a plain
+    utility function
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
