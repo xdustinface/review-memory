@@ -5974,8 +5974,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774402935935
-  finding_title: truncatebody returns near-empty string when text has no spaces
+- id: pat-1774402936573
+  finding_title: postreview fallback paths lack test coverage
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
