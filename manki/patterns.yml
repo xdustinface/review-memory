@@ -8103,3 +8103,14 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
+- id: pat-1774416367659
+  finding_title: extractcodecontext test hunks contain only added lines, missing
+    removed-line scenarios
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
