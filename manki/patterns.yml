@@ -6819,8 +6819,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774413260619
-  finding_title: models validation allows extra keys silently
+- id: pat-1774413261768
+  finding_title: no test for mismatched judge response count
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
