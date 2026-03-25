@@ -3439,7 +3439,7 @@
   escalated: false
 - id: pat-1774444698432
   finding_title: duplicated task progress parsing logic
-  occurrences: 3
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -3609,6 +3609,16 @@
   escalated: false
 - id: pat-1774445104132
   finding_title: command injection via issue body in gh api call
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - fridi
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774445105908
+  finding_title: no test for toggle_checkbox_in_body with out-of-bounds line_index
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
