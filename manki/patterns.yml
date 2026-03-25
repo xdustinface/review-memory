@@ -6419,8 +6419,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774412398071
-  finding_title: unnecessary blank line added in memory.test.ts
+- id: pat-1774412398836
+  finding_title: private filterlearningsforfindings shadows imported name
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
