@@ -5178,8 +5178,18 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774399273556
-  finding_title: duplicated timer cleanup logic should be extracted to a helper
+- id: pat-1774399272854
+  finding_title: duplicated invalidcomments construction logic
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774399274233
+  finding_title: selectteam custom-reviewer test asserts lower bound but no upper bound
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
