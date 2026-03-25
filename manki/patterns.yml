@@ -10660,8 +10660,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774471228032
-  finding_title: model override mutates shared config object
+- id: pat-1774471228944
+  finding_title: default_config.model duplicates models.reviewer
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
