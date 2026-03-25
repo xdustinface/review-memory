@@ -1195,8 +1195,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774412993418
-  finding_title: backlog tab css class reused for backlog tab button
+- id: pat-1774412994475
+  finding_title: activepane could derive debug for easier diagnostics
   occurrences: 1
   repos:
     - fridi
