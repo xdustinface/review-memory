@@ -2525,8 +2525,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774433875045
-  finding_title: stale tab index between confirm prompt and actual close
+- id: pat-1774433876118
+  finding_title: keyboard shortcut 'w' can change pending tab while dialog is open
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
