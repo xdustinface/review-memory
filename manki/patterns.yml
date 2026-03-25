@@ -5228,3 +5228,14 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
+- id: pat-1774399277123
+  finding_title: postreview tests only exercise generalfindings path — inline
+    comment and fallback paths untested
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
