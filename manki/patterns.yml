@@ -5259,8 +5259,18 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774399782193
-  finding_title: drain handler never calls stdin.end() if process exits before drain fires
+- id: pat-1774399781101
+  finding_title: fallback paths append content after truncation marker
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774399782976
+  finding_title: sanitizemarkdown does not neutralize raw `<` not matching known html tags
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
