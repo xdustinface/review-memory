@@ -6140,7 +6140,7 @@
   escalated: false
 - id: pat-1774412270455
   finding_title: ignore findings still posted as inline pr comments
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
