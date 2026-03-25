@@ -7343,9 +7343,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774415368465
-  finding_title: titlesrelated has weak substring match that can cause incorrect
-    judge-to-finding mapping
+- id: pat-1774415370324
+  finding_title: filterlearningsforfinding minimum keyword length is low
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
