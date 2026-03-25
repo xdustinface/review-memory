@@ -18,3 +18,11 @@
   scope: repo
   source: xdustinface/manki#218
   created_at: 2026-03-25
+- id: learn-1774470710095
+  content: "User context on \"src/index.ts\": Good catch but the first call is
+    needed to get the agent count for the initial dashboard post, before
+    runReview is called. The duplication is minimal (just reading config) and
+    avoids refactoring runReview's internal flow."
+  scope: repo
+  source: xdustinface/manki#220
+  created_at: 2026-03-25
