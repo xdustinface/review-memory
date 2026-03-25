@@ -2195,7 +2195,7 @@
   escalated: false
 - id: pat-1774429660914
   finding_title: toastmessage fields are pub but should be pub(crate)
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -2213,8 +2213,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774430247367
-  finding_title: duplicate toast construction logic — use push_toast helper
+- id: pat-1774430248321
+  finding_title: reusing created_at for exit-start timestamp overloads field semantics
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
