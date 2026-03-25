@@ -7890,8 +7890,9 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774416273809
-  finding_title: same judged finding can be matched to multiple originals
+- id: pat-1774416273692
+  finding_title: extracthunkcontext assumes 1:1 line mapping between content lines
+    and new-file lines
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
