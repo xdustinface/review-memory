@@ -1439,7 +1439,7 @@
   escalated: false
 - id: pat-1774417356748
   finding_title: keyboard shortcut listener accumulates on hot-reload
-  occurrences: 1
+  occurrences: 2
   repos:
     - fridi
   first_seen: 2026-03-25
