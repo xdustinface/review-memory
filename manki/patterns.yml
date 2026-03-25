@@ -7497,8 +7497,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774415389019
-  finding_title: extractcodecontext uses unsanitized pr diff content in judge prompt
+- id: pat-1774415389714
+  finding_title: judge.test.ts doesn't test parsejudgeresponse with nested code fences
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
@@ -7507,8 +7507,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774415390676
-  finding_title: handlereviewcommentinteraction doesn't apply modeloverride
+- id: pat-1774415391636
+  finding_title: runjudgeagent test doesn't verify sendmessage rejects propagation
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
