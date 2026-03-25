@@ -4432,8 +4432,18 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774396919689
-  finding_title: no test for sanitizemarkdown with crafted `<custom-element>` tags
+- id: pat-1774396918910
+  finding_title: weak assertion in selectteam custom reviewer test
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774396920661
+  finding_title: dependency scoring test for cargo.toml doesn't verify scoring mechanism
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
