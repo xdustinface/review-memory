@@ -3738,8 +3738,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774447192817
-  finding_title: render_issue_detail takes too many parameters — consider a context struct
+- id: pat-1774447193633
+  finding_title: open_url validation is too narrow — consider other schemes
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
@@ -3748,8 +3748,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774447194903
-  finding_title: checkboxline struct should derive debug/clone
+- id: pat-1774447196192
+  finding_title: "race condition: checkbox toggle reads stale body"
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
