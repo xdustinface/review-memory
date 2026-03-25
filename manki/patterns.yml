@@ -8506,3 +8506,13 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
+- id: pat-1774420295748
+  finding_title: test does not cover the no-auth error path in createauthenticatedoctokit
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
