@@ -8486,8 +8486,18 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774420293956
-  finding_title: warning message can fire twice per run for the same reason
+- id: pat-1774420293104
+  finding_title: inconsistent null vs undefined at call sites
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774420294838
+  finding_title: missing null-token guard in handleinteraction paths
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
