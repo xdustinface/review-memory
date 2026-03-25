@@ -7033,7 +7033,7 @@
   escalated: false
 - id: pat-1774413715838
   finding_title: ignore-severity findings still posted as inline pr comments
-  occurrences: 2
+  occurrences: 3
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -7043,7 +7043,7 @@
   escalated: false
 - id: pat-1774413717297
   finding_title: nit_handling config still not wired to posting logic
-  occurrences: 2
+  occurrences: 1
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -7091,8 +7091,18 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774414155281
-  finding_title: suggestion-severity findings silently dropped from nit issues
+- id: pat-1774414154422
+  finding_title: jsdoc comment still references old 'blocking' terminology
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774414156147
+  finding_title: jsdoc comment still says 'non-blocking findings'
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
