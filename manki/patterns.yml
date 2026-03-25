@@ -4532,8 +4532,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774397405944
-  finding_title: body truncation with slice() can split unicode surrogate pairs
+- id: pat-1774397407098
+  finding_title: sanitizemarkdown `-->` stripping corrupts legitimate text
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
@@ -4542,8 +4542,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774397408527
-  finding_title: html tag regex recompiled on every sanitizemarkdown call
+- id: pat-1774397409897
+  finding_title: html tag regex `[^>]*` doesn't handle `>` inside quoted attribute values
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
