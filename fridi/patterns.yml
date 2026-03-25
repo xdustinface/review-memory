@@ -1830,7 +1830,7 @@
   escalated: false
 - id: pat-1774426156861
   finding_title: "redundant bounds check: `session_idx < t.len()` then `t.get(session_idx)`"
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
