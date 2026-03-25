@@ -3086,8 +3086,18 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774435528740
-  finding_title: mutex::lock().unwrap() can panic if lock is poisoned
+- id: pat-1774435527935
+  finding_title: tests miss the exact boundary value seconds_since_fetch == 120
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - fridi
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774435530073
+  finding_title: manual refresh doesn't reset is_refreshing on all error paths
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
