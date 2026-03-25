@@ -5056,8 +5056,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774398817662
-  finding_title: no test for buildnitissuebody sanitizemarkdown integration
+- id: pat-1774398819140
+  finding_title: no test for codecontext fence-breaking in buildnitissuebody
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
