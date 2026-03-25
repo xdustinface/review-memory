@@ -2916,8 +2916,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774435317653
-  finding_title: seconds_since_fetch can overflow u16
+- id: pat-1774435319009
+  finding_title: tests don't cover boundary value at exactly 120 seconds
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
