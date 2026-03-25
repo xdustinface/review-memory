@@ -3307,8 +3307,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774437363929
-  finding_title: duplicated fetch logic creates divergence risk
+- id: pat-1774437364949
+  finding_title: manual refresh and polling coroutine can race
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
