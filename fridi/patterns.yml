@@ -2373,8 +2373,18 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774433250323
-  finding_title: global mutable static bypasses dioxus reactivity model
+- id: pat-1774433249396
+  finding_title: mutex::lock().unwrap() can panic in production
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - fridi
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774433251287
+  finding_title: global mutable static couples component state to process lifetime
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
