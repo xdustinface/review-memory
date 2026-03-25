@@ -9308,8 +9308,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774434766129
-  finding_title: suppressions bypassed when judge fails
+- id: pat-1774434767138
+  finding_title: suppressed findings lost on judge failure fallback
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
