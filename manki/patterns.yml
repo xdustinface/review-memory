@@ -6950,8 +6950,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774413399600
-  finding_title: backward-incompatible severity regex breaks auto-approve for old prs
+- id: pat-1774413400396
+  finding_title: backward-incompatible severity regex in recap loses old thread context
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
