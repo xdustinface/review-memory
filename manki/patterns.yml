@@ -6340,7 +6340,7 @@
   escalated: false
 - id: pat-1774412389910
   finding_title: extra blank line added in memory.test.ts
-  occurrences: 5
+  occurrences: 6
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -7659,16 +7659,6 @@
   escalated: false
 - id: pat-1774415459138
   finding_title: runjudgeagent test doesn't verify sendmessage receives system prompt
-  occurrences: 1
-  accepted_count: 0
-  rejected_count: 0
-  repos:
-    - manki
-  first_seen: 2026-03-25
-  last_seen: 2026-03-25
-  escalated: false
-- id: pat-1774415459957
-  finding_title: runjudgeagent doesn't test client.sendmessage rejection
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
