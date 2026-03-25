@@ -3957,7 +3957,7 @@
   escalated: false
 - id: pat-1774395265294
   finding_title: duplicated invalidcomments formatting logic
-  occurrences: 3
+  occurrences: 4
   accepted_count: 0
   rejected_count: 0
   repos:
