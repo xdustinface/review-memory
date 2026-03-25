@@ -7579,7 +7579,7 @@
   escalated: false
 - id: pat-1774415445255
   finding_title: createnitissue receives all findings instead of only nits
-  occurrences: 7
+  occurrences: 8
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -7890,9 +7890,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774416273692
-  finding_title: extracthunkcontext assumes 1:1 line mapping between content lines
-    and new-file lines
+- id: pat-1774416273029
+  finding_title: fuzzy title fallback still applies wrong positional match
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
