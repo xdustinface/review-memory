@@ -722,8 +722,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774404175320
-  finding_title: skip_permissions defaults to true — unsafe by default
+- id: pat-1774404175958
+  finding_title: sleep increased 13x (150ms → 2000ms) without justification or configurability
   occurrences: 1
   repos:
     - fridi
