@@ -6659,8 +6659,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774413157131
-  finding_title: no test coverage for the dual-client wiring in runreview
+- id: pat-1774413158646
+  finding_title: resolvemodel stage parameter could use the modelstages type from reviewconfig
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
