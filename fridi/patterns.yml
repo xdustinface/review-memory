@@ -2716,8 +2716,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774435114741
-  finding_title: inline import in app.rs
+- id: pat-1774435115881
+  finding_title: static cache persists across component remounts
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
