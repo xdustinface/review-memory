@@ -9848,8 +9848,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774441332919
-  finding_title: sequential fetches for claude.md files could be parallelized
+- id: pat-1774441333995
+  finding_title: no size limit on fetched subdirectory claude.md files
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
