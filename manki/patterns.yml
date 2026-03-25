@@ -8578,7 +8578,7 @@
   escalated: false
 - id: pat-1774423621308
   finding_title: major variable used but not defined in diff
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
