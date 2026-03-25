@@ -8777,8 +8777,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774429474567
-  finding_title: system prompt should explicitly warn about untrusted pr content
+- id: pat-1774429475375
+  finding_title: judge prompt has same unsanitized pr context injection surface
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
