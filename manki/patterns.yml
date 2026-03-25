@@ -10600,8 +10600,18 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774469628833
-  finding_title: formatstatsjson embeds unsanitized stats into html
+- id: pat-1774469626851
+  finding_title: formatstatsoneliner doesn't pluralize severity labels
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774469630992
+  finding_title: no test for formatstatsoneliner with sub-second review time
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
