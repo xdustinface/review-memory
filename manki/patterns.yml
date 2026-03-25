@@ -9658,8 +9658,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774439964405
-  finding_title: linked issues section rendering is duplicated across reviewer and judge
+- id: pat-1774439965594
+  finding_title: growing parameter list signals need for an options object
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
