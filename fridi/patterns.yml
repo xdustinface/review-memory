@@ -3367,8 +3367,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774439144648
-  finding_title: fetch logic duplicated three times
+- id: pat-1774439145909
+  finding_title: race between poll coroutine and manual refresh
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
