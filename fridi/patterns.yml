@@ -3698,8 +3698,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774446745888
-  finding_title: "race condition: checkbox state read and write are not atomic"
+- id: pat-1774446746814
+  finding_title: update_issue_body visibility is pub but could be pub(crate)
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
