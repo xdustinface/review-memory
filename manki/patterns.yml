@@ -8446,9 +8446,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774419074979
-  finding_title: nit findings passed to createnitissue may include already-posted
-    inline comments
+- id: pat-1774419075753
+  finding_title: missing test for 'low' judgeconfidence value
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
