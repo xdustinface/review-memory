@@ -2033,8 +2033,18 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774429317083
-  finding_title: push_toast calls use_context — not safe outside render path
+- id: pat-1774429316332
+  finding_title: toast creation duplicated instead of using push_toast helper
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - fridi
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774429318124
+  finding_title: inline crate paths instead of top-level imports
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
