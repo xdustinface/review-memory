@@ -2183,8 +2183,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774429658633
-  finding_title: duplicated toast-push logic should use the existing helper
+- id: pat-1774429659708
+  finding_title: push_toast calls use_context — unsuitable outside render path
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
