@@ -1301,16 +1301,24 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774415552099
-  finding_title: backlog load failure silently discards user input
+- id: pat-1774415551475
+  finding_title: blocking file i/o on the ui thread
   occurrences: 1
   repos:
     - fridi
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774415553605
-  finding_title: quick_capture_context recomputed every render
+- id: pat-1774415552716
+  finding_title: string allocation on every keydown event
+  occurrences: 1
+  repos:
+    - fridi
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774415554309
+  finding_title: meta+i shortcut may not work on non-macos platforms
   occurrences: 1
   repos:
     - fridi
