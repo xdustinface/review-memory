@@ -10259,8 +10259,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774450442707
-  finding_title: search query change breaks deduplication for existing issues
+- id: pat-1774450444171
+  finding_title: issue body heading still says 'review nits'
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
