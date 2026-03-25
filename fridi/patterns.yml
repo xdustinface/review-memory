@@ -1550,3 +1550,11 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
+- id: pat-1774417807214
+  finding_title: modal div not focusable — escape stops working after click outside input
+  occurrences: 1
+  repos:
+    - fridi
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
