@@ -6158,8 +6158,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774412272941
-  finding_title: nit issue body excludes suggestions
+- id: pat-1774412273747
+  finding_title: nit_handling config is declared but never consumed at runtime
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
