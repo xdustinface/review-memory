@@ -8696,8 +8696,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774426693483
-  finding_title: cli spawn test uses settimeout creating fragile async timing
+- id: pat-1774426694184
+  finding_title: use typed params instead of `any` for api request
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
