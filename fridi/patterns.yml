@@ -1027,8 +1027,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774410849429
-  finding_title: rename `step` variable and avoid unnecessary clone
+- id: pat-1774410850062
+  finding_title: duplicated key format `session_id:step_name` across crates
   occurrences: 1
   repos:
     - fridi
