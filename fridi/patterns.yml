@@ -3770,7 +3770,7 @@
   escalated: false
 - id: pat-1774448360151
   finding_title: "race condition: checkbox toggle reads stale body after concurrent clicks"
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
