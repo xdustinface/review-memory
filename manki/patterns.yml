@@ -7798,8 +7798,18 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774415802062
-  finding_title: extracthunkcontext assumes 1:1 line mapping in hunk content
+- id: pat-1774415800543
+  finding_title: fuzzy-match test asserts only array length, not correct matching
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774415804444
+  finding_title: fuzzy matching test only asserts array length, not match correctness
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
