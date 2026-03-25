@@ -4319,8 +4319,9 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774396908775
-  finding_title: timer cleanup logic duplicated across three event paths
+- id: pat-1774396909481
+  finding_title: sanitizemarkdown regex for html tags matches typescript generics
+    containing tag names
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
