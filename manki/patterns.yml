@@ -4482,9 +4482,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774397395641
-  finding_title: sanitizemarkdown does not strip raw `<img>` with `onerror` when
-    tag name is absent from list or misspelled
+- id: pat-1774397397012
+  finding_title: process environment fully inherited — may leak secrets to cli subprocess
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
