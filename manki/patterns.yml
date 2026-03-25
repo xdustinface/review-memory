@@ -8877,8 +8877,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774429542803
-  finding_title: html comment breakout in error fallback
+- id: pat-1774429544449
+  finding_title: string.replace only substitutes first occurrence
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
