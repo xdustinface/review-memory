@@ -8807,8 +8807,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774429479400
-  finding_title: no test for runreview passing memorycontext and prcontext to agents
+- id: pat-1774429480269
+  finding_title: test for 'omits pr body when empty' could assert body text is absent
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
