@@ -9029,7 +9029,7 @@
   escalated: false
 - id: pat-1774431033027
   finding_title: no size limit on resolved reference content
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -9070,16 +9070,6 @@
   escalated: false
 - id: pat-1774431040178
   finding_title: missing test for reference inside directory response
-  occurrences: 1
-  accepted_count: 0
-  rejected_count: 0
-  repos:
-    - manki
-  first_seen: 2026-03-25
-  last_seen: 2026-03-25
-  escalated: false
-- id: pat-1774431041349
-  finding_title: replaceall with duplicate matches causes double replacement
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
