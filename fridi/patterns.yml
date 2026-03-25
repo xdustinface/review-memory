@@ -3387,3 +3387,13 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
+- id: pat-1774439148609
+  finding_title: "`is_refreshing` starts `true` even when cache is warm"
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - fridi
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
