@@ -10670,8 +10670,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774471229892
-  finding_title: resolvemodel returns empty string for falsy model values
+- id: pat-1774471230741
+  finding_title: test uses optional chaining on non-optional field
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
