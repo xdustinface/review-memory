@@ -1261,8 +1261,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774415200005
-  finding_title: tracked sessions grow unboundedly — closed sessions never removed
+- id: pat-1774415200831
+  finding_title: replace polling loop with a reactive channel for receiver handoff
   occurrences: 1
   repos:
     - fridi
