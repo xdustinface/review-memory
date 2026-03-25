@@ -5311,7 +5311,7 @@
   escalated: false
 - id: pat-1774399787956
   finding_title: duplicated invalidcomment formatting logic
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -5461,16 +5461,6 @@
   escalated: false
 - id: pat-1774400301356
   finding_title: truncatebody test uses fragile magic number for length assertion
-  occurrences: 1
-  accepted_count: 0
-  rejected_count: 0
-  repos:
-    - manki
-  first_seen: 2026-03-25
-  last_seen: 2026-03-25
-  escalated: false
-- id: pat-1774400776186
-  finding_title: sanitizefilepath does not neutralize carriage returns
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
