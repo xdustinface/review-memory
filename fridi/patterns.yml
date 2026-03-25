@@ -3439,7 +3439,7 @@
   escalated: false
 - id: pat-1774444698432
   finding_title: duplicated task progress parsing logic
-  occurrences: 2
+  occurrences: 3
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -3617,8 +3617,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774445105908
-  finding_title: no test for toggle_checkbox_in_body with out-of-bounds line_index
+- id: pat-1774445106826
+  finding_title: missing test for parse_checkboxes with indented items
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
