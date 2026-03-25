@@ -6340,7 +6340,7 @@
   escalated: false
 - id: pat-1774412389910
   finding_title: extra blank line added in memory.test.ts
-  occurrences: 7
+  occurrences: 6
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -7903,6 +7903,16 @@
 - id: pat-1774416275290
   finding_title: mapjudgedtofindings can assign the same judged finding to
     multiple originals via fuzzy match
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774416277726
+  finding_title: misleading test comment about match strategy
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
