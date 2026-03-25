@@ -4935,8 +4935,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774398792269
-  finding_title: drain handler never fires if child exits before backpressure is relieved
+- id: pat-1774398793776
+  finding_title: sanitizemarkdown strips html tag names inside backtick code spans
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
