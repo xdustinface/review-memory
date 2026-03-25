@@ -2766,8 +2766,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774435291184
-  finding_title: mutex::lock().unwrap() in production code
+- id: pat-1774435292421
+  finding_title: global static cache couples app and homedashboard via shared mutable state
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
