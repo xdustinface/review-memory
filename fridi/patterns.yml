@@ -778,8 +778,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774405667056
-  finding_title: debug instrumentation and overlay left in production code
+- id: pat-1774405667801
+  finding_title: offsettop may not be relative to parentelement
   occurrences: 1
   repos:
     - fridi
