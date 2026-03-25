@@ -2617,7 +2617,7 @@
   escalated: false
 - id: pat-1774434816574
   finding_title: global mutable static couples component to process-wide singleton
-  occurrences: 2
+  occurrences: 1
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -3218,6 +3218,26 @@
   escalated: false
 - id: pat-1774436758704
   finding_title: stale tab index could close the wrong session
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - fridi
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774437082479
+  finding_title: duplicated fetch-and-update logic across three call sites
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - fridi
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774437084961
+  finding_title: seconds_since_fetch ticker reads and writes without atomic guarantee
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
