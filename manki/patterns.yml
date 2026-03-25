@@ -10630,8 +10630,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774470177665
-  finding_title: extra blank line added in types.ts
+- id: pat-1774470178532
+  finding_title: rawfindingcount variable shadows reviewresult.rawfindingcount
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
