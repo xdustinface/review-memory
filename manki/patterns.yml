@@ -9768,9 +9768,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774440757385
-  finding_title: "race condition: read-then-write without sha in
-    removelearning/removesuppression"
+- id: pat-1774440758600
+  finding_title: user-controlled text reflected unsanitized in pr comments
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
