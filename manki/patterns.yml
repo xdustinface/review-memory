@@ -7913,7 +7913,7 @@
   escalated: false
 - id: pat-1774416278505
   finding_title: unused rawdiff and repocontext fields in judgeinput
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
