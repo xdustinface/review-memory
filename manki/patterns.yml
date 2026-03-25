@@ -4370,3 +4370,14 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
+- id: pat-1774396914352
+  finding_title: sanitizemarkdown does not sanitize the `<details>` and
+    `<summary>` tags it emits
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
