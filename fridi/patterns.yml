@@ -3809,8 +3809,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774448572998
-  finding_title: parse_task_progress double-counts uppercase `[x]` that also matches lowercase
+- id: pat-1774448574053
+  finding_title: open_url silently ignores non-https urls with no feedback
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
