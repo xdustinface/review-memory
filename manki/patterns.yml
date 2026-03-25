@@ -10560,8 +10560,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774469250082
-  finding_title: missing test for boundary condition of short/long suggested fix threshold
+- id: pat-1774469251349
+  finding_title: magic number 200 for fix truncation length
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
