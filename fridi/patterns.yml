@@ -2373,8 +2373,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774433249396
-  finding_title: mutex::lock().unwrap() can panic in production
+- id: pat-1774433250323
+  finding_title: global mutable static bypasses dioxus reactivity model
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
@@ -2383,8 +2383,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774433251287
-  finding_title: global mutable static couples component state to process lifetime
+- id: pat-1774433252413
+  finding_title: stale cache served when repo changes
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
