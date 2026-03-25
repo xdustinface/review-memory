@@ -2788,7 +2788,7 @@
   escalated: false
 - id: pat-1774435295181
   finding_title: race condition between manual refresh and polling coroutine
-  occurrences: 2
+  occurrences: 3
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -3246,8 +3246,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774437086582
-  finding_title: misleading comment claims re-fetch-on-reset mechanism that doesn't exist
+- id: pat-1774437087379
+  finding_title: seconds_since_fetch not reset on fetch error
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
