@@ -5853,8 +5853,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774402922947
-  finding_title: stdin drain/kill timer lifecycle has subtle race with close handler
+- id: pat-1774402923632
+  finding_title: html_tags allowlist is hardcoded and may drift from spec
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
