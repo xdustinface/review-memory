@@ -955,16 +955,16 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774408365831
-  finding_title: u64-to-u16 cast can silently truncate
+- id: pat-1774408366696
+  finding_title: polling loop for terminal readiness has no upper bound
   occurrences: 1
   repos:
     - fridi
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774408367369
-  finding_title: race between ready-check and listener setup
+- id: pat-1774408368325
+  finding_title: get_resizer collects all registry keys on every lookup
   occurrences: 1
   repos:
     - fridi
