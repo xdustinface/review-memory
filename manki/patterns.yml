@@ -6340,7 +6340,7 @@
   escalated: false
 - id: pat-1774412389910
   finding_title: extra blank line added in memory.test.ts
-  occurrences: 9
+  occurrences: 10
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -8204,8 +8204,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774417291771
-  finding_title: parsejudgeresponse crashes on null/undefined array elements
+- id: pat-1774417290895
+  finding_title: no test for sendmessage rejection in runjudgeagent
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
