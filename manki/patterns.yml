@@ -7447,8 +7447,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774415382403
-  finding_title: extracthunkcontext offset wrong when hunk contains removed lines
+- id: pat-1774415383158
+  finding_title: handlereviewcommentinteraction ignores model override input
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
