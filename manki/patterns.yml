@@ -8062,8 +8062,18 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774416361669
-  finding_title: runjudgeagent swallows sendmessage errors silently
+- id: pat-1774416360530
+  finding_title: no test for resolvemodel with empty-string stage model
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774416363060
+  finding_title: no test for runjudgeagent when sendmessage rejects
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
