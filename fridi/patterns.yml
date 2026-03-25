@@ -2617,7 +2617,7 @@
   escalated: false
 - id: pat-1774434816574
   finding_title: global mutable static couples component to process-wide singleton
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
