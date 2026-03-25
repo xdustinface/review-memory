@@ -10700,9 +10700,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774471233612
-  finding_title: resolvemodel silently falls back to default_config.model instead
-    of stage default
+- id: pat-1774471234481
+  finding_title: top-level `model` default duplicates `models.reviewer`
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
