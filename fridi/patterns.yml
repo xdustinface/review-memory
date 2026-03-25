@@ -1810,7 +1810,7 @@
   escalated: false
 - id: pat-1774426154780
   finding_title: duplicated close-tab logic risks divergence
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
