@@ -7579,7 +7579,7 @@
   escalated: false
 - id: pat-1774415445255
   finding_title: createnitissue receives all findings instead of only nits
-  occurrences: 8
+  occurrences: 7
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -7599,7 +7599,7 @@
   escalated: false
 - id: pat-1774415446820
   finding_title: titlesrelated duplicates titlesmatch logic
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
