@@ -3018,7 +3018,7 @@
   escalated: false
 - id: pat-1774435515569
   finding_title: manual refresh doesn't cancel/reset the polling coroutine timer
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
