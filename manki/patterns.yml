@@ -7192,8 +7192,18 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774415342304
-  finding_title: config instructions interpolated into system prompt without sanitization
+- id: pat-1774415341455
+  finding_title: unsanitized finding fields in judge prompt enable prompt injection
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774415343086
+  finding_title: judge parse failure silently returns originals without marking them
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
