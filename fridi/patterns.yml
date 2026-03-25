@@ -3629,7 +3629,7 @@
   escalated: false
 - id: pat-1774445850499
   finding_title: silent write failure in update_issue_body
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
