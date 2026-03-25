@@ -9029,7 +9029,7 @@
   escalated: false
 - id: pat-1774431033027
   finding_title: no size limit on resolved reference content
-  occurrences: 2
+  occurrences: 1
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -9078,8 +9078,29 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774431044902
-  finding_title: missing test for duplicate references in same content
+- id: pat-1774431041349
+  finding_title: replaceall with duplicate matches causes double replacement
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774431043712
+  finding_title: sequential fetches for references could be parallelized
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774431046284
+  finding_title: replaceall with duplicate matches causes redundant fetch on
+    already-substituted content
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
