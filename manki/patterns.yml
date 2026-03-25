@@ -6318,8 +6318,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774412387507
-  finding_title: titlesrelated uses naive word-overlap heuristic
+- id: pat-1774412388330
+  finding_title: prompt injection via finding fields passed to judge
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
