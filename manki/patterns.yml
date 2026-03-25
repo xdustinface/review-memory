@@ -6369,8 +6369,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774412393042
-  finding_title: unsanitized finding fields enable indirect prompt injection into judge
+- id: pat-1774412393790
+  finding_title: possible undefined array access in extracthunkcontext
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
