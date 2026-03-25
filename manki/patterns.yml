@@ -7609,7 +7609,7 @@
   escalated: false
 - id: pat-1774415450707
   finding_title: judgeconfidence not sanitized in comment output
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
