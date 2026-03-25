@@ -3347,8 +3347,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774437370378
-  finding_title: tests don't cover boundary value seconds_since_fetch == 120
+- id: pat-1774437371205
+  finding_title: no test for priority when both `failed` and `is_refreshing` are true
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
