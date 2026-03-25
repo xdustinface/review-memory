@@ -5157,8 +5157,19 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774399271334
-  finding_title: description/title truncation can split multi-byte unicode characters
+- id: pat-1774399270597
+  finding_title: sanitizemarkdown strips known html tag names inside backtick code spans
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774399272080
+  finding_title: html_unclosed_tag_regex with multiline flag matches end-of-line,
+    not just end-of-string
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
