@@ -8977,8 +8977,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774430484372
-  finding_title: no limit on number of references per file risks api rate exhaustion
+- id: pat-1774430485817
+  finding_title: no size limit on resolved reference content
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
