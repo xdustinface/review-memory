@@ -810,16 +810,16 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774406344415
-  finding_title: std::sync::mutex used with blocking_lock suggests tokio::sync::mutex
+- id: pat-1774406345116
+  finding_title: master field should be pub(crate) or private
   occurrences: 1
   repos:
     - fridi
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774406345754
-  finding_title: initial pty size 120x30 still hardcoded; consider syncing with ui
+- id: pat-1774406346436
+  finding_title: std::sync::mutex vs tokio::sync::mutex for master
   occurrences: 1
   repos:
     - fridi
