@@ -1646,16 +1646,16 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774418940789
-  finding_title: magic string "needs-human" repeated in three places
+- id: pat-1774418941592
+  finding_title: prefer pub(crate) visibility on remove_pr_label
   occurrences: 1
   repos:
     - fridi
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774418942674
-  finding_title: validate label parameter to prevent comma-based multi-label removal
+- id: pat-1774418943536
+  finding_title: unwrap_or_default on repo produces confusing gh error
   occurrences: 1
   repos:
     - fridi
