@@ -6168,8 +6168,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774412274525
-  finding_title: models config is declared but never consumed at runtime
+- id: pat-1774412275270
+  finding_title: variable still named blockingmatch after semantic change
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
