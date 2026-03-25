@@ -9148,8 +9148,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774431535700
-  finding_title: silent line drop when api returns non-file data
+- id: pat-1774431536810
+  finding_title: missing test for resolved content that itself contains non-.md references
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
