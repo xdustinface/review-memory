@@ -1694,16 +1694,17 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774419543178
-  finding_title: silent swallow of spawn_blocking joinerror and github errors
+- id: pat-1774419543927
+  finding_title: magic string "needs-human" used in multiple locations without a
+    shared constant
   occurrences: 1
   repos:
     - fridi
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774419544928
-  finding_title: no input validation on label string passed to cli
+- id: pat-1774419545601
+  finding_title: pub visibility on remove_pr_label
   occurrences: 1
   repos:
     - fridi
