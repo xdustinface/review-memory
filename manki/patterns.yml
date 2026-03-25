@@ -9798,8 +9798,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774441323760
-  finding_title: no size or count limit on fetched subdirectory claude.md files
+- id: pat-1774441324947
+  finding_title: sequential fetching of claude.md files could be parallelized
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
@@ -9808,8 +9808,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774441326143
-  finding_title: no token/size budget for subdirectory claude.md content
+- id: pat-1774441327204
+  finding_title: claude.md content is not sanitized before inclusion in review context
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
