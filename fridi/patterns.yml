@@ -1878,8 +1878,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774426163656
-  finding_title: reusing created_at for exit timestamp is a confusing hack
+- id: pat-1774426162866
+  finding_title: dual toast-id allocation functions are confusing
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
@@ -1888,8 +1888,18 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774426165436
-  finding_title: inline import of std::sync::atomic in static and functions
+- id: pat-1774426164355
+  finding_title: toastmessage fields are overly public
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - fridi
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774426166731
+  finding_title: unbounded toast accumulation for error-level toasts
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
