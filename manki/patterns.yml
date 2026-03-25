@@ -5822,9 +5822,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774402919139
-  finding_title: entity decode ordering allows double-encoded html entities to
-    bypass tag stripping
+- id: pat-1774402919882
+  finding_title: sanitizemarkdown and helpers are not exported consistently for testing
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
@@ -5833,8 +5832,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774402920625
-  finding_title: entity decoding can reintroduce attack vectors not covered by tag stripping
+- id: pat-1774402921416
+  finding_title: duplicated sanitization logic across postreview and formatfindingcomment
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
