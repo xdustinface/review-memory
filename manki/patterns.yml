@@ -6369,8 +6369,18 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774412393790
-  finding_title: possible undefined array access in extracthunkcontext
+- id: pat-1774412393042
+  finding_title: unsanitized finding fields enable indirect prompt injection into judge
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774412394560
+  finding_title: titlesrelated substring match on short titles could cause false positives
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
