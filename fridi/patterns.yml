@@ -1622,8 +1622,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774418910414
-  finding_title: race between reset and concurrent delta writer
+- id: pat-1774418911053
+  finding_title: extract js terminal cleanup into a shared helper
   occurrences: 1
   repos:
     - fridi
