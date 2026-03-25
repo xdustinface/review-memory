@@ -4955,8 +4955,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774398796742
-  finding_title: body truncation logic duplicated across 4 call sites
+- id: pat-1774398798092
+  finding_title: invalid comment formatting string duplicated with subtle divergence risk
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
