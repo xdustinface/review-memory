@@ -3138,7 +3138,7 @@
   escalated: false
 - id: pat-1774436101559
   finding_title: missing test for boundary value seconds_since_fetch == 120
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
