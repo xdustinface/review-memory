@@ -9920,7 +9920,7 @@
   escalated: false
 - id: pat-1774448690042
   finding_title: multi-pass runs agents sequentially, not in parallel across agents
-  occurrences: 3
+  occurrences: 4
   accepted_count: 0
   rejected_count: 0
   repos:
