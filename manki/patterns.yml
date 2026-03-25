@@ -6340,7 +6340,7 @@
   escalated: false
 - id: pat-1774412389910
   finding_title: extra blank line added in memory.test.ts
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -7272,18 +7272,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774415349055
-  finding_title: position-based match applies wrong verdict when titles don't match
-  occurrences: 1
-  accepted_count: 0
-  rejected_count: 0
-  repos:
-    - manki
-  first_seen: 2026-03-25
-  last_seen: 2026-03-25
-  escalated: false
-- id: pat-1774415350745
-  finding_title: unsanitized project instructions injected into judge system prompt
+- id: pat-1774415351713
+  finding_title: finding title/description embedded unsanitized in judge user message
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
