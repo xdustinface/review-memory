@@ -834,9 +834,17 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774406348486
-  finding_title: std::sync::mutex used with async blocking_lock() — likely meant
-    tokio::sync::mutex
+- id: pat-1774406347795
+  finding_title: initial pty size 30x120 still not driven by actual terminal dimensions
+  occurrences: 1
+  repos:
+    - fridi
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774406349170
+  finding_title: master field wraps a trait object — consider if box<dyn
+    masterpty> needs send bounds documented
   occurrences: 1
   repos:
     - fridi
