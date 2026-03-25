@@ -3957,14 +3957,14 @@
   escalated: false
 - id: pat-1774395265294
   finding_title: duplicated invalidcomments formatting logic
-  occurrences: 5
+  occurrences: 4
   accepted_count: 0
   rejected_count: 0
   repos:
     - manki
   first_seen: 2026-03-24
   last_seen: 2026-03-25
-  escalated: true
+  escalated: false
 - id: pat-1774395266112
   finding_title: selectteam always adds custom reviewers even on small teams —
     test documents but doesn't question
@@ -5569,9 +5569,18 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774401457397
-  finding_title: truncatebody can return text longer than maxlength when no space
-    found near cutoff
+- id: pat-1774401456416
+  finding_title: description truncation can split mid-codepoint or mid-entity
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774401458052
+  finding_title: single-pass html tag stripping allows bypass via tag nesting
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
