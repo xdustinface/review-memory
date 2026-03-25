@@ -8656,8 +8656,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774426686122
-  finding_title: avoid `any` type for api params — use proper typing
+- id: pat-1774426686707
+  finding_title: file extension used in code fence without sanitization
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
