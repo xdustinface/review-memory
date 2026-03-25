@@ -1187,8 +1187,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774412991231
-  finding_title: backlog::add signature not shown — does it accept priority parsing?
+- id: pat-1774412992393
+  finding_title: backlog.write() immediately followed by backlog.read() risks borrow conflict
   occurrences: 1
   repos:
     - fridi
