@@ -4895,8 +4895,18 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774398354010
-  finding_title: postreview tests don't pass a diff — all findings routed as inline comments
+- id: pat-1774398353372
+  finding_title: no test for postreview invalidcomments path with sanitization
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774398354758
+  finding_title: claude.test.ts spawn comment defers all behavioral testing to integration
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
