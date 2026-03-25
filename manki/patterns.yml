@@ -9378,8 +9378,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774434831671
-  finding_title: pin codecov-action to a full sha for supply chain safety
+- id: pat-1774434832527
+  finding_title: codecov action not pinned to a full sha
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
