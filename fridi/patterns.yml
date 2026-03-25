@@ -2283,8 +2283,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774430724193
-  finding_title: progress bar never updates visually between renders
+- id: pat-1774430725000
+  finding_title: "hardcoded color #5b9bd5 for info level"
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
