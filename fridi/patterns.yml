@@ -1261,8 +1261,16 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774415200831
-  finding_title: replace polling loop with a reactive channel for receiver handoff
+- id: pat-1774415200005
+  finding_title: tracked sessions grow unboundedly — closed sessions never removed
+  occurrences: 1
+  repos:
+    - fridi
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774415201742
+  finding_title: spawned listeners are never cancelled on tab close — leak state back into map
   occurrences: 1
   repos:
     - fridi
