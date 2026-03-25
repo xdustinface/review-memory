@@ -883,8 +883,16 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774406960939
-  finding_title: syncsize returns true even if fitaddon.fit() throws
+- id: pat-1774406960171
+  finding_title: initial pty size 150x40 is unusually wide and undocumented
+  occurrences: 1
+  repos:
+    - fridi
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774406961608
+  finding_title: "width: 100% on split-pane-bottom may clip content without border-box"
   occurrences: 1
   repos:
     - fridi
