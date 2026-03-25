@@ -3296,3 +3296,14 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
+- id: pat-1774437093726
+  finding_title: test doesn't cover boundary at exactly 120s for dot_state_class
+    and sync_label
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - fridi
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
