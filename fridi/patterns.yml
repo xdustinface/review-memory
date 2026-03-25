@@ -1969,8 +1969,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774427744563
-  finding_title: shown_count becomes stale when notifications source resets
+- id: pat-1774427745793
+  finding_title: progress bar jumps in 1-second increments due to integer truncation
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
