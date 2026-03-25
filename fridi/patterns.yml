@@ -2305,7 +2305,7 @@
   escalated: false
 - id: pat-1774430727409
   finding_title: no upper bound on toast accumulation
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
