@@ -2665,3 +2665,13 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
+- id: pat-1774435106471
+  finding_title: concurrent fetch race between poll loop and manual refresh
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - fridi
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
