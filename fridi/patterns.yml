@@ -3276,8 +3276,18 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774437091908
-  finding_title: static oncelock<mutex<…>> persists across test runs
+- id: pat-1774437091189
+  finding_title: second coroutine ticks unconditionally even when dashboard is not visible
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - fridi
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774437092658
+  finding_title: missing test for sync_detail boundary at exactly 120 seconds
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
