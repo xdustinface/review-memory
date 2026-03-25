@@ -10420,8 +10420,18 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774457725959
-  finding_title: magic numbers for permalink line range
+- id: pat-1774457725038
+  finding_title: safefile used in url without url-encoding
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774457726984
+  finding_title: buildnitissuebody parameter list growing unwieldy
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
