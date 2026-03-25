@@ -1646,8 +1646,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774418940789
-  finding_title: magic string "needs-human" repeated in three places
+- id: pat-1774418941592
+  finding_title: prefer pub(crate) visibility on remove_pr_label
   occurrences: 1
   repos:
     - fridi
