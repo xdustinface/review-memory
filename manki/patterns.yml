@@ -10159,8 +10159,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774449429734
-  finding_title: no test for intersectfindings with duplicate findings within a single pass
+- id: pat-1774449430939
+  finding_title: intersectfindings over-counts when a pass has multiple matching findings
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
