@@ -4702,8 +4702,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774397907945
-  finding_title: sanitizemarkdown rebuilds large regex on every call
+- id: pat-1774397908668
+  finding_title: duplicated invalidcomment formatting blocks
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
