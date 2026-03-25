@@ -9360,7 +9360,7 @@
   escalated: false
 - id: pat-1774434827893
   finding_title: unpinned third-party action is a supply chain risk
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
