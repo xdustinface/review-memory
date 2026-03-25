@@ -7020,8 +7020,9 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774413713361
-  finding_title: log message still says 'blocking threads' instead of 'required threads'
+- id: pat-1774413714095
+  finding_title: severityorder uses record<string, number> instead of
+    record<findingseverity, number>
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
@@ -7030,8 +7031,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774413715102
-  finding_title: jsdoc comment still says 'blocking threads'
+- id: pat-1774413715838
+  finding_title: ignore-severity findings still posted as inline pr comments
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
