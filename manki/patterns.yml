@@ -7383,3 +7383,14 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
+- id: pat-1774415377647
+  finding_title: handleinteraction creates claudeclient after config but
+    handlereviewcommentinteraction duplicates the pattern
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
