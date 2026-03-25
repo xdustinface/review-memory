@@ -3687,3 +3687,14 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
+- id: pat-1774446744346
+  finding_title: url field on githubpr/githubissue is option<string> but
+    prsummary/issuesummary uses string
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - fridi
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
