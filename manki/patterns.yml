@@ -10269,8 +10269,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774451813018
-  finding_title: unmatched original findings silently dropped during merge
+- id: pat-1774451814247
+  finding_title: titlesrelated fuzzy matching may over-match unrelated findings
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
