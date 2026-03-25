@@ -2946,8 +2946,18 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774435502559
-  finding_title: duplicated fetch-and-update logic violates dry
+- id: pat-1774435501609
+  finding_title: duplicated fetch logic between coroutine and onclick
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - fridi
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774435503490
+  finding_title: refresh button races with polling coroutine
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
