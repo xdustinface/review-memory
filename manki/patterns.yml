@@ -4319,9 +4319,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774396909481
-  finding_title: sanitizemarkdown regex for html tags matches typescript generics
-    containing tag names
+- id: pat-1774396908775
+  finding_title: timer cleanup logic duplicated across three event paths
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
@@ -4330,9 +4329,19 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774396911107
-  finding_title: stdinkilltimer set after reject — sigkill timer leaks if promise
-    is already settled
+- id: pat-1774396910246
+  finding_title: "@mention neutralization lookbehind doesn't cover all
+    email-local-char patterns"
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774396912105
+  finding_title: sanitizemarkdown missing svg/math html tags allows visual spoofing
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
