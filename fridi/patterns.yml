@@ -3549,7 +3549,7 @@
   escalated: false
 - id: pat-1774445090449
   finding_title: shell injection via issue body in gh api call
-  occurrences: 2
+  occurrences: 3
   accepted_count: 0
   rejected_count: 0
   repos:
