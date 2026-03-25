@@ -4995,8 +4995,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774398803734
-  finding_title: sanitizemarkdown does not neutralize raw url auto-linking
+- id: pat-1774398804907
+  finding_title: unsanitized `f.file` in buildnitissuebody allows backtick breakout
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
