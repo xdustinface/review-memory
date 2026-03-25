@@ -5056,8 +5056,18 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774398819140
-  finding_title: no test for codecontext fence-breaking in buildnitissuebody
+- id: pat-1774398817662
+  finding_title: no test for buildnitissuebody sanitizemarkdown integration
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774398820537
+  finding_title: sanitizemarkdown tests don't cover redos-length inputs
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
