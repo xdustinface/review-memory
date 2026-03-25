@@ -5449,8 +5449,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774400297119
-  finding_title: no test for sanitizemarkdown with crafted html comment injection payload
+- id: pat-1774400298606
+  finding_title: postreview tests don't verify findings are excluded from inline comments
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
@@ -5459,8 +5459,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774400299995
-  finding_title: no test for postreview with request_changes verdict
+- id: pat-1774400301356
+  finding_title: truncatebody test uses fragile magic number for length assertion
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
