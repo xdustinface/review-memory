@@ -2948,7 +2948,7 @@
   escalated: false
 - id: pat-1774435502559
   finding_title: duplicated fetch-and-update logic violates dry
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
