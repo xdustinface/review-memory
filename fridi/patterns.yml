@@ -3627,8 +3627,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774445849375
-  finding_title: inline import in production code
+- id: pat-1774445850499
+  finding_title: silent write failure in update_issue_body
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
