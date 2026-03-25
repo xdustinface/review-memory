@@ -3778,3 +3778,14 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
+- id: pat-1774448361869
+  finding_title: divergent checkbox parsing between `parse_task_progress` and
+    `parse_checkboxes`
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - fridi
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
