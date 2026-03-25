@@ -10400,8 +10400,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774457721741
-  finding_title: suggested fix not sanitized in nit issue body
+- id: pat-1774457722876
+  finding_title: unsanitized owner/repo/commitsha in permalink url
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
