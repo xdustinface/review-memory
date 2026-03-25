@@ -10229,8 +10229,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774450144676
-  finding_title: missing test for race between fetchrecapstate and resolvestalethreads
+- id: pat-1774450145636
+  finding_title: no test covering resolveaddressedthreads interaction with new dedup behavior
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
