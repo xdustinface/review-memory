@@ -2788,7 +2788,7 @@
   escalated: false
 - id: pat-1774435295181
   finding_title: race condition between manual refresh and polling coroutine
-  occurrences: 3
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -3238,6 +3238,16 @@
   escalated: false
 - id: pat-1774437084961
   finding_title: seconds_since_fetch ticker reads and writes without atomic guarantee
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - fridi
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774437086582
+  finding_title: misleading comment claims re-fetch-on-reset mechanism that doesn't exist
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
