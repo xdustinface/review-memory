@@ -1566,8 +1566,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774417809548
-  finding_title: stray blank line added in styles.rs
+- id: pat-1774417810694
+  finding_title: ctrl+b conflicts with common browser/editor bold shortcut
   occurrences: 1
   repos:
     - fridi
