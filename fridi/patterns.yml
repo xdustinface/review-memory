@@ -3577,8 +3577,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774445094962
-  finding_title: "race condition: stale body used for checkbox toggle"
+- id: pat-1774445095802
+  finding_title: duplicated task-progress parsing logic
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
