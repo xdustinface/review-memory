@@ -7579,7 +7579,7 @@
   escalated: false
 - id: pat-1774415445255
   finding_title: createnitissue receives all findings instead of only nits
-  occurrences: 8
+  occurrences: 7
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -7892,6 +7892,17 @@
   escalated: false
 - id: pat-1774416273029
   finding_title: fuzzy title fallback still applies wrong positional match
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774416275290
+  finding_title: mapjudgedtofindings can assign the same judged finding to
+    multiple originals via fuzzy match
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
