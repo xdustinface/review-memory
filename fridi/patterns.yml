@@ -2607,7 +2607,7 @@
   escalated: false
 - id: pat-1774434814605
   finding_title: race between manual refresh and polling coroutine
-  occurrences: 3
+  occurrences: 4
   accepted_count: 0
   rejected_count: 0
   repos:
