@@ -8666,8 +8666,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774426688382
-  finding_title: non-null assertions on effort without runtime guard
+- id: pat-1774426688936
+  finding_title: budgetmap lookup can return undefined, producing invalid api param
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
@@ -8676,8 +8676,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774426689188
-  finding_title: file content injection could expand prompt beyond token limits
+- id: pat-1774426689923
+  finding_title: avoid `any` type for api params — use sdk types or a narrower type
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
