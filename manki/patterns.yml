@@ -6046,3 +6046,13 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
+- id: pat-1774412261921
+  finding_title: record<string, string> loses type safety on severity keys
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
