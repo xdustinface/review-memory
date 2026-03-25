@@ -2384,13 +2384,13 @@
   escalated: false
 - id: pat-1774389391621
   finding_title: stdin drain handler leaks if process exits before drain fires
-  occurrences: 2
+  occurrences: 1
   accepted_count: 0
   rejected_count: 0
   repos:
     - manki
   first_seen: 2026-03-24
-  last_seen: 2026-03-25
+  last_seen: 2026-03-24
   escalated: false
 - id: pat-1774389392579
   finding_title: generalfindings not considered for verdict determination
@@ -5926,6 +5926,26 @@
   escalated: false
 - id: pat-1774402931342
   finding_title: truncatebody cutoff can be negative when maxlength < notice.length
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774402932156
+  finding_title: safetruncate does not handle lone low surrogate
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774402933810
+  finding_title: no test for postreview fallback paths with sanitized content
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
