@@ -3497,8 +3497,18 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774444706889
-  finding_title: missing test for checkbox parsing edge cases
+- id: pat-1774444705781
+  finding_title: parse_task_progress is private but duplicated
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - fridi
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774444708161
+  finding_title: parse_task_progress counts checkboxes inside code blocks
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
