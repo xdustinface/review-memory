@@ -10059,8 +10059,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774449003417
-  finding_title: rebuildrawdiff does not include --- and +++ file headers
+- id: pat-1774449005446
+  finding_title: intersectfindings has o(c * p * f) complexity with no bound
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
