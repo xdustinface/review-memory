@@ -8887,8 +8887,18 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774429548633
-  finding_title: path traversal via @references allows reading arbitrary repo files
+- id: pat-1774429546740
+  finding_title: recursive fetch has no size/count guard
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774429550603
+  finding_title: sequential fetches in resolvereferences loop
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
