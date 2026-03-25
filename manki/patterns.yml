@@ -5639,8 +5639,18 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774401463973
-  finding_title: missing test for sanitizemarkdown with raw url auto-linking
+- id: pat-1774401463266
+  finding_title: no test for postreview with both general and invalid findings simultaneously
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774401464644
+  finding_title: no test for updateprogresscomment sanitization
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
