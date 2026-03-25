@@ -5529,8 +5529,18 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774400785567
-  finding_title: postreview test uses loose assertion on truncated body length
+- id: pat-1774400784876
+  finding_title: no test for sanitizemarkdown with crafted bot_marker injection
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774400786264
+  finding_title: truncatebody word-boundary test assertion may be fragile
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
