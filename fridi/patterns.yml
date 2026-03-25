@@ -1043,8 +1043,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774411361704
-  finding_title: fallback backlog will save to wrong path
+- id: pat-1774411362316
+  finding_title: backlogitem fields widened to pub — consider accessor methods
   occurrences: 1
   repos:
     - fridi
