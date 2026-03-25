@@ -1534,8 +1534,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774417617275
-  finding_title: write lock on `states` held across entire match block
+- id: pat-1774417618281
+  finding_title: separate write-lock acquisitions in close handler create inconsistency window
   occurrences: 1
   repos:
     - fridi
