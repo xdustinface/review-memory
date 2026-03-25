@@ -6340,7 +6340,7 @@
   escalated: false
 - id: pat-1774412389910
   finding_title: extra blank line added in memory.test.ts
-  occurrences: 8
+  occurrences: 7
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -7579,7 +7579,7 @@
   escalated: false
 - id: pat-1774415445255
   finding_title: createnitissue receives all findings instead of only nits
-  occurrences: 8
+  occurrences: 9
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -7963,6 +7963,16 @@
   escalated: false
 - id: pat-1774416286337
   finding_title: no test for runjudgeagent when client.sendmessage rejects
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774416287107
+  finding_title: no test for judge returning fewer findings than input
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
