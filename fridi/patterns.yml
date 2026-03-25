@@ -762,16 +762,16 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774405393078
-  finding_title: resizeobserver on potentially null parentelement
+- id: pat-1774405393777
+  finding_title: dofit retries indefinitely with no backoff or limit
   occurrences: 1
   repos:
     - fridi
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774405394725
-  finding_title: resizeobserver is never disconnected
+- id: pat-1774405395672
+  finding_title: explicit pixel sizing may conflict with css layout
   occurrences: 1
   repos:
     - fridi
