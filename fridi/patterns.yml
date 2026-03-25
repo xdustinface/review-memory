@@ -3789,8 +3789,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774448362947
-  finding_title: duplicated checkbox parsing logic between crates
+- id: pat-1774448363978
+  finding_title: "`toggle_checkbox_in_body` also belongs in core alongside parsing"
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
