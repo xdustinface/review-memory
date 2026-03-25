@@ -7579,7 +7579,7 @@
   escalated: false
 - id: pat-1774415445255
   finding_title: createnitissue receives all findings instead of only nits
-  occurrences: 9
+  occurrences: 8
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -7931,8 +7931,28 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774416282800
-  finding_title: unintended extra blank line added
+- id: pat-1774416282709
+  finding_title: runjudgeagent test doesn't verify system prompt passed to client
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774416283468
+  finding_title: filterlearningsforfinding not tested with empty title and description
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774416285386
+  finding_title: mapjudgedtofindings silently applies wrong verdict on position/title mismatch
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
