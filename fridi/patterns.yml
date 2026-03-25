@@ -1245,3 +1245,11 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
+- id: pat-1774413201093
+  finding_title: no test for backlog::empty constructor
+  occurrences: 1
+  repos:
+    - fridi
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
