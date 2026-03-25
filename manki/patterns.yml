@@ -7647,8 +7647,18 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774415457653
-  finding_title: no test for 'low' judgeconfidence value
+- id: pat-1774415456930
+  finding_title: judgeconfidence not sanitized before rendering in comment html
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774415458384
+  finding_title: no test coverage for nit_handling routing logic in index.ts
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
