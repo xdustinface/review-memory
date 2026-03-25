@@ -8576,8 +8576,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774423620425
-  finding_title: major variable usage without visible definition
+- id: pat-1774423621308
+  finding_title: major variable used but not defined in diff
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
