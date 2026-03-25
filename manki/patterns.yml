@@ -6340,7 +6340,7 @@
   escalated: false
 - id: pat-1774412389910
   finding_title: extra blank line added in memory.test.ts
-  occurrences: 6
+  occurrences: 7
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -7911,8 +7911,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774416277726
-  finding_title: misleading test comment about match strategy
+- id: pat-1774416278505
+  finding_title: unused rawdiff and repocontext fields in judgeinput
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
