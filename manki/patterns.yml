@@ -6298,8 +6298,18 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774412385764
-  finding_title: code context extracted from diff included raw in prompt without sanitization
+- id: pat-1774412384730
+  finding_title: unsanitized finding fields interpolated into judge prompt
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774412386688
+  finding_title: memory context passes through sanitizememoryfield but findings do not
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
