@@ -10291,7 +10291,7 @@
   escalated: false
 - id: pat-1774451818025
   finding_title: no test for unmatched originals in merge path
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
