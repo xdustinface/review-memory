@@ -7033,7 +7033,7 @@
   escalated: false
 - id: pat-1774413715838
   finding_title: ignore-severity findings still posted as inline pr comments
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -7081,8 +7081,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774413720868
-  finding_title: no test for ignore-severity in formatfindingcomment
+- id: pat-1774413721600
+  finding_title: deep-merges test doesn't verify actual merge behavior
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
