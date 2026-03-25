@@ -7757,8 +7757,19 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774415794272
-  finding_title: extracthunkcontext offset assumes content lines map 1:1 to new-file lines
+- id: pat-1774415792573
+  finding_title: empty judge array `[]` treated as failure, returning originals unchanged
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774415795671
+  finding_title: filterlearningsforfinding keyword stripping merges
+    hyphenated/punctuated terms
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
