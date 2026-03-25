@@ -6431,7 +6431,7 @@
   escalated: false
 - id: pat-1774412399633
   finding_title: no test for client.sendmessage rejection in runjudgeagent
-  occurrences: 2
+  occurrences: 1
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -7274,6 +7274,26 @@
   escalated: false
 - id: pat-1774415351713
   finding_title: finding title/description embedded unsanitized in judge user message
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774415354187
+  finding_title: titlesrelated substring match with short threshold is overly broad
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774415355919
+  finding_title: runjudgeagent has no error handling for sendmessage failures
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
