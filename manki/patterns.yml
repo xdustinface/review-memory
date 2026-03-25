@@ -9458,8 +9458,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774439197769
-  finding_title: deduplicatefindings is accumulating unrelated responsibilities
+- id: pat-1774439198625
+  finding_title: suppressed findings silently ignored when no duplicates exist
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
@@ -9468,8 +9468,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774439199526
-  finding_title: test missing for suppression-only scenario exposing the gating bug
+- id: pat-1774439200383
+  finding_title: test for suppressed findings count missing
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
