@@ -1349,3 +1349,11 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
+- id: pat-1774417091799
+  finding_title: blocking file i/o in synchronous ui closure
+  occurrences: 1
+  repos:
+    - fridi
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
