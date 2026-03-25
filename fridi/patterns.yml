@@ -1301,8 +1301,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774415551475
-  finding_title: blocking file i/o on the ui thread
+- id: pat-1774415552099
+  finding_title: backlog load failure silently discards user input
   occurrences: 1
   repos:
     - fridi
