@@ -9920,7 +9920,7 @@
   escalated: false
 - id: pat-1774448690042
   finding_title: multi-pass runs agents sequentially, not in parallel across agents
-  occurrences: 4
+  occurrences: 3
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -10121,6 +10121,16 @@
   escalated: false
 - id: pat-1774449420920
   finding_title: multi-pass agents run sequentially, not fully in parallel
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774449423552
+  finding_title: rebuildrawdiff loses metadata present in real diffs
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
