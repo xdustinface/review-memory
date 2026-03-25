@@ -5319,8 +5319,18 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774399789488
-  finding_title: stdin drain never fires if child exits — process hangs on timer
+- id: pat-1774399788737
+  finding_title: stdinkilltimer leaks if stdin.write throws
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774399790315
+  finding_title: output size check uses string length, not byte length
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
