@@ -1501,3 +1501,11 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
+- id: pat-1774417612104
+  finding_title: spawned listener never exits after tab close — re-inserts cleaned-up state
+  occurrences: 1
+  repos:
+    - fridi
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
