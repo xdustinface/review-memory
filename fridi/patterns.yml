@@ -2607,7 +2607,7 @@
   escalated: false
 - id: pat-1774434814605
   finding_title: race between manual refresh and polling coroutine
-  occurrences: 2
+  occurrences: 3
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -3166,8 +3166,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774436734122
-  finding_title: global static cache couples component to process-wide mutable state
+- id: pat-1774436735645
+  finding_title: sync_detail returns 'last sync failed' for stale-but-not-failed state
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
