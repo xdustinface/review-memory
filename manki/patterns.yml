@@ -7204,7 +7204,7 @@
   escalated: false
 - id: pat-1774415343884
   finding_title: unnecessary blank line added in memory.test.ts
-  occurrences: 2
+  occurrences: 3
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -8186,16 +8186,6 @@
   escalated: false
 - id: pat-1774416959188
   finding_title: parsejudgeresponse crashes on non-object array elements
-  occurrences: 1
-  accepted_count: 0
-  rejected_count: 0
-  repos:
-    - manki
-  first_seen: 2026-03-25
-  last_seen: 2026-03-25
-  escalated: false
-- id: pat-1774417288020
-  finding_title: duplicate fuzzy title matching logic across modules
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
