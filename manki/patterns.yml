@@ -10099,8 +10099,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774449012363
-  finding_title: filecontents map is not shuffled along with diff files
+- id: pat-1774449014320
+  finding_title: rebuildrawdiff doesn't handle added/deleted/renamed change types
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
