@@ -1325,3 +1325,11 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
+- id: pat-1774416337680
+  finding_title: tracked sessions and spawned listeners leak — never cleaned up on tab close
+  occurrences: 1
+  repos:
+    - fridi
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
