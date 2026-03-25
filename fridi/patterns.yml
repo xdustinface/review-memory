@@ -2607,7 +2607,7 @@
   escalated: false
 - id: pat-1774434814605
   finding_title: race between manual refresh and polling coroutine
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -2928,16 +2928,6 @@
   escalated: false
 - id: pat-1774435320383
   finding_title: dot_fill_color boundary at 60s not tested
-  occurrences: 1
-  accepted_count: 0
-  rejected_count: 0
-  repos:
-    - fridi
-  first_seen: 2026-03-25
-  last_seen: 2026-03-25
-  escalated: false
-- id: pat-1774435498455
-  finding_title: mutex poisoning panic in ui thread
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
