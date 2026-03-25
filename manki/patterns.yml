@@ -4582,8 +4582,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774397417363
-  finding_title: stdinkilltimer leaks when stdin.write throws after process exits
+- id: pat-1774397418806
+  finding_title: tallyvotes has no guard against teamsize <= 0
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
