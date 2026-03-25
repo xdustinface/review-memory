@@ -3768,8 +3768,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774448358619
-  finding_title: url validation too permissive — allows arbitrary https:// urls to be opened
+- id: pat-1774448360151
+  finding_title: "race condition: checkbox toggle reads stale body after concurrent clicks"
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
