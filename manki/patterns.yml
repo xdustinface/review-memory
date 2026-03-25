@@ -5699,9 +5699,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774402342884
-  finding_title: sanitizemarkdown does not decode numeric html entities, allowing
-    tag-stripping bypass
+- id: pat-1774402343673
+  finding_title: finding formatting logic duplicated across three code paths
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
