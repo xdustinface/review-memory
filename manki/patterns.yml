@@ -5884,8 +5884,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774402925755
-  finding_title: stdinkilltimer comment is misleading — close handler won't clear it
+- id: pat-1774402926437
+  finding_title: stdin drain handler may leave child process with open stdin indefinitely
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
