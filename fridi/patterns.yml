@@ -1125,7 +1125,7 @@
   escalated: false
 - id: pat-1774412422250
   finding_title: backlog tab reuses 'home-tab' css class
-  occurrences: 2
+  occurrences: 1
   repos:
     - fridi
   first_seen: 2026-03-25
@@ -1149,6 +1149,14 @@
   escalated: false
 - id: pat-1774412600965
   finding_title: expect() in use_signal initializer will panic and crash the ui
+  occurrences: 1
+  repos:
+    - fridi
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774412602919
+  finding_title: relative_time_from_dt lacks week/month/year buckets
   occurrences: 1
   repos:
     - fridi
