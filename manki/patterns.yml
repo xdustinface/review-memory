@@ -4854,9 +4854,18 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774398348903
-  finding_title: no test for dynamic fence in formatfindingcomment with backticks
-    in suggestedfix
+- id: pat-1774398348258
+  finding_title: buildnitissuebody uses weaker sanitization than new sanitizemarkdown
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774398349867
+  finding_title: stdinkilltimer set unconditionally outside settled guard
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
