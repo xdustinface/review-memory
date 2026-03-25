@@ -8939,7 +8939,7 @@
   escalated: false
 - id: pat-1774429557999
   finding_title: no test for empty basepath behavior
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -9009,16 +9009,6 @@
   escalated: false
 - id: pat-1774430493259
   finding_title: sequential fetches for independent references
-  occurrences: 1
-  accepted_count: 0
-  rejected_count: 0
-  repos:
-    - manki
-  first_seen: 2026-03-25
-  last_seen: 2026-03-25
-  escalated: false
-- id: pat-1774430494993
-  finding_title: missing test for nested/recursive reference resolution
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
