@@ -8636,8 +8636,18 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774426683527
-  finding_title: non-null assertions on already-guarded values
+- id: pat-1774426683115
+  finding_title: budgetmap keys are not typed to match the effort union
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774426684018
+  finding_title: unsanitized file path and content in reviewer prompt enables prompt injection
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
