@@ -8124,8 +8124,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774416397643
-  finding_title: no test for partial judge response (fewer findings than originals)
+- id: pat-1774416398653
+  finding_title: extractcodecontext tests only cover single-hunk files
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
