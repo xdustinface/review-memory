@@ -10251,7 +10251,7 @@
   escalated: false
 - id: pat-1774450441390
   finding_title: issue body heading still says "review nits"
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
