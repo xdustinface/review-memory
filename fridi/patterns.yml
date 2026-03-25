@@ -2876,8 +2876,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774435310121
-  finding_title: mutex::lock().unwrap() on static cache can panic
+- id: pat-1774435311217
+  finding_title: seconds_since_fetch can overflow u16 on long idle
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
