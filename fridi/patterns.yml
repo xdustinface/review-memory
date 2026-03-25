@@ -2195,7 +2195,7 @@
   escalated: false
 - id: pat-1774429660914
   finding_title: toastmessage fields are pub but should be pub(crate)
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
