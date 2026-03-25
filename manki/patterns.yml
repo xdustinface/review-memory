@@ -4532,8 +4532,18 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774397407098
-  finding_title: sanitizemarkdown `-->` stripping corrupts legitimate text
+- id: pat-1774397405944
+  finding_title: body truncation with slice() can split unicode surrogate pairs
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774397408527
+  finding_title: html tag regex recompiled on every sanitizemarkdown call
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
