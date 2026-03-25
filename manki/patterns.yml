@@ -5499,8 +5499,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774400781692
-  finding_title: updateprogresscomment body is not truncated
+- id: pat-1774400782454
+  finding_title: sanitizemarkdown does not decode html entities before stripping tags
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
