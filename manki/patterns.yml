@@ -10480,8 +10480,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774468806787
-  finding_title: unnecessary intermediate variable for changedfiles
+- id: pat-1774468807785
+  finding_title: buildjudgeusermessage has too many optional positional parameters
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
@@ -10490,9 +10490,20 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774468808804
-  finding_title: sanitizefilepath not applied to permalink path component
-  occurrences: 2
+- id: pat-1774468809747
+  finding_title: changed files stats use newlines/oldlines which represent hunk
+    sizes, not additions/deletions
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774468812547
+  finding_title: file path not url-encoded in github permalink
+  occurrences: 1
   accepted_count: 0
   rejected_count: 0
   repos:
