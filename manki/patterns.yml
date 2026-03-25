@@ -8486,8 +8486,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774420293104
-  finding_title: inconsistent null vs undefined at call sites
+- id: pat-1774420293956
+  finding_title: warning message can fire twice per run for the same reason
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
