@@ -7647,8 +7647,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774415456930
-  finding_title: judgeconfidence not sanitized before rendering in comment html
+- id: pat-1774415457653
+  finding_title: no test for 'low' judgeconfidence value
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
