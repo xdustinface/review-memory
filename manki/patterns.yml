@@ -7537,8 +7537,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774415397666
-  finding_title: titlesrelated has no direct unit tests
+- id: pat-1774415399168
+  finding_title: extractcodecontext tests use unrealistic hunk content
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
