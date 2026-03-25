@@ -6599,9 +6599,18 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774413144770
-  finding_title: interaction handler always uses 'judge' model — consider whether
-    'reviewer' is more appropriate for some interactions
+- id: pat-1774413143076
+  finding_title: "`handlereviewcommentinteraction` does not apply `modeloverride`"
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774413146288
+  finding_title: review comment handler ignores `modeloverride` entirely
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
