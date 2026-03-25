@@ -7579,7 +7579,7 @@
   escalated: false
 - id: pat-1774415445255
   finding_title: createnitissue receives all findings instead of only nits
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -7597,8 +7597,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774415448363
-  finding_title: confidence label placement changes reading order
+- id: pat-1774415446820
+  finding_title: titlesrelated duplicates titlesmatch logic
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
@@ -7607,8 +7607,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774415449928
-  finding_title: extracthunkcontext offset is wrong when hunk contains deletions
+- id: pat-1774415450707
+  finding_title: judgeconfidence not sanitized in comment output
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
