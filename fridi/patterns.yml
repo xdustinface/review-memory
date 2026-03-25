@@ -3427,8 +3427,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774444695929
-  finding_title: update_issue_body passes body via -f flag which has size/encoding edge cases
+- id: pat-1774444697048
+  finding_title: open_url silently discards errors
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
