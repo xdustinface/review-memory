@@ -9708,8 +9708,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774439972439
-  finding_title: truncation test doesn't assert exact truncation boundary
+- id: pat-1774439973448
+  finding_title: judge linked issues test doesn't verify ordering relative to findings
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
