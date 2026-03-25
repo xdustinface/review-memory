@@ -899,8 +899,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774407468713
-  finding_title: js setinterval polls indefinitely with no cleanup on unmount
+- id: pat-1774407469495
+  finding_title: ptyresizer::resize silently discards errors and lock contention
   occurrences: 1
   repos:
     - fridi
