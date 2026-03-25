@@ -8646,8 +8646,18 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774426685378
-  finding_title: unsanitized file path in reviewer user message enables markdown injection
+- id: pat-1774426684717
+  finding_title: budgetmap lookup can return undefined for invalid effort values
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774426686122
+  finding_title: avoid `any` type for api params — use proper typing
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
