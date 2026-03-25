@@ -10362,7 +10362,7 @@
   escalated: false
 - id: pat-1774453626980
   finding_title: scope validation severity contradicts requirements
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
