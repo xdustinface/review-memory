@@ -1211,3 +1211,12 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
+- id: pat-1774412996459
+  finding_title: backlog.write() immediately followed by backlog.read().save()
+    triggers two re-renders
+  occurrences: 1
+  repos:
+    - fridi
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
