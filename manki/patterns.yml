@@ -9009,7 +9009,7 @@
   escalated: false
 - id: pat-1774430493259
   finding_title: sequential fetches for independent references
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -9037,8 +9037,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774431035621
-  finding_title: path traversal check is too narrow
+- id: pat-1774431036778
+  finding_title: error replacement re-embeds fullmatch causing infinite replaceall expansion
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
