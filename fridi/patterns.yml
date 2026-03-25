@@ -3657,8 +3657,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774445855564
-  finding_title: no test for toggle_checkbox_in_body with out-of-bounds line_index
+- id: pat-1774445856462
+  finding_title: open_url only checks https:// prefix, not full url validity
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
