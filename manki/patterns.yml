@@ -6749,8 +6749,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774413250572
-  finding_title: unsanitized finding data passed to judge prompt enables prompt injection
+- id: pat-1774413251711
+  finding_title: judge failure silently downgrades to unfiltered reviewer findings
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
