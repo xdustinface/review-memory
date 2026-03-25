@@ -10029,9 +10029,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774448711284
-  finding_title: no test for intersectfindings when a finding appears in later
-    passes but not pass 0
+- id: pat-1774448712396
+  finding_title: rebuildrawdiff missing --- and +++ file markers
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
@@ -10040,8 +10039,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774448713461
-  finding_title: no test for rebuildrawdiff with empty hunks
+- id: pat-1774448714647
+  finding_title: threshold computed inside loop but is constant per agent
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
