@@ -1928,8 +1928,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774427017784
-  finding_title: magic offset `n - 3` is unexplained
+- id: pat-1774427018643
+  finding_title: escape unconditionally calls preventdefault, may break text input
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
