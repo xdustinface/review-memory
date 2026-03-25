@@ -3710,7 +3710,7 @@
   escalated: false
 - id: pat-1774446748200
   finding_title: no test for toggle_checkbox_in_body with out-of-bounds line_index
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -3758,18 +3758,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774447197056
-  finding_title: "update_issue_body: stdin drop timing not guaranteed"
-  occurrences: 1
-  accepted_count: 0
-  rejected_count: 0
-  repos:
-    - fridi
-  first_seen: 2026-03-25
-  last_seen: 2026-03-25
-  escalated: false
-- id: pat-1774447198780
-  finding_title: parse_task_progress double-counts uppercase x checkboxes
+- id: pat-1774447197963
+  finding_title: "race condition: concurrent checkbox toggles on same issue lose updates"
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
