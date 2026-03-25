@@ -1,0 +1,7 @@
+- id: learn-1774469577695
+  content: 'User context on "src/github.test.ts": Reviewer names now go into a
+    JSON array via JSON.stringify, which handles escaping. The old sanitization
+    test was for markdown rendering which no longer applies.'
+  scope: repo
+  source: xdustinface/manki#213
+  created_at: 2026-03-25
