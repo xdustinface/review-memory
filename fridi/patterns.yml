@@ -2605,8 +2605,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774434813617
-  finding_title: mutex poisoning crash on cached_overview
+- id: pat-1774434814605
+  finding_title: race between manual refresh and polling coroutine
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
@@ -2615,8 +2615,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774434815578
-  finding_title: duplicated fetch-and-update logic across three call sites
+- id: pat-1774434816574
+  finding_title: global mutable static couples component to process-wide singleton
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
