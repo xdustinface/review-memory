@@ -10339,8 +10339,19 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774453219214
-  finding_title: changedfiles may omit files excluded by path filters
+- id: pat-1774453217723
+  finding_title: no test for scope findings surviving through runjudgeagent
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774453220668
+  finding_title: no test verifying changedfiles is passed to judge user message in
+    runjudgeagent
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
