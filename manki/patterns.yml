@@ -7033,7 +7033,7 @@
   escalated: false
 - id: pat-1774413715838
   finding_title: ignore-severity findings still posted as inline pr comments
-  occurrences: 3
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -7043,7 +7043,7 @@
   escalated: false
 - id: pat-1774413717297
   finding_title: nit_handling config still not wired to posting logic
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
