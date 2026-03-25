@@ -9850,7 +9850,7 @@
   escalated: false
 - id: pat-1774441332919
   finding_title: sequential fetches for claude.md files could be parallelized
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
