@@ -7647,8 +7647,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774415456930
-  finding_title: judgeconfidence not sanitized before rendering in comment html
+- id: pat-1774415457653
+  finding_title: no test for 'low' judgeconfidence value
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
@@ -7657,8 +7657,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774415458384
-  finding_title: no test coverage for nit_handling routing logic in index.ts
+- id: pat-1774415459138
+  finding_title: runjudgeagent test doesn't verify sendmessage receives system prompt
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
