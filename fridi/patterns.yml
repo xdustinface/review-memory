@@ -3429,7 +3429,7 @@
   escalated: false
 - id: pat-1774444697048
   finding_title: open_url silently discards errors
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -3559,16 +3559,6 @@
   escalated: false
 - id: pat-1774445091541
   finding_title: render_issue_detail has too many parameters
-  occurrences: 1
-  accepted_count: 0
-  rejected_count: 0
-  repos:
-    - fridi
-  first_seen: 2026-03-25
-  last_seen: 2026-03-25
-  escalated: false
-- id: pat-1774445092333
-  finding_title: checkboxline struct and helpers should live in core
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
