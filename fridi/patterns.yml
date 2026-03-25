@@ -2838,7 +2838,7 @@
   escalated: false
 - id: pat-1774435304847
   finding_title: duplicated fetch logic violates dry and risks divergence
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
