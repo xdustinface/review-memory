@@ -9358,8 +9358,18 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774434828863
-  finding_title: pin codecov-action to a full sha for supply chain safety
+- id: pat-1774434827893
+  finding_title: unpinned third-party action is a supply chain risk
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774434829815
+  finding_title: codecov badge url lacks a branch or token query parameter
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
