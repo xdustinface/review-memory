@@ -9208,8 +9208,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774431933720
-  finding_title: sequential api calls in resolvereferences loop
+- id: pat-1774431934676
+  finding_title: path traversal check is too narrow
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
