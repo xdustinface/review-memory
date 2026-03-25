@@ -6340,7 +6340,7 @@
   escalated: false
 - id: pat-1774412389910
   finding_title: extra blank line added in memory.test.ts
-  occurrences: 6
+  occurrences: 7
   accepted_count: 0
   rejected_count: 0
   repos:
