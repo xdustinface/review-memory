@@ -6980,8 +6980,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774413589350
-  finding_title: ignore-severity findings silently dropped from count
+- id: pat-1774413590300
+  finding_title: ignore severity count is hardcoded to zero
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
