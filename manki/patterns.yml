@@ -8466,8 +8466,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774420289601
-  finding_title: github_token now optional with no fallback for non-app auth
+- id: pat-1774420290740
+  finding_title: duplicate memory token/octokit/repo resolution logic
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
