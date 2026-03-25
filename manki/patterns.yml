@@ -10279,8 +10279,18 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774451816624
-  finding_title: titlesrelated short-string bypass may cause false matches
+- id: pat-1774451815593
+  finding_title: same original can be matched to multiple judge entries
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774451818025
+  finding_title: no test for unmatched originals in merge path
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
