@@ -6228,8 +6228,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774412280032
-  finding_title: judgenotes and judgeconfidence added but unused in diff
+- id: pat-1774412280809
+  finding_title: models config lacks validation of model string format
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
@@ -6238,8 +6238,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774412281601
-  finding_title: ignored findings still posted as inline pr comments
+- id: pat-1774412282377
+  finding_title: no test for nit_handling 'comments' behavior path
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
