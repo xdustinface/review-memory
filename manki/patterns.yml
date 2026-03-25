@@ -5239,8 +5239,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774399277896
-  finding_title: no test verifies sanitizemarkdown is applied to result.summary in postreview
+- id: pat-1774399278640
+  finding_title: sanitizemarkdown 'already-backticked mentions' test has weak assertion
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
@@ -5249,9 +5249,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774399279425
-  finding_title: selectteam test for custom reviewers in small teams asserts >= 4
-    instead of exact count
+- id: pat-1774399280138
+  finding_title: no unit test for claude.ts spawn timeout or output-exceeded behavior
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
