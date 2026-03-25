@@ -987,8 +987,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774408849702
-  finding_title: retry loop blocks resize event processing for up to 3 seconds
+- id: pat-1774408850312
+  finding_title: ptyresizer::resize() blocks async runtime with pty syscall
   occurrences: 1
   repos:
     - fridi
