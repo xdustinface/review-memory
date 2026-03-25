@@ -8408,7 +8408,7 @@
   escalated: false
 - id: pat-1774418708782
   finding_title: unsanitized judgeconfidence interpolated into pr comment
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
