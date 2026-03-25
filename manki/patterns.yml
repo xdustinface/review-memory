@@ -7204,7 +7204,7 @@
   escalated: false
 - id: pat-1774415343884
   finding_title: unnecessary blank line added in memory.test.ts
-  occurrences: 3
+  occurrences: 4
   accepted_count: 0
   rejected_count: 0
   repos:
