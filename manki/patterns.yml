@@ -5015,8 +5015,18 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774398810823
-  finding_title: no test for getseveritylabel with unexpected severity value
+- id: pat-1774398809304
+  finding_title: sanitizemarkdown passes through raw urls that github will autolink
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774398812161
+  finding_title: drain handler never calls end() if child exits before drain fires
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
