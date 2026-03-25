@@ -1870,7 +1870,7 @@
   escalated: false
 - id: pat-1774426162057
   finding_title: side effects during render in workflowview
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
