@@ -3758,8 +3758,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774447197056
-  finding_title: "update_issue_body: stdin drop timing not guaranteed"
+- id: pat-1774447197963
+  finding_title: "race condition: concurrent checkbox toggles on same issue lose updates"
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
