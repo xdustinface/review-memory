@@ -2788,7 +2788,7 @@
   escalated: false
 - id: pat-1774435295181
   finding_title: race condition between manual refresh and polling coroutine
-  occurrences: 3
+  occurrences: 4
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -3307,8 +3307,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774437364949
-  finding_title: manual refresh and polling coroutine can race
+- id: pat-1774437363929
+  finding_title: duplicated fetch logic creates divergence risk
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
@@ -3317,8 +3317,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774437366531
-  finding_title: global static cache is never invalidated across dashboard unmount/remount
+- id: pat-1774437367611
+  finding_title: is_refreshing initialized to true but may not be accurate with cached data
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
