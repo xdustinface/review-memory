@@ -7579,14 +7579,14 @@
   escalated: false
 - id: pat-1774415445255
   finding_title: createnitissue receives all findings instead of only nits
-  occurrences: 4
+  occurrences: 5
   accepted_count: 0
   rejected_count: 0
   repos:
     - manki
   first_seen: 2026-03-25
   last_seen: 2026-03-25
-  escalated: false
+  escalated: true
 - id: pat-1774415446055
   finding_title: untrusted pr code context embedded in judge prompt without sanitization
   occurrences: 1
