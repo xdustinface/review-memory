@@ -3046,8 +3046,18 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774435522683
-  finding_title: seconds_since_fetch u16 will silently wrap after ~18 hours
+- id: pat-1774435521788
+  finding_title: mutex::lock().unwrap() on global cache can panic
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - fridi
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774435523684
+  finding_title: warm_overview_cache repeats the same sessionstore/fetch pattern
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
