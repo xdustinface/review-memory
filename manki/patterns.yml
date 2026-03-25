@@ -3957,14 +3957,14 @@
   escalated: false
 - id: pat-1774395265294
   finding_title: duplicated invalidcomments formatting logic
-  occurrences: 4
+  occurrences: 5
   accepted_count: 0
   rejected_count: 0
   repos:
     - manki
   first_seen: 2026-03-24
   last_seen: 2026-03-25
-  escalated: false
+  escalated: true
 - id: pat-1774395266112
   finding_title: selectteam always adds custom reviewers even on small teams —
     test documents but doesn't question
@@ -5741,8 +5741,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774402348207
-  finding_title: suggestedfix truncation in generalfindings doesn't handle surrogate pairs
+- id: pat-1774402347275
+  finding_title: numeric html entities bypass sanitizemarkdown
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
