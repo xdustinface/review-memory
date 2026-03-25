@@ -5319,8 +5319,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774399788737
-  finding_title: stdinkilltimer leaks if stdin.write throws
+- id: pat-1774399789488
+  finding_title: stdin drain never fires if child exits — process hangs on timer
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
@@ -5329,8 +5329,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774399790315
-  finding_title: output size check uses string length, not byte length
+- id: pat-1774399791136
+  finding_title: no test for sanitizemarkdown applied to result.summary in postreview
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
