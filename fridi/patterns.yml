@@ -3949,8 +3949,18 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774472083150
-  finding_title: backlog data written to world-readable /tmp on fallback
+- id: pat-1774472081987
+  finding_title: synchronous process spawn on every call in ui hot path
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - fridi
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774472084589
+  finding_title: free function breaks backlog's encapsulation of its path
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
