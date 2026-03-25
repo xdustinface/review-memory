@@ -2986,8 +2986,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774435509849
-  finding_title: mutex::lock().unwrap() can panic poisoning the dashboard
+- id: pat-1774435508209
+  finding_title: seconds_since_fetch overflow on u16 after ~18 hours
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
@@ -2996,8 +2996,19 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774435511667
-  finding_title: duplicated fetch logic between onclick handler and coroutine
+- id: pat-1774435510767
+  finding_title: manual refresh races with poll coroutine causing double-fetch and
+    state clobbering
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - fridi
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774435512722
+  finding_title: warm_overview_cache spawns fire-and-forget task with no error visibility
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
