@@ -2738,7 +2738,7 @@
   escalated: false
 - id: pat-1774435287370
   finding_title: large duplicated fetch-and-update block in onclick handler
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -3016,8 +3016,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774435516522
-  finding_title: seconds_since_fetch u16 overflows after ~18 hours
+- id: pat-1774435515569
+  finding_title: manual refresh doesn't cancel/reset the polling coroutine timer
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
