@@ -4854,8 +4854,9 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774398348258
-  finding_title: buildnitissuebody uses weaker sanitization than new sanitizemarkdown
+- id: pat-1774398348903
+  finding_title: no test for dynamic fence in formatfindingcomment with backticks
+    in suggestedfix
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
