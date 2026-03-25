@@ -1389,16 +1389,24 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774417138635
-  finding_title: tracked sessions vec is never cleaned up on tab close
+- id: pat-1774417137797
+  finding_title: spawned session listeners are never cancelled on tab close
   occurrences: 1
   repos:
     - fridi
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774417140303
-  finding_title: "`session_id.clone()` on every received event"
+- id: pat-1774417139628
+  finding_title: unnecessary `mut` on signal parameter in `spawn_session_listener`
+  occurrences: 1
+  repos:
+    - fridi
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774417141123
+  finding_title: write lock held across entire event match arm
   occurrences: 1
   repos:
     - fridi
