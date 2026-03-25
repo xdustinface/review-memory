@@ -3667,8 +3667,18 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774446740923
-  finding_title: checkbox parsing/toggling logic belongs in fridi-core, not the ui crate
+- id: pat-1774446739615
+  finding_title: render_issue_detail has too many parameters — consider a context struct
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - fridi
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774446742052
+  finding_title: update_issue_body uses inline import for std::io::write
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
