@@ -9598,8 +9598,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774439438888
-  finding_title: missing test for mutation failure (error path)
+- id: pat-1774439439743
+  finding_title: missing test for empty comments array
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
