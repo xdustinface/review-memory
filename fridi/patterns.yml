@@ -786,16 +786,16 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774406226837
-  finding_title: pty default size 200x50 is excessive and may break cli tool output
+- id: pat-1774406227953
+  finding_title: no bridge from js resize event to ptyprocess::resize()
   occurrences: 1
   repos:
     - fridi
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774406228894
-  finding_title: resize() should validate that cols/rows are non-zero
+- id: pat-1774406229818
+  finding_title: resize() should be pub(crate) instead of pub
   occurrences: 1
   repos:
     - fridi
