@@ -2445,7 +2445,7 @@
   escalated: false
 - id: pat-1774433865439
   finding_title: mutex::lock().unwrap() can panic on poisoned lock
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
