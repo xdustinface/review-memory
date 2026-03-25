@@ -8596,8 +8596,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774426677531
-  finding_title: using `any` type bypasses compile-time safety for api params
+- id: pat-1774426678345
+  finding_title: unsanitized file path in reviewer user message
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
@@ -8606,8 +8606,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774426678422
-  finding_title: unsafe use of `any` bypasses type safety for api params
+- id: pat-1774426679295
+  finding_title: file content in prompt could break code fence
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
