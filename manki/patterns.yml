@@ -5529,8 +5529,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774400784876
-  finding_title: no test for sanitizemarkdown with crafted bot_marker injection
+- id: pat-1774400785567
+  finding_title: postreview test uses loose assertion on truncated body length
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
@@ -5539,8 +5539,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774400786264
-  finding_title: truncatebody word-boundary test assertion may be fragile
+- id: pat-1774400787301
+  finding_title: sanitizemarkdown does not neutralize raw html entities
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
