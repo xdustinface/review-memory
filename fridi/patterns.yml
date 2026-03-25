@@ -1220,3 +1220,12 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
+- id: pat-1774412997579
+  finding_title: relative_time_from_dt returns '0m ago' is impossible but max(1)
+    hides sub-minute granularity
+  occurrences: 1
+  repos:
+    - fridi
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
