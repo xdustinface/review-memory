@@ -1051,8 +1051,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774411363209
-  finding_title: save errors silently swallowed with eprintln
+- id: pat-1774411363820
+  finding_title: displayitem clones all backlogitem fields
   occurrences: 1
   repos:
     - fridi
