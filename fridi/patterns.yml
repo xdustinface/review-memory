@@ -1333,8 +1333,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774416338340
-  finding_title: use hashset instead of vec for `tracked`
+- id: pat-1774416338941
+  finding_title: polling loop still used to detect new receivers
   occurrences: 1
   repos:
     - fridi
