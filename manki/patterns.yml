@@ -10620,8 +10620,8 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774470175577
-  finding_title: unhandled promise in onprogress callback
+- id: pat-1774470176643
+  finding_title: duplicate selectteam call
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
