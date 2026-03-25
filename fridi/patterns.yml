@@ -1670,8 +1670,16 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774419512901
-  finding_title: inline import of base64 engine violates project convention
+- id: pat-1774419512284
+  finding_title: stale closure captures snapshot of `output`, risking data loss
+  occurrences: 1
+  repos:
+    - fridi
+  first_seen: 2026-03-25
+  last_seen: 2026-03-25
+  escalated: false
+- id: pat-1774419513791
+  finding_title: silently swallowed eval error advances written_len
   occurrences: 1
   repos:
     - fridi
