@@ -4059,8 +4059,8 @@
   first_seen: 2026-03-26
   last_seen: 2026-03-26
   escalated: false
-- id: pat-1774551827898
-  finding_title: sidebar z-index lower than its own edge strip
+- id: pat-1774551828998
+  finding_title: escape closes pinned sidebar unexpectedly
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
