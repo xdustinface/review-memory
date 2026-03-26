@@ -4099,3 +4099,13 @@
   first_seen: 2026-03-26
   last_seen: 2026-03-26
   escalated: false
+- id: pat-1774552252476
+  finding_title: hardcoded relative path assumes cwd is repo root
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - fridi
+  first_seen: 2026-03-26
+  last_seen: 2026-03-26
+  escalated: false
