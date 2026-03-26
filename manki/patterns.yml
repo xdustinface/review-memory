@@ -10750,3 +10750,13 @@
   first_seen: 2026-03-26
   last_seen: 2026-03-26
   escalated: false
+- id: pat-1774533865728
+  finding_title: missing test for code fence column-0 positioning
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-26
+  last_seen: 2026-03-26
+  escalated: false
