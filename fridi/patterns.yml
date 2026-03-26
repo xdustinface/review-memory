@@ -4089,3 +4089,13 @@
   first_seen: 2026-03-26
   last_seen: 2026-03-26
   escalated: false
+- id: pat-1774551870497
+  finding_title: scan_workflow_dir silently ignores malformed yaml files
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - fridi
+  first_seen: 2026-03-26
+  last_seen: 2026-03-26
+  escalated: false
