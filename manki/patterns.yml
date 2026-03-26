@@ -10811,3 +10811,13 @@
   first_seen: 2026-03-26
   last_seen: 2026-03-26
   escalated: false
+- id: pat-1774548922797
+  finding_title: judge failure loses ai summary, falls back silently
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-26
+  last_seen: 2026-03-26
+  escalated: false
