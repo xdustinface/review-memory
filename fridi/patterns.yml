@@ -4029,3 +4029,13 @@
   first_seen: 2026-03-26
   last_seen: 2026-03-26
   escalated: false
+- id: pat-1774548874270
+  finding_title: non-unique key when workflow names collide
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - fridi
+  first_seen: 2026-03-26
+  last_seen: 2026-03-26
+  escalated: false
