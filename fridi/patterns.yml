@@ -4079,8 +4079,8 @@
   first_seen: 2026-03-26
   last_seen: 2026-03-26
   escalated: false
-- id: pat-1774551868929
-  finding_title: duplicate workflow names would produce non-unique keys
+- id: pat-1774551869690
+  finding_title: loaded workflow's repo config is not merged with session repo
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
