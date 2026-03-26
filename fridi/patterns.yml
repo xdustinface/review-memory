@@ -4069,8 +4069,8 @@
   first_seen: 2026-03-26
   last_seen: 2026-03-26
   escalated: false
-- id: pat-1774551864346
-  finding_title: hardcoded workflows directory path duplicated across files
+- id: pat-1774551865366
+  finding_title: workflow loaded twice creates toctou window
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
