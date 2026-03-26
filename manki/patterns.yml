@@ -10730,8 +10730,18 @@
   first_seen: 2026-03-25
   last_seen: 2026-03-25
   escalated: false
-- id: pat-1774533727551
-  finding_title: dedup key is case-sensitive
+- id: pat-1774533726109
+  finding_title: dedup silently drops reviewer attribution
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-26
+  last_seen: 2026-03-26
+  escalated: false
+- id: pat-1774533728878
+  finding_title: no test for case-sensitivity behavior of dedup
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
