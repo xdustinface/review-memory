@@ -10790,3 +10790,14 @@
   first_seen: 2026-03-26
   last_seen: 2026-03-26
   escalated: false
+- id: pat-1774548920531
+  finding_title: judge summary passed through sanitizemarkdown but not
+    length-bounded before embedding
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-26
+  last_seen: 2026-03-26
+  escalated: false
