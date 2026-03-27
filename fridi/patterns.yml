@@ -4249,8 +4249,8 @@
   first_seen: 2026-03-27
   last_seen: 2026-03-27
   escalated: false
-- id: pat-1774585879527
-  finding_title: hint assumes macos keyboard shortcut
+- id: pat-1774585880203
+  finding_title: repo rows have hover style but aren't interactive
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
