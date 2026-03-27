@@ -4121,13 +4121,13 @@
   escalated: false
 - id: pat-1774552254544
   finding_title: non-unique dioxus key when workflow names collide
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
     - fridi
   first_seen: 2026-03-26
-  last_seen: 2026-03-26
+  last_seen: 2026-03-27
   escalated: false
 - id: pat-1774552259781
   finding_title: inline import of std::path::path
