@@ -4159,3 +4159,13 @@
   first_seen: 2026-03-27
   last_seen: 2026-03-27
   escalated: false
+- id: pat-1774581438460
+  finding_title: sync filesystem i/o in scan_workflow_dir silently ignores parse failures
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - fridi
+  first_seen: 2026-03-27
+  last_seen: 2026-03-27
+  escalated: false
