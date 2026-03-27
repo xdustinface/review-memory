@@ -4011,7 +4011,7 @@
   escalated: false
 - id: pat-1774548871934
   finding_title: hardcoded relative path for workflows directory
-  occurrences: 2
+  occurrences: 3
   accepted_count: 0
   rejected_count: 0
   repos:
