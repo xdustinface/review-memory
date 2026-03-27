@@ -4149,3 +4149,13 @@
   first_seen: 2026-03-27
   last_seen: 2026-03-27
   escalated: false
+- id: pat-1774581437188
+  finding_title: accept &path instead of &pathbuf
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - fridi
+  first_seen: 2026-03-27
+  last_seen: 2026-03-27
+  escalated: false
