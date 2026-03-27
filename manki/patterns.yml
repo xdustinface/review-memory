@@ -10891,8 +10891,8 @@
   first_seen: 2026-03-27
   last_seen: 2026-03-27
   escalated: false
-- id: pat-1774590508033
-  finding_title: failed install promise is cached permanently
+- id: pat-1774590509691
+  finding_title: resetcliinstallpromise is test-only but exported without annotation
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
