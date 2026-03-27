@@ -10981,3 +10981,13 @@
   first_seen: 2026-03-27
   last_seen: 2026-03-27
   escalated: false
+- id: pat-1774607046705
+  finding_title: test could verify html structure of details/summary tags
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-27
+  last_seen: 2026-03-27
+  escalated: false
