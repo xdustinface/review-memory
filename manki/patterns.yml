@@ -10971,8 +10971,8 @@
   first_seen: 2026-03-27
   last_seen: 2026-03-27
   escalated: false
-- id: pat-1774607043233
-  finding_title: reviewlevelreason always says 'auto' even for explicit config
+- id: pat-1774607044685
+  finding_title: missing test for error/failure path in updateprogresscomment
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
