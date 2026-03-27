@@ -10981,8 +10981,8 @@
   first_seen: 2026-03-27
   last_seen: 2026-03-27
   escalated: false
-- id: pat-1774607046705
-  finding_title: test could verify html structure of details/summary tags
+- id: pat-1774607048233
+  finding_title: unbounded iteration over alljudgedfindings for metadata
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
