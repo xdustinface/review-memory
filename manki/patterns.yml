@@ -10931,3 +10931,13 @@
   first_seen: 2026-03-27
   last_seen: 2026-03-27
   escalated: false
+- id: pat-1774607034762
+  finding_title: unsanitized llm output in judge decisions rendered to github comment
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-27
+  last_seen: 2026-03-27
+  escalated: false
