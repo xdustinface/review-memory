@@ -4320,8 +4320,8 @@
   first_seen: 2026-03-27
   last_seen: 2026-03-27
   escalated: false
-- id: pat-1774589612580
-  finding_title: session delete failure is silent to the user
+- id: pat-1774589613434
+  finding_title: tabs write guard held across filesystem i/o
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
