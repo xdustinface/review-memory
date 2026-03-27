@@ -10951,8 +10951,8 @@
   first_seen: 2026-03-27
   last_seen: 2026-03-27
   escalated: false
-- id: pat-1774607037843
-  finding_title: metadata construction in index.ts duplicates domain logic
+- id: pat-1774607039460
+  finding_title: judge decision mapping uses finding shape instead of judgedecision
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
