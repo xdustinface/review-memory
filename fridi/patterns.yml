@@ -4139,8 +4139,8 @@
   first_seen: 2026-03-26
   last_seen: 2026-03-26
   escalated: false
-- id: pat-1774579005890
-  finding_title: inline import of std::path::path in workflow_runner
+- id: pat-1774579007117
+  finding_title: scan_workflow_dir silently swallows yaml parse errors
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
