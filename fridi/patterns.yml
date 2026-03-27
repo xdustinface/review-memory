@@ -4289,3 +4289,13 @@
   first_seen: 2026-03-27
   last_seen: 2026-03-27
   escalated: false
+- id: pat-1774586898189
+  finding_title: fallback else branch shows welcomescreen for non-session panes
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - fridi
+  first_seen: 2026-03-27
+  last_seen: 2026-03-27
+  escalated: false
