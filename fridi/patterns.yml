@@ -4249,8 +4249,18 @@
   first_seen: 2026-03-27
   last_seen: 2026-03-27
   escalated: false
-- id: pat-1774585880203
-  finding_title: repo rows have hover style but aren't interactive
+- id: pat-1774585879527
+  finding_title: hint assumes macos keyboard shortcut
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - fridi
+  first_seen: 2026-03-27
+  last_seen: 2026-03-27
+  escalated: false
+- id: pat-1774585881005
+  finding_title: no cap on number of displayed repos
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
