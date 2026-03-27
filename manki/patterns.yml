@@ -10871,3 +10871,13 @@
   first_seen: 2026-03-26
   last_seen: 2026-03-26
   escalated: false
+- id: pat-1774585126235
+  finding_title: large unoptimized svg asset (232k, 7796 lines)
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-27
+  last_seen: 2026-03-27
+  escalated: false
