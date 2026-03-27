@@ -3991,13 +3991,13 @@
   escalated: false
 - id: pat-1774548869298
   finding_title: synchronous filesystem i/o on the ui thread
-  occurrences: 2
+  occurrences: 3
   accepted_count: 0
   rejected_count: 0
   repos:
     - fridi
   first_seen: 2026-03-26
-  last_seen: 2026-03-26
+  last_seen: 2026-03-27
   escalated: false
 - id: pat-1774548870760
   finding_title: workflow file parsed twice on selection
