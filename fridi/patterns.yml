@@ -4229,8 +4229,18 @@
   first_seen: 2026-03-27
   last_seen: 2026-03-27
   escalated: false
-- id: pat-1774584529051
-  finding_title: inline imports in test violate project convention
+- id: pat-1774584528418
+  finding_title: sequential retries block sibling step processing
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - fridi
+  first_seen: 2026-03-27
+  last_seen: 2026-03-27
+  escalated: false
+- id: pat-1774584529696
+  finding_title: non-deterministic panic handling order
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
