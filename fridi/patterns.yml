@@ -4229,8 +4229,8 @@
   first_seen: 2026-03-27
   last_seen: 2026-03-27
   escalated: false
-- id: pat-1774584528418
-  finding_title: sequential retries block sibling step processing
+- id: pat-1774584529051
+  finding_title: inline imports in test violate project convention
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
