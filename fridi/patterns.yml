@@ -4400,3 +4400,13 @@
   first_seen: 2026-03-28
   last_seen: 2026-03-28
   escalated: false
+- id: pat-1774670326293
+  finding_title: pr created via command palette has empty head_ref
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - fridi
+  first_seen: 2026-03-28
+  last_seen: 2026-03-28
+  escalated: false
