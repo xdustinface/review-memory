@@ -4360,3 +4360,13 @@
   first_seen: 2026-03-28
   last_seen: 2026-03-28
   escalated: false
+- id: pat-1774670319958
+  finding_title: shortcut hint says "cmd+p" but ctrl+p is used on non-mac
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - fridi
+  first_seen: 2026-03-28
+  last_seen: 2026-03-28
+  escalated: false
