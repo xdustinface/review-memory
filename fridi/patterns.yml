@@ -4440,3 +4440,13 @@
   first_seen: 2026-03-28
   last_seen: 2026-03-28
   escalated: false
+- id: pat-1774687594463
+  finding_title: home and backlog tabs sit outside the scroll area
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - fridi
+  first_seen: 2026-03-28
+  last_seen: 2026-03-28
+  escalated: false
