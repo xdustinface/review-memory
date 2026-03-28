@@ -4480,3 +4480,13 @@
   first_seen: 2026-03-28
   last_seen: 2026-03-28
   escalated: false
+- id: pat-1774701221253
+  finding_title: command palette hint hardcodes macos modifier key
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - fridi
+  first_seen: 2026-03-28
+  last_seen: 2026-03-28
+  escalated: false
