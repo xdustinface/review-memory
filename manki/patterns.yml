@@ -11201,3 +11201,13 @@
   first_seen: 2026-03-28
   last_seen: 2026-03-28
   escalated: false
+- id: pat-1774667145265
+  finding_title: judge decision derived from finding instead of judgedecision
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-28
+  last_seen: 2026-03-28
+  escalated: false
