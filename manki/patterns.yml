@@ -11211,3 +11211,13 @@
   first_seen: 2026-03-28
   last_seen: 2026-03-28
   escalated: false
+- id: pat-1774667146088
+  finding_title: hardcoded 'auto' reason string may drift from actual logic
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-28
+  last_seen: 2026-03-28
+  escalated: false
