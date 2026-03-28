@@ -11131,3 +11131,13 @@
   first_seen: 2026-03-28
   last_seen: 2026-03-28
   escalated: false
+- id: pat-1774666775016
+  finding_title: misleading log when non-manki app is installed
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-28
+  last_seen: 2026-03-28
+  escalated: false
