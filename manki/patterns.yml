@@ -11121,3 +11121,13 @@
   first_seen: 2026-03-28
   last_seen: 2026-03-28
   escalated: false
+- id: pat-1774666774250
+  finding_title: duplicate fallback default for `manki_token_url`
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-28
+  last_seen: 2026-03-28
+  escalated: false
