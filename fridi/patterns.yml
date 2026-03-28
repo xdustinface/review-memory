@@ -4370,3 +4370,13 @@
   first_seen: 2026-03-28
   last_seen: 2026-03-28
   escalated: false
+- id: pat-1774670320830
+  finding_title: no unit tests for parse_input
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - fridi
+  first_seen: 2026-03-28
+  last_seen: 2026-03-28
+  escalated: false
