@@ -11191,3 +11191,13 @@
   first_seen: 2026-03-28
   last_seen: 2026-03-28
   escalated: false
+- id: pat-1774667144443
+  finding_title: reviewmetadata construction inlined in orchestrator
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-28
+  last_seen: 2026-03-28
+  escalated: false
