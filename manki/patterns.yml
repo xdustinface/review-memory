@@ -11805,7 +11805,7 @@
   escalated: false
 - id: pat-1774763056893
   finding_title: duplicated setupspawnmock helpers across describe blocks
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
