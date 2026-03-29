@@ -12113,3 +12113,13 @@
   first_seen: 2026-03-29
   last_seen: 2026-03-29
   escalated: false
+- id: pat-1774771130281
+  finding_title: no test for pull_request_review 'dismissed' action
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-29
+  last_seen: 2026-03-29
+  escalated: false
