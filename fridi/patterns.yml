@@ -4512,13 +4512,13 @@
   escalated: false
 - id: pat-1774701223357
   finding_title: pr session created with empty head_ref
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
     - fridi
   first_seen: 2026-03-28
-  last_seen: 2026-03-28
+  last_seen: 2026-03-29
   escalated: false
 - id: pat-1774762953183
   finding_title: cmd+p intercepts browser/os print shortcut
