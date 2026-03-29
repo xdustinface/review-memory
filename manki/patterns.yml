@@ -11404,12 +11404,12 @@
 - id: pat-1774688495625
   finding_title: test doesn't verify request method is post
   occurrences: 1
-  accepted_count: 0
+  accepted_count: 1
   rejected_count: 0
   repos:
     - manki
   first_seen: 2026-03-28
-  last_seen: 2026-03-28
+  last_seen: 2026-03-29
   escalated: false
 - id: pat-1774688499566
   finding_title: hardcoded `@manki` check remains in handlereviewcommentinteraction
