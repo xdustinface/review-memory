@@ -12093,3 +12093,13 @@
   first_seen: 2026-03-29
   last_seen: 2026-03-29
   escalated: false
+- id: pat-1774771128389
+  finding_title: main() error test may not catch the right error path
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-29
+  last_seen: 2026-03-29
+  escalated: false
