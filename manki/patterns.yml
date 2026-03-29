@@ -11825,7 +11825,7 @@
   escalated: false
 - id: pat-1774763058694
   finding_title: writesuppression test doesn't verify appended content
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
