@@ -12397,7 +12397,7 @@
 - id: pat-1774824924945
   finding_title: missing test for undefined sender.type (human without type field)
   occurrences: 1
-  accepted_count: 0
+  accepted_count: 1
   rejected_count: 0
   repos:
     - manki
@@ -12407,7 +12407,7 @@
 - id: pat-1774824926642
   finding_title: reviewauthortype check may log wrong actor name
   occurrences: 1
-  accepted_count: 0
+  accepted_count: 1
   rejected_count: 0
   repos:
     - manki
@@ -12417,7 +12417,7 @@
 - id: pat-1774824928318
   finding_title: test for review.user.type path has no sender in payload
   occurrences: 1
-  accepted_count: 0
+  accepted_count: 1
   rejected_count: 0
   repos:
     - manki
