@@ -12414,3 +12414,13 @@
   first_seen: 2026-03-29
   last_seen: 2026-03-29
   escalated: false
+- id: pat-1774824928318
+  finding_title: test for review.user.type path has no sender in payload
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-29
+  last_seen: 2026-03-29
+  escalated: false
