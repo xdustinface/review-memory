@@ -11935,7 +11935,7 @@
   escalated: false
 - id: pat-1774767683522
   finding_title: review_passes not in makeconfig defaults
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
