@@ -11461,3 +11461,13 @@
   first_seen: 2026-03-29
   last_seen: 2026-03-29
   escalated: false
+- id: pat-1774749864075
+  finding_title: readme quick-start yaml missing id-token permission
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-29
+  last_seen: 2026-03-29
+  escalated: false
