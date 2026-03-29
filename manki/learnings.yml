@@ -46,3 +46,9 @@
   scope: repo
   source: xdustinface/manki#249
   created_at: 2026-03-27
+- id: accept-1774749568524-ot5m
+  content: Finding pattern "Test doesn't verify request method is POST" was
+    accepted for fix — team considers this valuable
+  scope: repo
+  source: xdustinface/manki#266
+  created_at: 2026-03-29
