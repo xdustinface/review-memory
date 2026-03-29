@@ -64,3 +64,9 @@
   scope: repo
   source: xdustinface/manki#314
   created_at: 2026-03-29
+- id: accept-1774825081446-bmal
+  content: Finding pattern "reviewAuthorType check may log wrong actor name" was
+    accepted for fix — team considers this valuable
+  scope: repo
+  source: xdustinface/manki#314
+  created_at: 2026-03-29
