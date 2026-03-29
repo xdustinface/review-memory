@@ -11541,3 +11541,14 @@
   first_seen: 2026-03-29
   last_seen: 2026-03-29
   escalated: false
+- id: pat-1774753355592
+  finding_title: isreviewinprogress only checks `pull_request` events, misses
+    comment-triggered runs
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-29
+  last_seen: 2026-03-29
+  escalated: false
