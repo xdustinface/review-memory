@@ -11863,3 +11863,13 @@
   first_seen: 2026-03-29
   last_seen: 2026-03-29
   escalated: false
+- id: pat-1774766967420
+  finding_title: misleading assertion value in retry test
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-29
+  last_seen: 2026-03-29
+  escalated: false
