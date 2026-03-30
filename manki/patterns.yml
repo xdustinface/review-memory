@@ -12744,3 +12744,13 @@
   first_seen: 2026-03-30
   last_seen: 2026-03-30
   escalated: false
+- id: pat-1774898573578
+  finding_title: hardcoded confidence threshold should be a named constant
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-30
+  last_seen: 2026-03-30
+  escalated: false
