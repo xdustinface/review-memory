@@ -82,3 +82,11 @@
   scope: repo
   source: xdustinface/manki#327
   created_at: 2026-03-30
+- id: learn-1774870669144
+  content: "User context on \"src/interaction.ts\": Fixed in 016b17d: removed
+    `'review'` from `prOnlyCommands` in both `handlePRComment` and
+    `handleReviewCommentCommand` since `parseCommand` never returns `type:
+    'review'`."
+  scope: repo
+  source: xdustinface/manki#337
+  created_at: 2026-03-30
