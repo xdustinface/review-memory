@@ -12894,3 +12894,13 @@
   first_seen: 2026-03-30
   last_seen: 2026-03-30
   escalated: false
+- id: pat-1774913902998
+  finding_title: severitychanges metric is a proxy, not actual severity changes
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-30
+  last_seen: 2026-03-30
+  escalated: false
