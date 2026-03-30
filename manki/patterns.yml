@@ -12784,3 +12784,13 @@
   first_seen: 2026-03-30
   last_seen: 2026-03-30
   escalated: false
+- id: pat-1774910213896
+  finding_title: unintended behavior change for issue_comment events
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-30
+  last_seen: 2026-03-30
+  escalated: false
