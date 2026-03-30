@@ -12564,3 +12564,13 @@
   first_seen: 2026-03-30
   last_seen: 2026-03-30
   escalated: false
+- id: pat-1774829352418
+  finding_title: module-level mutable state with no reset guard
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-30
+  last_seen: 2026-03-30
+  escalated: false
