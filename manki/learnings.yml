@@ -162,12 +162,11 @@
   scope: repo
   source: xdustinface/manki#346
   created_at: 2026-03-30
-- id: learn-1774914035037
-  content: 'User context on "src/index.ts": Acknowledged — this is explicitly
-    documented as a proxy in the issue. Accurate severity change tracking
-    requires storing the original severity before judge evaluation, which is a
-    deeper pipeline change. The proxy is useful for now and can be refined when
-    we add proper before/after tracking.'
+- id: learn-1774914035558
+  content: 'User context on "src/index.ts": Good catch. In practice
+    rawFindingCount should always be ＞= allJudged.length (judge merges reduce
+    count), but adding a Math.max(0, ...) guard is reasonable. Will address in a
+    follow-up if it causes issues in production data.'
   scope: repo
   source: xdustinface/manki#348
   created_at: 2026-03-30
