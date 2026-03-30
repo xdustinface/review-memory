@@ -12644,3 +12644,13 @@
   first_seen: 2026-03-30
   last_seen: 2026-03-30
   escalated: false
+- id: pat-1774870540586
+  finding_title: duplicate pronlycommands definition
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-30
+  last_seen: 2026-03-30
+  escalated: false
