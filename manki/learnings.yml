@@ -365,3 +365,12 @@
   scope: repo
   source: xdustinface/manki#364
   created_at: 2026-03-31
+- id: learn-1774936008677
+  content: 'User context on "src/config.ts": `claude-haiku-4-5` is a valid model
+    alias that always resolves to the latest Haiku 4.5 release. The
+    date-suffixed variant (`claude-haiku-4-5-20251001`) pins to a specific
+    snapshot. Using the alias is intentional so it automatically picks up
+    improvements without config changes.'
+  scope: repo
+  source: xdustinface/manki#364
+  created_at: 2026-03-31
