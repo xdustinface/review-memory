@@ -419,3 +419,11 @@
   scope: repo
   source: xdustinface/manki#372
   created_at: 2026-03-31
+- id: learn-1774937863608
+  content: 'User context on "src/recap.ts": Fixed: `sanitizeHtml` now escapes `&`
+    first (before `＜`, `＞`, `"`) to prevent HTML entity injection via payloads
+    like `&lt;script&gt;` in finding titles. Added a dedicated test case for
+    ampersand escaping.'
+  scope: repo
+  source: xdustinface/manki#372
+  created_at: 2026-03-31
