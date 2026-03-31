@@ -320,3 +320,12 @@
   scope: repo
   source: xdustinface/manki#361
   created_at: 2026-03-31
+- id: learn-1774934890573
+  content: "User context on \"src/index.ts\": Intentional — the issue spec (#363)
+    explicitly requires using a cheap/fast model (Haiku) for this classification
+    task. Adding a `dedup` stage to `resolveModel` would be scope creep since
+    there's no config surface for it yet. If we add configurable dedup models
+    later, we can extend `resolveModel` then."
+  scope: repo
+  source: xdustinface/manki#364
+  created_at: 2026-03-31
