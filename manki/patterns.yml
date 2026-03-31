@@ -13425,3 +13425,14 @@
   first_seen: 2026-03-31
   last_seen: 2026-03-31
   escalated: false
+- id: pat-1774928718166
+  finding_title: multi-pass mode test doesn't verify rawfindingcount in
+    reviewed/judging callbacks
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-31
+  last_seen: 2026-03-31
+  escalated: false
