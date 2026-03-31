@@ -223,3 +223,12 @@
   scope: repo
   source: xdustinface/manki#357
   created_at: 2026-03-31
+- id: learn-1774926444935
+  content: 'User context on "src/review.ts": This is intentional. The flat
+    interface with optional fields works well for a 3-phase callback — it keeps
+    call sites simple and avoids type gymnastics. A discriminated union would be
+    worthwhile if we add more phases, but for now the tradeoff favors
+    simplicity.'
+  scope: repo
+  source: xdustinface/manki#357
+  created_at: 2026-03-31
