@@ -170,3 +170,10 @@
   scope: repo
   source: xdustinface/manki#348
   created_at: 2026-03-30
+- id: learn-1774925382446
+  content: 'User context on "src/review.test.ts": Fixed — added test `fires
+    onProgress per agent in multi-pass mode` that verifies all 3 agents fire
+    `agent-complete` with `success` status and valid `agentDurationMs`.'
+  scope: repo
+  source: xdustinface/manki#357
+  created_at: 2026-03-31
