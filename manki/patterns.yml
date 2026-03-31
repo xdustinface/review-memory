@@ -14015,3 +14015,13 @@
   first_seen: 2026-03-31
   last_seen: 2026-03-31
   escalated: false
+- id: pat-1774936278586
+  finding_title: o(n) matches.find() inside iteration loop — build a map instead
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-31
+  last_seen: 2026-03-31
+  escalated: false
