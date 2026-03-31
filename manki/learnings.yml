@@ -240,3 +240,12 @@
   scope: repo
   source: xdustinface/manki#357
   created_at: 2026-03-31
+- id: learn-1774927203421
+  content: 'User context on "src/review.test.ts": Fixed. Added a test that sets up
+    memory with a suppression pattern, has `runReview` emit a judging progress
+    callback with `judgeInputCount: 4` and `rawFindingCount: 6`, then verifies
+    the dashboard reflects `judgeInputCount ＜ rawFindingCount` and that
+    suppressions were passed to `deduplicateFindings`.'
+  scope: repo
+  source: xdustinface/manki#357
+  created_at: 2026-03-31
