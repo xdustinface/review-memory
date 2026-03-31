@@ -13801,3 +13801,14 @@
   first_seen: 2026-03-31
   last_seen: 2026-03-31
   escalated: false
+- id: pat-1774935078433
+  finding_title: no test coverage for mixed open+resolved previous findings in
+    llmdeduplicatefindings
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-31
+  last_seen: 2026-03-31
+  escalated: false
