@@ -13718,3 +13718,13 @@
   first_seen: 2026-03-31
   last_seen: 2026-03-31
   escalated: false
+- id: pat-1774934617798
+  finding_title: claudeclient instantiated before confirming dismissed findings exist
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-31
+  last_seen: 2026-03-31
+  escalated: false
