@@ -279,3 +279,12 @@
   scope: repo
   source: xdustinface/manki#357
   created_at: 2026-03-31
+- id: learn-1774928428131
+  content: 'User context on "src/review.ts": Valid observation but benign — when 0
+    findings exist, the judging phase shows "evaluating 0 findings" briefly
+    before completing. The dashboard update is a no-op visually since it
+    transitions to complete immediately after. Not worth adding a conditional to
+    skip the callback for this edge case.'
+  scope: repo
+  source: xdustinface/manki#357
+  created_at: 2026-03-31
