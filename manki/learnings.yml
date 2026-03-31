@@ -288,3 +288,11 @@
   scope: repo
   source: xdustinface/manki#357
   created_at: 2026-03-31
+- id: learn-1774928947795
+  content: "User context on \"src/github.ts\": Agent names come from either the
+    hardcoded AGENT_POOL constant or the repo owner's own .manki.yml config.
+    Both are trusted sources — there is no untrusted user input path to agent
+    names. Sanitizing would be defense-in-depth but not necessary here."
+  scope: repo
+  source: xdustinface/manki#357
+  created_at: 2026-03-31
