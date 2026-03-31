@@ -13274,7 +13274,7 @@
   escalated: false
 - id: pat-1774927712923
   finding_title: formatduration boundary at exactly 1000ms not tested
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
