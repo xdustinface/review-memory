@@ -13660,7 +13660,7 @@
   escalated: false
 - id: pat-1774933532793
   finding_title: claudeclient allocated when no dismissed findings exist
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
