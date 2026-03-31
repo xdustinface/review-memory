@@ -475,3 +475,10 @@
   scope: repo
   source: xdustinface/manki#382
   created_at: 2026-03-31
+- id: learn-1774960686929
+  content: 'User context on "src/judge.ts": Fixed — replaced double quotes with
+    single quotes in the follow-up `summaryInstruction` to avoid corrupting the
+    JSON template.'
+  scope: repo
+  source: xdustinface/manki#382
+  created_at: 2026-03-31
