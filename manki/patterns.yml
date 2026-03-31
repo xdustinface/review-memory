@@ -13668,3 +13668,13 @@
   first_seen: 2026-03-31
   last_seen: 2026-03-31
   escalated: false
+- id: pat-1774934156252
+  finding_title: bot detection relies on login naming convention instead of type field
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-31
+  last_seen: 2026-03-31
+  escalated: false
