@@ -12965,3 +12965,13 @@
   first_seen: 2026-03-31
   last_seen: 2026-03-31
   escalated: false
+- id: pat-1774924996453
+  finding_title: reviewed and judging phase handlers in index.ts are near-duplicate
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-31
+  last_seen: 2026-03-31
+  escalated: false
