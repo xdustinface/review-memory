@@ -409,3 +409,13 @@
   scope: repo
   source: xdustinface/manki#372
   created_at: 2026-03-31
+- id: learn-1774937579855
+  content: 'User context on "src/index.ts": Fixed: Moved the collapsed dedup
+    `＜details＞` block construction into `buildRecapSummary` in `recap.ts` by
+    adding an optional `duplicateMatches` parameter. The inline rendering in
+    `index.ts` is now a single call: `buildRecapSummary(newCount, dupes,
+    resolved, open, allDuplicateMatches)`. This also incorporates the HTML
+    sanitization from the other thread.'
+  scope: repo
+  source: xdustinface/manki#372
+  created_at: 2026-03-31
