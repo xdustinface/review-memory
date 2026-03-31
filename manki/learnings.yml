@@ -200,3 +200,11 @@
   scope: repo
   source: xdustinface/manki#357
   created_at: 2026-03-31
+- id: learn-1774925396012
+  content: 'User context on "src/index.ts": Fixed — added `judgeInputCount` to
+    both `ReviewProgress` and `DashboardData`. The `judging` phase now preserves
+    `rawFindingCount` from the agent total and passes the post-suppression count
+    via `judgeInputCount`. The dashboard renders them independently.'
+  scope: repo
+  source: xdustinface/manki#357
+  created_at: 2026-03-31
