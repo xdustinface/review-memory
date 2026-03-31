@@ -329,3 +329,9 @@
   scope: repo
   source: xdustinface/manki#364
   created_at: 2026-03-31
+- id: learn-1774935273074
+  content: 'User context on "src/recap.ts": Fixed: `sanitize` now escapes double
+    quotes to prevent prompt injection via crafted titles.'
+  scope: repo
+  source: xdustinface/manki#364
+  created_at: 2026-03-31
