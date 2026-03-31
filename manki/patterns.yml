@@ -13240,3 +13240,14 @@
   first_seen: 2026-03-31
   last_seen: 2026-03-31
   escalated: false
+- id: pat-1774927710154
+  finding_title: "`completedashboard` drops `agentprogress`, losing per-agent
+    detail from the final audit comment"
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-31
+  last_seen: 2026-03-31
+  escalated: false
