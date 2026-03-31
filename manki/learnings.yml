@@ -341,3 +341,11 @@
   scope: repo
   source: xdustinface/manki#364
   created_at: 2026-03-31
+- id: learn-1774935654007
+  content: 'User context on "src/recap.test.ts": Fixed: added a test that mocks
+    the LLM returning `matchedDismissed: 99` with only 2 dismissed findings.
+    Verifies the finding stays in `unique` and `duplicates` is empty, confirming
+    the existing bounds check works correctly.'
+  scope: repo
+  source: xdustinface/manki#364
+  created_at: 2026-03-31
