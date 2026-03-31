@@ -388,3 +388,15 @@
   scope: repo
   source: xdustinface/manki#371
   created_at: 2026-03-31
+- id: learn-1774937549608
+  content: 'User context on "src/index.ts": Acknowledged, but skipping this one.
+    The GitHub Actions workflow already uses a concurrency group
+    (`manki-review-${{ github.event.pull_request.number || ... }}` with
+    `cancel-in-progress: true`) which handles the cross-event race at the runner
+    level. The GitHub API does not support atomic check-and-create, so a true
+    lock would require external state (e.g., a database or lock file in a shared
+    store), which is disproportionate to the risk. The current approach is a
+    best-effort guard, and the concur'
+  scope: repo
+  source: xdustinface/manki#371
+  created_at: 2026-03-31
