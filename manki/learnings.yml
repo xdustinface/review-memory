@@ -192,3 +192,11 @@
   scope: repo
   source: xdustinface/manki#357
   created_at: 2026-03-31
+- id: learn-1774925395032
+  content: 'User context on "src/review.test.ts": Fixed — added test `fires
+    onProgress with failure status when all agents fail` that verifies all
+    agents report `failure` status with `agentFindingCount: 0`, and that
+    `reviewed` phase is not fired.'
+  scope: repo
+  source: xdustinface/manki#357
+  created_at: 2026-03-31
