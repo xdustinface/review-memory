@@ -13323,3 +13323,13 @@
   first_seen: 2026-03-31
   last_seen: 2026-03-31
   escalated: false
+- id: pat-1774928266929
+  finding_title: "grammar: '1 findings' should be '1 finding'"
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-03-31
+  last_seen: 2026-03-31
+  escalated: false
