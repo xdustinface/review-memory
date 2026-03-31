@@ -482,3 +482,9 @@
   scope: repo
   source: xdustinface/manki#382
   created_at: 2026-03-31
+- id: learn-1774960697364
+  content: 'User context on "src/index.ts": Fixed — now reusing `recapStats`
+    values in the later `buildRecapSummary` call instead of re-filtering.'
+  scope: repo
+  source: xdustinface/manki#382
+  created_at: 2026-03-31
