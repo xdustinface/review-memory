@@ -249,3 +249,11 @@
   scope: repo
   source: xdustinface/manki#357
   created_at: 2026-03-31
+- id: learn-1774927207388
+  content: 'User context on "src/index.test.ts": Fixed. Both agent-complete tests
+    now assert that the dashboard passed to `updateProgressDashboard` contains
+    the expected `agentProgress` entries with correct `status` and
+    `findingCount` values.'
+  scope: repo
+  source: xdustinface/manki#357
+  created_at: 2026-03-31
