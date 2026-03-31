@@ -13845,7 +13845,7 @@
   escalated: false
 - id: pat-1774935130202
   finding_title: claudeclient instantiated before checking for dismissed findings
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
