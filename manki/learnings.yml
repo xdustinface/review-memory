@@ -215,3 +215,11 @@
   scope: repo
   source: xdustinface/manki#357
   created_at: 2026-03-31
+- id: learn-1774926443463
+  content: 'User context on "src/review.test.ts": Added a test that covers partial
+    failure in multi-pass mode — one agent has all passes fail while the other
+    agents succeed. This exercises both the failure and success paths in the
+    multi-pass branch.'
+  scope: repo
+  source: xdustinface/manki#357
+  created_at: 2026-03-31
