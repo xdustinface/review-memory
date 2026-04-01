@@ -693,3 +693,10 @@
   scope: repo
   source: xdustinface/manki#390
   created_at: 2026-04-01
+- id: learn-1775017232317
+  content: 'User context on "src/index.ts": Acknowledged — valid point about
+    layering consistency. Skipping this for now to keep the fix PR minimal; will
+    address in a follow-up if needed.'
+  scope: repo
+  source: xdustinface/manki#390
+  created_at: 2026-04-01
