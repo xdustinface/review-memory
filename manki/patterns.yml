@@ -14940,3 +14940,14 @@
   first_seen: 2026-04-01
   last_seen: 2026-04-01
   escalated: false
+- id: pat-1775016952809
+  finding_title: skip comment matches isreviewinprogress filter, blocking
+    re-reviews after completion
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-04-01
+  last_seen: 2026-04-01
+  escalated: false
