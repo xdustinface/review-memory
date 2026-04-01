@@ -581,3 +581,10 @@
   scope: repo
   source: xdustinface/manki#385
   created_at: 2026-04-01
+- id: learn-1775006792236
+  content: 'User context on "src/index.test.ts": Fixed — added a dedicated test
+    with `previousRecap = {resolved:1, open:2, replied:1}` that exercises the
+    subtraction logic and verifies correct delta values.'
+  scope: repo
+  source: xdustinface/manki#385
+  created_at: 2026-04-01
