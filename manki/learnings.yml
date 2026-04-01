@@ -653,9 +653,11 @@
   scope: repo
   source: xdustinface/manki#390
   created_at: 2026-04-01
-- id: learn-1775015338664
-  content: 'User context on "src/index.test.ts": Good catch — added test coverage
-    for the `updateComment` branch in c595383.'
+- id: learn-1775015339323
+  content: 'User context on "src/index.test.ts": The test already has this
+    assertion at line 1877:
+    `expect(jest.mocked(ghUtils.isReviewInProgress)).not.toHaveBeenCalled()` —
+    the bypass is verified.'
   scope: repo
   source: xdustinface/manki#390
   created_at: 2026-04-01
