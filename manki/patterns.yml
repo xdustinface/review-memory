@@ -14616,3 +14616,13 @@
   first_seen: 2026-04-01
   last_seen: 2026-04-01
   escalated: false
+- id: pat-1775006344085
+  finding_title: "unrelated change: codecov patch coverage target raised from 80% to 90%"
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-04-01
+  last_seen: 2026-04-01
+  escalated: false
