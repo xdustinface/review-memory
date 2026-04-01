@@ -702,3 +702,11 @@
   scope: repo
   source: xdustinface/manki#390
   created_at: 2026-04-01
+- id: learn-1775017242525
+  content: 'User context on "src/index.test.ts": Fixed — added
+    `FORCE_REVIEW_MARKER` and `- [ ] Force review` assertions to both skip
+    comment tests (in `handlePullRequest` and `handleCommentTrigger` describe
+    blocks).'
+  scope: repo
+  source: xdustinface/manki#390
+  created_at: 2026-04-01
