@@ -726,3 +726,13 @@
   scope: repo
   source: xdustinface/manki#394
   created_at: 2026-04-01
+- id: learn-1775037941764
+  content: 'User context on "src/interaction.test.ts": False positive — the
+    backwards-compat tests for `@manki-labs` in `hasBotMention`,
+    `isReviewRequest`, and `isBotMentionNonReview` were already using
+    `@manki-labs` as input to test the pattern. Since the pattern no longer
+    matches `@manki-labs`, those tests would now correctly fail and were removed
+    in this PR. All 878 tests pass.'
+  scope: repo
+  source: xdustinface/manki#403
+  created_at: 2026-04-01
