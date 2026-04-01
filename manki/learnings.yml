@@ -710,3 +710,10 @@
   scope: repo
   source: xdustinface/manki#390
   created_at: 2026-04-01
+- id: learn-1775017866690
+  content: 'User context on "src/github.test.ts": Acknowledged — the test uses
+    `Date.now()` mocking so the assertion is deterministic, not timing-fragile.
+    The `2 * 60000` offset and `Math.ceil(10 - 2)` = 8 is stable. Resolving.'
+  scope: repo
+  source: xdustinface/manki#390
+  created_at: 2026-04-01
