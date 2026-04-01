@@ -617,3 +617,10 @@
   scope: repo
   source: xdustinface/manki#390
   created_at: 2026-04-01
+- id: learn-1775014124848
+  content: 'User context on "src/github.test.ts": Fixed. Added test `returns false
+    when progress comment is from a non-bot user` to the `isReviewInProgress`
+    describe block in `github.test.ts`.'
+  scope: repo
+  source: xdustinface/manki#390
+  created_at: 2026-04-01
