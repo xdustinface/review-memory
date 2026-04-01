@@ -14568,7 +14568,7 @@
   escalated: false
 - id: pat-1775005722481
   finding_title: new delta test doesn't assert recapstats passed to runreview
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
