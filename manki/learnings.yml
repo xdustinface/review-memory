@@ -693,10 +693,12 @@
   scope: repo
   source: xdustinface/manki#390
   created_at: 2026-04-01
-- id: learn-1775017232317
-  content: 'User context on "src/index.ts": Acknowledged — valid point about
-    layering consistency. Skipping this for now to keep the fix PR minimal; will
-    address in a follow-up if needed.'
+- id: learn-1775017232501
+  content: 'User context on "src/github.ts": Fixed — added
+    `!c.body?.includes(FORCE_REVIEW_MARKER)` to the `isReviewInProgress` filter
+    so skip comments are excluded. Also added a dedicated test in
+    `github.test.ts` that verifies a skip comment with `FORCE_REVIEW_MARKER`
+    returns `false`.'
   scope: repo
   source: xdustinface/manki#390
   created_at: 2026-04-01
