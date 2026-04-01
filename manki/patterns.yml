@@ -14801,7 +14801,7 @@
   escalated: false
 - id: pat-1775013924626
   finding_title: force review bypass test passes vacuously — doesn't verify the bypass
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
