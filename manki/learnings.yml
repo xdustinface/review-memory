@@ -610,3 +610,10 @@
   scope: repo
   source: xdustinface/manki#390
   created_at: 2026-04-01
+- id: learn-1775014119915
+  content: 'User context on "src/index.ts": Fixed. Removed the `!isForceReview`
+    exclusion from the idempotency check so the eyes-reaction guard now runs for
+    all edited comments, including force reviews.'
+  scope: repo
+  source: xdustinface/manki#390
+  created_at: 2026-04-01
