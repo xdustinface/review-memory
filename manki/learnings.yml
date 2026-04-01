@@ -676,3 +676,12 @@
   scope: repo
   source: xdustinface/manki#390
   created_at: 2026-04-01
+- id: learn-1775016694736
+  content: "User context on \"src/github.test.ts\": Fixed — added a dedicated test
+    asserting REVIEW_COMPLETE_MARKER appears in the updateProgressComment output
+    body. Also fixed the existing isReviewInProgress test mock to use 'Review
+    complete' instead of 'Review in progress' (matching actual production
+    output)."
+  scope: repo
+  source: xdustinface/manki#390
+  created_at: 2026-04-01
