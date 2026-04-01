@@ -15062,3 +15062,13 @@
   first_seen: 2026-04-01
   last_seen: 2026-04-01
   escalated: false
+- id: pat-1775018670508
+  finding_title: auth.ts imports from github.ts — layering inversion
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-04-01
+  last_seen: 2026-04-01
+  escalated: false
