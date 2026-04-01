@@ -639,3 +639,10 @@
   scope: repo
   source: xdustinface/manki#390
   created_at: 2026-04-01
+- id: learn-1775015331564
+  content: 'User context on "src/index.ts": Not applicable — the acknowledgement
+    reaction in `handleCommentTrigger` already has a `!forceReview` guard (line
+    254), so the double call does not happen.'
+  scope: repo
+  source: xdustinface/manki#390
+  created_at: 2026-04-01
