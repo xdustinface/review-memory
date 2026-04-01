@@ -15124,3 +15124,14 @@
   first_seen: 2026-04-01
   last_seen: 2026-04-01
   escalated: false
+- id: pat-1775037237938
+  finding_title: stale @manki-labs tests for
+    hasbotmention/isreviewrequest/isbotmentionnonreview will now fail
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-04-01
+  last_seen: 2026-04-01
+  escalated: false
