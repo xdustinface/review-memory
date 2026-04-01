@@ -553,3 +553,10 @@
   scope: repo
   source: xdustinface/manki#385
   created_at: 2026-04-01
+- id: learn-1775006786142
+  content: 'User context on "src/recap.ts": Declining — same reasoning as the
+    duplicate thread. The API overhead is negligible for the architectural
+    complexity it would introduce.'
+  scope: repo
+  source: xdustinface/manki#385
+  created_at: 2026-04-01
