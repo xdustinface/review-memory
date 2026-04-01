@@ -14457,7 +14457,7 @@
   escalated: false
 - id: pat-1775004695869
   finding_title: resolvedtitles slice assumes resolution order matches array tail
-  occurrences: 2
+  occurrences: 3
   accepted_count: 0
   rejected_count: 0
   repos:
