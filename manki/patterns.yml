@@ -14757,3 +14757,14 @@
   first_seen: 2026-04-01
   last_seen: 2026-04-01
   escalated: false
+- id: pat-1775013920258
+  finding_title: force review bypasses idempotency guard, enabling double-trigger
+    on webhook retry
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-04-01
+  last_seen: 2026-04-01
+  escalated: false
