@@ -14576,3 +14576,13 @@
   first_seen: 2026-04-01
   last_seen: 2026-04-01
   escalated: false
+- id: pat-1775005723416
+  finding_title: no test for fetchpreviousrecapstats when json in tag is malformed
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-04-01
+  last_seen: 2026-04-01
+  escalated: false
