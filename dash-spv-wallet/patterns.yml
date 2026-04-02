@@ -539,3 +539,13 @@
   first_seen: 2026-04-02
   last_seen: 2026-04-02
   escalated: false
+- id: pat-1775093698932
+  finding_title: partial legacy migration (only one field present) is not tested
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-04-02
+  last_seen: 2026-04-02
+  escalated: false
