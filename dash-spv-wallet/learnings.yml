@@ -36,3 +36,11 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#118
   created_at: 2026-04-02
+- id: learn-1775092734822
+  content: 'User context on "src/config/settings.rs": Added
+    `toml_data_dir_tilde_expansion` test that writes a temp config with
+    `data_dir = "~/some/path"` and verifies the tilde gets expanded after
+    `load_with_cli`.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#121
+  created_at: 2026-04-02
