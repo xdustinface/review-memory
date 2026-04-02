@@ -325,3 +325,13 @@
   first_seen: 2026-04-02
   last_seen: 2026-04-02
   escalated: false
+- id: pat-1775092515956
+  finding_title: missing direct tests for `network_key()`
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-04-02
+  last_seen: 2026-04-02
+  escalated: false
