@@ -25,3 +25,14 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#120
   created_at: 2026-04-02
+- id: learn-1775092645950
+  content: 'User context on "src/config/settings.rs": This has been addressed —
+    explicit `Network::Devnet` arm was added in f034aae. The `_ =＞` wildcard is
+    required by the Rust compiler since `dashcore::Network` is
+    `#[non_exhaustive]`. Removing it would be a compile error. The fallback to
+    `"devnet"` is the safest default for any hypothetical future variant since
+    devnet is the most isolated network type. A `panic!` here would crash the
+    app on startup if dashcore adds a variant.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#118
+  created_at: 2026-04-02
