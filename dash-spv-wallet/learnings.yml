@@ -107,3 +107,14 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#118
   created_at: 2026-04-02
+- id: learn-1775093521645
+  content: 'User context on "src/backend/native.rs": The `cache_size()` and
+    `clear_cache()` backend methods now delegate to
+    `AppConfig::clear_network_data_dir()` and `dir_size()` respectively, which
+    are both thoroughly tested in the config and mod test modules (5 tests for
+    `clear_network_data_dir`, 4 tests for `dir_size`). Testing the backend
+    methods directly would require a running SPV client or complex mocking — the
+    unit tests on the underlying functions provide the coverage needed.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#118
+  created_at: 2026-04-02
