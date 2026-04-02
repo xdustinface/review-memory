@@ -649,3 +649,13 @@
   first_seen: 2026-04-02
   last_seen: 2026-04-02
   escalated: false
+- id: pat-1775097096174
+  finding_title: cancel-in-progress may corrupt an in-flight release
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-04-02
+  last_seen: 2026-04-02
+  escalated: false
