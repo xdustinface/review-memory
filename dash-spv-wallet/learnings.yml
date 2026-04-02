@@ -61,3 +61,12 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#118
   created_at: 2026-04-02
+- id: learn-1775092756988
+  content: 'User context on "src/config/settings.rs": Fixed in ad31038.
+    `migrate_legacy_fields` now accepts `&toml::Table` instead of `&str`. In
+    `load()`, the raw TOML is parsed once into a `toml::Table`, then used for
+    both deserialization (via `toml::Value::Table(table.clone()).try_into()`)
+    and migration.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#120
+  created_at: 2026-04-02
