@@ -78,3 +78,13 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#120
   created_at: 2026-04-02
+- id: learn-1775092929421
+  content: 'User context on "src/config/settings.rs": The `expand_tilde` function
+    already handles this gracefully — when `dirs::home_dir()` returns `None`,
+    the path is returned unchanged. The test assertion `!starts_with("~")` would
+    fail in that case, but every CI environment (GitHub Actions, local dev) has
+    HOME set. Adding a `#[ignore]` or conditional skip for a scenario that never
+    happens in practice would add noise without value.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#121
+  created_at: 2026-04-02
