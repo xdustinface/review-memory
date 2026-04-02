@@ -118,3 +118,14 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#118
   created_at: 2026-04-02
+- id: learn-1775097804404
+  content: 'User context on ".github/workflows/release.yml": Good catch. However,
+    the tag update is intentionally placed early — if the release step fails,
+    the tag still points to the correct commit for the next retry. The
+    `softprops/action-gh-release` action is idempotent (it creates or updates
+    the release). A failed artifact upload just means fewer files in the
+    release, which gets fixed on the next nightly run. Moving the tag after the
+    release would mean a failed upload leaves the tag stale, which is worse.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#133
+  created_at: 2026-04-02
