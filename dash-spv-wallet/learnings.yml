@@ -99,3 +99,11 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#118
   created_at: 2026-04-02
+- id: learn-1775092975376
+  content: 'User context on "src/config/settings.rs": Added
+    `clear_network_data_dir_leaves_sibling_networks_untouched` — creates both
+    `testnet/` and `mainnet/` with data files, clears testnet, then asserts
+    testnet is recreated empty while mainnet and its contents remain untouched.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#118
+  created_at: 2026-04-02
