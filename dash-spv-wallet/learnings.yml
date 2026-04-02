@@ -6,3 +6,12 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#118
   created_at: 2026-04-02
+- id: learn-1775092405157
+  content: 'User context on "src/config/settings.rs": Fixed in 548fecf —
+    `migrate_legacy_fields` now checks whether the active network already has an
+    explicit `[network]` section in the raw TOML. If it does, legacy flat fields
+    are skipped entirely, preventing silent clobbering. Added test
+    `legacy_migration_does_not_overwrite_per_network_values` to verify.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#120
+  created_at: 2026-04-02
