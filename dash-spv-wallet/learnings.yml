@@ -44,3 +44,20 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#121
   created_at: 2026-04-02
+- id: learn-1775092741742
+  content: >-
+    User context on "src/config/settings.rs": Added four tests in a12545f:
+
+    - `clear_network_data_dir_removes_and_recreates` — creates a network dir
+    with a file, clears it, asserts the dir is recreated empty
+
+    - `clear_network_data_dir_when_dir_does_not_exist` — verifies it works
+    (creates the dir) when the network dir does not yet exist
+
+    - `clear_network_data_dir_rejects_wallet_inside_network_dir` — asserts the
+    wallet-inside-network-dir guard returns the expected error
+
+    - `clear_network_data_dir_allows_default_wallet_dir` — confirms the default 
+  scope: repo
+  source: xdustinface/dash-spv-wallet#118
+  created_at: 2026-04-02
