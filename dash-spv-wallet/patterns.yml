@@ -479,3 +479,13 @@
   first_seen: 2026-04-02
   last_seen: 2026-04-02
   escalated: false
+- id: pat-1775093092343
+  finding_title: "`network_data_dir` visibility should be `pub(crate)`"
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-04-02
+  last_seen: 2026-04-02
+  escalated: false
