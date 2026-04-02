@@ -335,3 +335,14 @@
   first_seen: 2026-04-02
   last_seen: 2026-04-02
   escalated: false
+- id: pat-1775092516836
+  finding_title: "weak assertions in `per_network_config_from_toml`: mainnet
+    section is parsed but never verified"
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-04-02
+  last_seen: 2026-04-02
+  escalated: false
