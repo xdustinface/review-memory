@@ -88,3 +88,14 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#121
   created_at: 2026-04-02
+- id: learn-1775092934034
+  content: 'User context on "src/config/settings.rs": Acknowledged, but
+    `ConfigError` is the only error type available in this module and adding a
+    new variant just for this one edge case would be over-engineering. The error
+    message clearly describes what happened ("wallet_dir is inside
+    network_data_dir"), so the user gets actionable feedback regardless of the
+    variant name. This is a non-public function called only during cache
+    clearing.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#118
+  created_at: 2026-04-02
