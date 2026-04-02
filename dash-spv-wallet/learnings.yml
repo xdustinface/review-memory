@@ -1,0 +1,8 @@
+- id: learn-1775092352814
+  content: 'User context on "src/config/settings.rs": Fixed in f034aae — added
+    explicit `Network::Devnet` arm. The `_ =＞` wildcard is still required since
+    `dashcore::Network` is `#[non_exhaustive]`, but now only truly unknown
+    future variants fall through to it.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#118
+  created_at: 2026-04-02
