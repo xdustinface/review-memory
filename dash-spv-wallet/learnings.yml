@@ -70,3 +70,11 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#120
   created_at: 2026-04-02
+- id: learn-1775092759844
+  content: 'User context on "src/config/settings.rs": Fixed in ad31038. Added
+    `network_key_maps_all_variants` test that verifies all four `Network`
+    variants (`Mainnet`, `Testnet`, `Devnet`, `Regtest`) map to their expected
+    key strings.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#120
+  created_at: 2026-04-02
