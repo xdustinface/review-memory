@@ -366,3 +366,14 @@
   first_seen: 2026-04-02
   last_seen: 2026-04-02
   escalated: false
+- id: pat-1775092817633
+  finding_title: test helper `write_temp_config` uses fixed directory names —
+    fragile under parallel test execution
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-04-02
+  last_seen: 2026-04-02
+  escalated: false
