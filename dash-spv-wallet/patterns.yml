@@ -1,0 +1,10 @@
+- id: pat-1775091417409
+  finding_title: clear_cache() no longer guards against deleting wallet_dir inside network dir
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-04-02
+  last_seen: 2026-04-02
+  escalated: false
