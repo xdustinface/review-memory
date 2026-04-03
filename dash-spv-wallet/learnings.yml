@@ -213,3 +213,13 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#149
   created_at: 2026-04-03
+- id: learn-1775194657102
+  content: 'User context on "src/backend/native.rs": The `wallet.rs` guard already
+    handles this correctly for existing transactions (preserves
+    direction/type/label when `amount == 0`). For the race condition where a
+    status event arrives before the initial receive — this is already tested in
+    `status_update_preserves_direction_and_type`. Introducing a separate event
+    variant is a larger refactor; the current approach is safe as-is.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#149
+  created_at: 2026-04-03
