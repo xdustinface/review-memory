@@ -842,3 +842,11 @@
   scope: repo
   source: xdustinface/manki#410
   created_at: 2026-04-03
+- id: learn-1775258049485
+  content: "User context on \"src/review.ts\": The forwarding is a single line in
+    `review.ts` — it's covered transitively by the `index.test.ts` tests that
+    verify `recapDelta` reaches the judge. Adding a unit test for a one-line
+    passthrough would be over-testing."
+  scope: repo
+  source: xdustinface/manki#410
+  created_at: 2026-04-03
