@@ -15605,3 +15605,14 @@
   first_seen: 2026-04-03
   last_seen: 2026-04-03
   escalated: false
+- id: pat-1775257817021
+  finding_title: "`resolvedsincelastreview` ordering depends on unstated graphql
+    ordering guarantee"
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-04-03
+  last_seen: 2026-04-03
+  escalated: false
