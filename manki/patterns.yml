@@ -15453,3 +15453,13 @@
   first_seen: 2026-04-03
   last_seen: 2026-04-03
   escalated: false
+- id: pat-1775236401949
+  finding_title: "`newthiscycle` is always hardcoded to 0 — dead interface field"
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-04-03
+  last_seen: 2026-04-03
+  escalated: false
