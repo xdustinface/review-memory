@@ -153,3 +153,13 @@
   first_seen: 2026-04-03
   last_seen: 2026-04-03
   escalated: false
+- id: pat-1775215326869
+  finding_title: "`errorcode` belongs in `protocol.rs`, not `error.rs`"
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - herald
+  first_seen: 2026-04-03
+  last_seen: 2026-04-03
+  escalated: false
