@@ -804,3 +804,13 @@
   first_seen: 2026-04-03
   last_seen: 2026-04-03
   escalated: false
+- id: pat-1775221947506
+  finding_title: blocking sqlite i/o while holding global std::sync::mutex
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - herald
+  first_seen: 2026-04-03
+  last_seen: 2026-04-03
+  escalated: false
