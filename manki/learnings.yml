@@ -831,3 +831,14 @@
   scope: repo
   source: xdustinface/manki#410
   created_at: 2026-04-03
+- id: learn-1775257397718
+  content: "User context on \"src/recap.test.ts\": Valid point — the test should
+    assert the first (most recent) comment wins, not just happen to return the
+    right one. However, the implementation already uses `direction: 'desc'`
+    which is tested indirectly by the mock returning the expected value first.
+    Adding an explicit ordering assertion would couple the test to the API
+    parameter name. Accepting the nit as-is — the current coverage is
+    sufficient."
+  scope: repo
+  source: xdustinface/manki#410
+  created_at: 2026-04-03
