@@ -199,3 +199,11 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#149
   created_at: 2026-04-03
+- id: learn-1775193982904
+  content: 'User context on "src/state/wallet.rs": Fixed in 7bb113f. Added
+    `label_propagated_from_event` test in `src/state/wallet.rs` that verifies a
+    label set in `SpvEvent::TransactionReceived` is stored in the resulting
+    `TransactionInfo` in `WalletState`.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#149
+  created_at: 2026-04-03
