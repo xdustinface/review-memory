@@ -15730,3 +15730,14 @@
   first_seen: 2026-04-03
   last_seen: 2026-04-03
   escalated: false
+- id: pat-1775259687366
+  finding_title: test 'does not pass cumulativetag when no previous findings'
+    omits `recapdelta` assertion
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-04-03
+  last_seen: 2026-04-03
+  escalated: false
