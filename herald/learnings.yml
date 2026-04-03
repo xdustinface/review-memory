@@ -146,10 +146,11 @@
   scope: repo
   source: xdustinface/herald#14
   created_at: 2026-04-03
-- id: learn-1775222317231
-  content: 'User context on "herald-broker/src/config.rs": Fixed. Extracted
-    `DEFAULT_HOST`, `DEFAULT_PORT`, and `DEFAULT_LOG_LEVEL` constants. Both the
-    clap defaults and the merge logic now reference these constants.'
+- id: learn-1775222317712
+  content: 'User context on "herald-broker/src/server.rs": Fixed. Both the auth
+    and register phases are now wrapped in a 10-second `tokio::time::timeout`.
+    If either times out, the connection is closed with an appropriate error
+    message.'
   scope: repo
   source: xdustinface/herald#14
   created_at: 2026-04-03
