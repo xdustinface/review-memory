@@ -158,3 +158,9 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#147
   created_at: 2026-04-03
+- id: learn-1775189388613
+  content: 'User context on "src/backend/ffi.rs": Fixed — added `.sort()` before
+    `.dedup()` to match the fix in `native.rs`.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#147
+  created_at: 2026-04-03
