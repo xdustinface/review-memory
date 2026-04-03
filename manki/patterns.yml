@@ -15292,7 +15292,7 @@
 - id: pat-1775222675327
   finding_title: unsanitized finding titles interpolated into llm system prompt
     via buildrecapdeltasection
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
