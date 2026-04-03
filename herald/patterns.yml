@@ -264,3 +264,14 @@
   first_seen: 2026-04-03
   last_seen: 2026-04-03
   escalated: false
+- id: pat-1775216385910
+  finding_title: wire protocol enums lack `#[non_exhaustive]`, risking silent
+    breakage on extension
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - herald
+  first_seen: 2026-04-03
+  last_seen: 2026-04-03
+  escalated: false
