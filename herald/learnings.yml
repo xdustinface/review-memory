@@ -68,3 +68,10 @@
   scope: repo
   source: xdustinface/herald#12
   created_at: 2026-04-03
+- id: learn-1775220402400
+  content: 'User context on "herald-client/src/client.rs": Fixed in b4c9119.
+    `Command::Disconnect` now calls `fail_pending` before closing the WebSocket,
+    giving in-flight callers a clear disconnection error.'
+  scope: repo
+  source: xdustinface/herald#12
+  created_at: 2026-04-03
