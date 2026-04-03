@@ -174,3 +174,12 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#147
   created_at: 2026-04-03
+- id: learn-1775190089336
+  content: 'User context on "src/backend/native.rs": Added
+    `extract_record_addresses_deduplicates` test that creates a
+    `TransactionRecord` with four `InputDetail` entries (two addresses, each
+    duplicated), calls `extract_record_addresses`, and asserts the result
+    contains exactly two deduplicated addresses.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#147
+  created_at: 2026-04-03
