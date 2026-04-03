@@ -145,3 +145,10 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#147
   created_at: 2026-04-03
+- id: learn-1775189041296
+  content: 'User context on "src/backend/ffi.rs": Fixed — changed `||` to `&&` so
+    both block hash and timestamp must be non-zero for the block info to be
+    considered valid.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#147
+  created_at: 2026-04-03
