@@ -1700,3 +1700,14 @@
   first_seen: 2026-04-03
   last_seen: 2026-04-03
   escalated: false
+- id: pat-1775222793816
+  finding_title: "`from_record_mempool_uses_fallback_timestamp` passes 0 as
+    fallback — doesn't prove non-zero fallback is forwarded"
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-04-03
+  last_seen: 2026-04-03
+  escalated: false
