@@ -223,3 +223,10 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#149
   created_at: 2026-04-03
+- id: learn-1775194662717
+  content: 'User context on "src/backend/native.rs": Fixed — added
+    `assert_eq!(info.direction, TransactionDirection::Incoming)` and
+    `assert_eq!(info.transaction_type, TransactionType::Standard)` to the test.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#149
+  created_at: 2026-04-03
