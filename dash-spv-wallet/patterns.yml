@@ -1026,3 +1026,13 @@
   first_seen: 2026-04-03
   last_seen: 2026-04-03
   escalated: false
+- id: pat-1775193654962
+  finding_title: allocates `string` before empty-check in ffi label extraction
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-04-03
+  last_seen: 2026-04-03
+  escalated: false
