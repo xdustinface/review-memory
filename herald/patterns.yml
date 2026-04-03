@@ -591,3 +591,13 @@
   first_seen: 2026-04-03
   last_seen: 2026-04-03
   escalated: false
+- id: pat-1775220629538
+  finding_title: "`from<io::error>` blanket impl maps all io errors to `tokenread` variant"
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - herald
+  first_seen: 2026-04-03
+  last_seen: 2026-04-03
+  escalated: false
