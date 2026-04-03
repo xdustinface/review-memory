@@ -522,7 +522,7 @@
   escalated: false
 - id: pat-1775217825701
   finding_title: "`dirs_next` is a misleading function name"
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
