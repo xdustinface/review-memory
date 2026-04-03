@@ -247,3 +247,10 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#149
   created_at: 2026-04-03
+- id: learn-1775195322645
+  content: 'User context on "src/backend/ffi.rs": Done — extracted
+    `extract_ffi_label(ptr: *const c_char) -＞ Option＜String＞` and both call
+    sites now use it.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#149
+  created_at: 2026-04-03
