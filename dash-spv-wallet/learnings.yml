@@ -129,3 +129,10 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#133
   created_at: 2026-04-02
+- id: learn-1775188611392
+  content: 'User context on "src/backend/native.rs": Fixed. Added `addresses` back
+    to the test destructuring with `assert!(addresses.is_empty())` to explicitly
+    document the empty state when no input details are provided.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#147
+  created_at: 2026-04-03
