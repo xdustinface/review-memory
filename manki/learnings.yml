@@ -742,3 +742,12 @@
   scope: repo
   source: xdustinface/manki#406
   created_at: 2026-04-03
+- id: learn-1775191142511
+  content: "User context on \"src/state.ts\": Intentional. If nit findings are
+    posted as review threads (`nit_handling='comments'`), they should be replied
+    to or resolved before auto-approve fires. This is stricter than before but
+    correct — unresolved threads of any severity mean the conversation isn't
+    finished."
+  scope: repo
+  source: xdustinface/manki#406
+  created_at: 2026-04-03
