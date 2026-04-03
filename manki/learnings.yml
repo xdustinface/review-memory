@@ -771,3 +771,9 @@
   scope: repo
   source: xdustinface/manki#385
   created_at: 2026-04-03
+- id: learn-1775256870799
+  content: 'User context on "src/judge.ts": Already addressed —
+    `sanitizeForPrompt` is applied to all titles in `buildRecapDeltaSection`.'
+  scope: repo
+  source: xdustinface/manki#410
+  created_at: 2026-04-03
