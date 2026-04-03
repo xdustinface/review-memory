@@ -1395,7 +1395,7 @@
 - id: pat-1775211677150
   finding_title: "confusing function names: `ffi_direction_to_direction` and
     `ffi_type_to_type`"
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
