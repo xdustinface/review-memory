@@ -800,3 +800,14 @@
   first_seen: 2026-04-03
   last_seen: 2026-04-03
   escalated: false
+- id: pat-1775188841651
+  finding_title: "`has_block` or-condition can produce `some([0u8; 32])` block
+    hash or `some(0)` timestamp"
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-04-03
+  last_seen: 2026-04-03
+  escalated: false
