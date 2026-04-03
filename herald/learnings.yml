@@ -89,3 +89,11 @@
   scope: repo
   source: xdustinface/herald#12
   created_at: 2026-04-03
+- id: learn-1775221017595
+  content: 'User context on "herald-client/src/client.rs": Deferred to a future
+    security hardening pass. Token file permission validation (e.g. rejecting
+    world-readable files) will be added alongside other filesystem security
+    checks. Not critical for the local-only MVP.'
+  scope: repo
+  source: xdustinface/herald#12
+  created_at: 2026-04-03
