@@ -1120,7 +1120,7 @@
   escalated: false
 - id: pat-1775194269732
   finding_title: missing unit tests for `ffi_direction_to_direction` and `ffi_type_to_type`
-  occurrences: 2
+  occurrences: 3
   accepted_count: 0
   rejected_count: 0
   repos:
