@@ -806,11 +806,11 @@
   scope: repo
   source: xdustinface/manki#410
   created_at: 2026-04-03
-- id: learn-1775256898687
-  content: 'User context on "src/judge.test.ts": Fixed. Added test "sanitizes
-    recap delta titles containing newlines and backticks" in `judge.test.ts`
-    that verifies `sanitizeForPrompt` strips newlines and triple-backtick
-    sequences from both resolved and open titles.'
+- id: learn-1775256898091
+  content: 'User context on "src/index.ts": Fixed. `resolveAddressedThreads` now
+    returns the titles of auto-resolved findings instead of a count.
+    `resolvedTitles` in `recapStats` now includes both status-resolved and
+    auto-resolved titles.'
   scope: repo
   source: xdustinface/manki#410
   created_at: 2026-04-03
