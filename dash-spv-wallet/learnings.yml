@@ -183,3 +183,12 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#147
   created_at: 2026-04-03
+- id: learn-1775193955288
+  content: "User context on \"src/backend/native.rs\": Fixed in 7bb113f.
+    `WalletState::apply_event` now preserves the existing transaction's
+    `direction`, `transaction_type`, and `label` when the incoming event is a
+    status-only update (`amount == 0`). Added
+    `status_update_preserves_direction_and_type` test to verify this."
+  scope: repo
+  source: xdustinface/dash-spv-wallet#149
+  created_at: 2026-04-03
