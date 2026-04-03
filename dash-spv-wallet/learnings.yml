@@ -230,3 +230,12 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#149
   created_at: 2026-04-03
+- id: learn-1775194666085
+  content: 'User context on "src/screens/transactions.rs": Fixed — both
+    `dashboard.rs` and `transactions.rs` now use a `match` on `tx.direction` to
+    determine border color, arrow icon, and amount text color. Internal and
+    CoinJoin use neutral `border-muted`/`text-muted` styling with a
+    bidirectional arrow.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#149
+  created_at: 2026-04-03
