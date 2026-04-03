@@ -1221,3 +1221,13 @@
   first_seen: 2026-04-03
   last_seen: 2026-04-03
   escalated: false
+- id: pat-1775222814738
+  finding_title: "`_code` binding captured but silently discarded"
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - herald
+  first_seen: 2026-04-03
+  last_seen: 2026-04-03
+  escalated: false
