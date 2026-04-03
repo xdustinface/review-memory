@@ -121,3 +121,13 @@
   scope: repo
   source: xdustinface/herald#12
   created_at: 2026-04-03
+- id: learn-1775221041106
+  content: 'User context on "herald-client/src/lib.rs": Fixed. Added a `pub fn
+    new(initial_delay, max_delay, max_retries)` constructor to `ReconnectConfig`
+    so external consumers can construct it directly without reaching into
+    `pub(crate)` fields. The builder remains the recommended path for
+    `ClientConfig`, but `ReconnectConfig` is now fully usable from outside the
+    crate.'
+  scope: repo
+  source: xdustinface/herald#12
+  created_at: 2026-04-03
