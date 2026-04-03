@@ -15206,3 +15206,14 @@
   first_seen: 2026-04-03
   last_seen: 2026-04-03
   escalated: false
+- id: pat-1775192988169
+  finding_title: resolvedtitles excludes auto-resolved finding titles, causing
+    count/title mismatch
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-04-03
+  last_seen: 2026-04-03
+  escalated: false
