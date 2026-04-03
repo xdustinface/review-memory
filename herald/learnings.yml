@@ -131,11 +131,11 @@
   scope: repo
   source: xdustinface/herald#12
   created_at: 2026-04-03
-- id: learn-1775222305558
-  content: 'User context on "herald-broker/src/auth.rs": Fixed. Replaced the
-    `/dev/urandom` + `SystemTime` fallback with the `getrandom` crate.
-    `generate_token()` now returns `io::Result＜String＞` and propagates errors
-    instead of falling back to weak entropy.'
+- id: learn-1775222305634
+  content: 'User context on "herald-broker/src/server.rs": Fixed.
+    `wait_for_register` now takes the `EndpointSender` as a parameter and
+    performs the name check + `router.register()` in a single lock acquisition.
+    Removed the now-unused `is_registered()` method.'
   scope: repo
   source: xdustinface/herald#14
   created_at: 2026-04-03
