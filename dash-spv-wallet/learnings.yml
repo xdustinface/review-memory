@@ -239,3 +239,11 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#149
   created_at: 2026-04-03
+- id: learn-1775194677856
+  content: 'User context on "src/state/wallet.rs": Fixed — added `if
+    info.timestamp ＞ 0` guard before overwriting the timestamp. Also added a
+    test `status_update_does_not_overwrite_timestamp_with_zero` to verify the
+    guard.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#149
+  created_at: 2026-04-03
