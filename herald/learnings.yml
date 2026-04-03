@@ -105,3 +105,12 @@
   scope: repo
   source: xdustinface/herald#12
   created_at: 2026-04-03
+- id: learn-1775221027993
+  content: 'User context on "herald-client/src/error.rs": Fixed. Removed the
+    blanket `From＜io::Error＞` impl. The only call site (`read_token`) already
+    maps explicitly with `ClientError::TokenRead` including the file path in the
+    message, so the blanket impl was dead code that would have been misleading
+    if reached.'
+  scope: repo
+  source: xdustinface/herald#12
+  created_at: 2026-04-03
