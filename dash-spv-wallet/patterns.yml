@@ -1300,8 +1300,8 @@
   first_seen: 2026-04-03
   last_seen: 2026-04-03
   escalated: false
-- id: pat-1775200245565
-  finding_title: ignored transaction type not filtered from transaction list
+- id: pat-1775200246156
+  finding_title: input_details and output_details fields absent despite acceptance criteria
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
