@@ -194,3 +194,12 @@
   scope: repo
   source: xdustinface/herald#14
   created_at: 2026-04-03
+- id: learn-1775222342333
+  content: 'User context on "herald-broker/src/server.rs": SQLite operations for
+    individual inserts/deletes are sub-millisecond, and the mutex contention is
+    negligible for the expected workload (low tens of concurrent endpoints). For
+    `deliver_pending` with many messages, this could be optimized by batching
+    outside the lock in the future, but is acceptable for MVP.'
+  scope: repo
+  source: xdustinface/herald#14
+  created_at: 2026-04-03
