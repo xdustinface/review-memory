@@ -152,3 +152,9 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#147
   created_at: 2026-04-03
+- id: learn-1775189045407
+  content: 'User context on "src/backend/native.rs": Fixed — added `.sort()`
+    before `.dedup()` to handle non-consecutive duplicates.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#147
+  created_at: 2026-04-03
