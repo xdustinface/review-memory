@@ -47,3 +47,10 @@
   scope: repo
   source: xdustinface/herald#12
   created_at: 2026-04-03
+- id: learn-1775220394945
+  content: 'User context on "herald-client/src/client.rs": Fixed in b4c9119. Added
+    `recv_raw_timeout` wrapper with a 10s `HANDSHAKE_TIMEOUT` constant, used in
+    all connect and reconnect handshake paths.'
+  scope: repo
+  source: xdustinface/herald#12
+  created_at: 2026-04-03
