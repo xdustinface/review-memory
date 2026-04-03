@@ -172,3 +172,10 @@
   scope: repo
   source: xdustinface/herald#14
   created_at: 2026-04-03
+- id: learn-1775222324831
+  content: 'User context on "herald-broker/src/router.rs": Fixed. Added
+    `assert!(alice_rx.try_recv().is_err())` to verify the sender is excluded
+    from topic fanout.'
+  scope: repo
+  source: xdustinface/herald#14
+  created_at: 2026-04-03
