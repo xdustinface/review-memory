@@ -54,3 +54,10 @@
   scope: repo
   source: xdustinface/herald#12
   created_at: 2026-04-03
+- id: learn-1775220399504
+  content: 'User context on "herald-client/Cargo.toml": Fixed in b4c9119.
+    `futures-util` does not have a `stream` feature — `StreamExt` is gated on
+    `alloc`. Added `alloc` to the feature list to make the dependency explicit.'
+  scope: repo
+  source: xdustinface/herald#12
+  created_at: 2026-04-03
