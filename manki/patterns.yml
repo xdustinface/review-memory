@@ -15196,3 +15196,13 @@
   first_seen: 2026-04-03
   last_seen: 2026-04-03
   escalated: false
+- id: pat-1775192987200
+  finding_title: duplicate adjusted-totals computation for cumulativetag
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-04-03
+  last_seen: 2026-04-03
+  escalated: false
