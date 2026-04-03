@@ -975,3 +975,14 @@
   first_seen: 2026-04-03
   last_seen: 2026-04-03
   escalated: false
+- id: pat-1775193651542
+  finding_title: wildcard arm in mock_transaction silently assigns positive
+    amounts to internal/coinjoin
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-04-03
+  last_seen: 2026-04-03
+  escalated: false
