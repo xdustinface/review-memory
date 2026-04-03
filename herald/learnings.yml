@@ -179,3 +179,10 @@
   scope: repo
   source: xdustinface/herald#14
   created_at: 2026-04-03
+- id: learn-1775222326568
+  content: 'User context on "herald-broker/src/config.rs": Fixed. Added
+    `cli_arg_overrides_toml` test: sets CLI port to 7777 while TOML has port
+    8080, verifies CLI wins.'
+  scope: repo
+  source: xdustinface/herald#14
+  created_at: 2026-04-03
