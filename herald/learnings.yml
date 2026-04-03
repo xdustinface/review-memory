@@ -97,3 +97,11 @@
   scope: repo
   source: xdustinface/herald#12
   created_at: 2026-04-03
+- id: learn-1775221022735
+  content: 'User context on "herald-client/src/client.rs": Acknowledged. TLS
+    support (including mTLS) is on the post-MVP roadmap. The default
+    `ws://127.0.0.1:9419` binding is local-only, so the token never traverses
+    the network in the default configuration. Resolving for now.'
+  scope: repo
+  source: xdustinface/herald#12
+  created_at: 2026-04-03
