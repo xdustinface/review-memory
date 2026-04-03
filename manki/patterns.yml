@@ -15310,3 +15310,13 @@
   first_seen: 2026-04-03
   last_seen: 2026-04-03
   escalated: false
+- id: pat-1775222678539
+  finding_title: json.parse result cast without runtime validation in fetchpreviousrecapstats
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-04-03
+  last_seen: 2026-04-03
+  escalated: false
