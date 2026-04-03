@@ -16,3 +16,10 @@
   scope: repo
   source: xdustinface/herald#9
   created_at: 2026-04-03
+- id: learn-1775215686786
+  content: 'User context on "herald-core/src/lib.rs": Fixed in 7ab59e0. Added
+    `client_message_unsubscribe_roundtrip` test and `error_from_serde_json` test
+    for the `From＜serde_json::Error＞` conversion.'
+  scope: repo
+  source: xdustinface/herald#9
+  created_at: 2026-04-03
