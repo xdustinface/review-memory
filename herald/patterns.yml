@@ -1127,3 +1127,14 @@
   first_seen: 2026-04-03
   last_seen: 2026-04-03
   escalated: false
+- id: pat-1775222806300
+  finding_title: topic fan-out silently drops messages to subscribers with broken
+    channels — inconsistent with direct routing and untested
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - herald
+  first_seen: 2026-04-03
+  last_seen: 2026-04-03
+  escalated: false
