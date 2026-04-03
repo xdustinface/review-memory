@@ -136,3 +136,12 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#147
   created_at: 2026-04-03
+- id: learn-1775188619144
+  content: 'User context on "src/backend/native.rs": Fixed. Addresses are now
+    extracted from `input_details` on the `TransactionRecord` (and
+    `FFITransactionRecord` for the FFI path). Both `map_wallet_event` and
+    `get_transactions` use the new `extract_record_addresses` /
+    `extract_ffi_input_addresses` helpers.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#147
+  created_at: 2026-04-03
