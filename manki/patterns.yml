@@ -15792,3 +15792,14 @@
   first_seen: 2026-04-03
   last_seen: 2026-04-03
   escalated: false
+- id: pat-1775260525756
+  finding_title: no test verifies `recapstats`/`recapdelta` are `undefined` when
+    no previous findings
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-04-03
+  last_seen: 2026-04-03
+  escalated: false
