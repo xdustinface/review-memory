@@ -254,3 +254,9 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#149
   created_at: 2026-04-03
+- id: learn-1775195326213
+  content: 'User context on "src/backend/mock.rs": Done — build `record` once,
+    then clone for the history push and move into the event.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#149
+  created_at: 2026-04-03
