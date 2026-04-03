@@ -864,3 +864,11 @@
   scope: repo
   source: xdustinface/manki#410
   created_at: 2026-04-03
+- id: learn-1775260094722
+  content: 'User context on "src/judge.ts": Fixed — removed `resolvedTitles` from
+    `RecapStats`. The resolved title list is now sourced exclusively from
+    `recapDelta.resolvedSinceLastReview`. Added `recapDelta` as a parameter to
+    `buildJudgeUserMessage` so it can read the titles from there.'
+  scope: repo
+  source: xdustinface/manki#410
+  created_at: 2026-04-03
