@@ -1577,3 +1577,14 @@
   first_seen: 2026-04-03
   last_seen: 2026-04-03
   escalated: false
+- id: pat-1775221912099
+  finding_title: re-exporting deep internal module paths from upstream crate as
+    canonical ui types
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-04-03
+  last_seen: 2026-04-03
+  escalated: false
