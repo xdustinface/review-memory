@@ -305,3 +305,13 @@
   first_seen: 2026-04-03
   last_seen: 2026-04-03
   escalated: false
+- id: pat-1775216388766
+  finding_title: "`errorcode::display` is redundant with `debug`"
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - herald
+  first_seen: 2026-04-03
+  last_seen: 2026-04-03
+  escalated: false
