@@ -1711,3 +1711,14 @@
   first_seen: 2026-04-03
   last_seen: 2026-04-03
   escalated: false
+- id: pat-1775222794929
+  finding_title: "`map_wallet_event_transaction_status_changed` test does not
+    assert `info.txid`"
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-04-03
+  last_seen: 2026-04-03
+  escalated: false
