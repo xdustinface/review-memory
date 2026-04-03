@@ -186,3 +186,11 @@
   scope: repo
   source: xdustinface/herald#14
   created_at: 2026-04-03
+- id: learn-1775222329073
+  content: 'User context on "herald-broker/src/router.rs": Fixed. Added
+    `closed_channel_falls_back_to_persistence` test: registers an endpoint,
+    drops the receiver, sends a message, and verifies it is persisted to
+    SQLite.'
+  scope: repo
+  source: xdustinface/herald#14
+  created_at: 2026-04-03
