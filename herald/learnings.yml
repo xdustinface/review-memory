@@ -146,3 +146,12 @@
   scope: repo
   source: xdustinface/herald#14
   created_at: 2026-04-03
+- id: learn-1775222317120
+  content: 'User context on "herald-broker/src/server.rs": The token is read once
+    at startup and never mutated — it is effectively immutable state. Keeping it
+    in `BrokerState` avoids an extra `Arc＜String＞` and the associated
+    indirection. The mutex protects the router and store, which are the actual
+    mutable state; the token just lives alongside them for convenience.'
+  scope: repo
+  source: xdustinface/herald#14
+  created_at: 2026-04-03
