@@ -800,10 +800,9 @@
   scope: repo
   source: xdustinface/manki#410
   created_at: 2026-04-03
-- id: learn-1775256894713
-  content: 'User context on "src/index.ts": Fixed. `openTitles` now filters for
-    both `status === "open"|| status === "replied"`, so replied findings appear
-    in `stillOpen` for the judge.'
+- id: learn-1775256895741
+  content: 'User context on "src/index.ts": Fixed. Removed `newThisCycle` from the
+    `RecapDelta` interface and all construction sites / test assertions.'
   scope: repo
   source: xdustinface/manki#410
   created_at: 2026-04-03
