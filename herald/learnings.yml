@@ -139,3 +139,10 @@
   scope: repo
   source: xdustinface/herald#14
   created_at: 2026-04-03
+- id: learn-1775222313855
+  content: 'User context on "herald-broker/src/store.rs": Fixed. Added
+    `MAX_PENDING_PER_RECIPIENT = 10_000` constant. `save_pending` now checks the
+    count before inserting and returns an error if the limit is reached.'
+  scope: repo
+  source: xdustinface/herald#14
+  created_at: 2026-04-03
