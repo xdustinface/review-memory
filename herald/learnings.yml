@@ -82,3 +82,10 @@
   scope: repo
   source: xdustinface/herald#12
   created_at: 2026-04-03
+- id: learn-1775220408069
+  content: 'User context on "herald-client/src/client.rs": Fixed in b4c9119.
+    Extracted shared reconnect logic into `handle_reconnect` helper called from
+    both the `Close/None` and `Err` arms.'
+  scope: repo
+  source: xdustinface/herald#12
+  created_at: 2026-04-03
