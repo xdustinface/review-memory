@@ -192,3 +192,10 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#149
   created_at: 2026-04-03
+- id: learn-1775193967122
+  content: 'User context on "src/screens/transactions.rs": Fixed in 7bb113f. Added
+    `apply_filters_internal_only` and `apply_filters_coinjoin_only` tests in
+    `src/screens/transactions.rs`.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#149
+  created_at: 2026-04-03
