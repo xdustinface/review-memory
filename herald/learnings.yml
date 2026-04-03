@@ -23,3 +23,13 @@
   scope: repo
   source: xdustinface/herald#9
   created_at: 2026-04-03
+- id: learn-1775216551152
+  content: 'User context on "herald-core/src/types.rs": Valid optimization but
+    premature for MVP. The broker may need to inspect payloads for future
+    features (filtering, logging, schema validation). `serde_json::Value` is
+    simpler and sufficient for now — we can revisit `Box＜RawValue＞` as a
+    performance optimization later if profiling shows serialization overhead
+    matters.'
+  scope: repo
+  source: xdustinface/herald#9
+  created_at: 2026-04-03
