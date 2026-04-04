@@ -1998,3 +1998,14 @@
   first_seen: 2026-04-04
   last_seen: 2026-04-04
   escalated: false
+- id: pat-1775263752283
+  finding_title: coinjoin and internal share identical direction icon,
+    contradicting acceptance criteria
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-04-04
+  last_seen: 2026-04-04
+  escalated: false
