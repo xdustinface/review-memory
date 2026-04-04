@@ -16505,3 +16505,14 @@
   first_seen: 2026-04-04
   last_seen: 2026-04-04
   escalated: false
+- id: pat-1775272303588
+  finding_title: no test for isfollowup=true with empty openthreads — judge
+    prompt/behavior not verified for this state
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-04-04
+  last_seen: 2026-04-04
+  escalated: false
