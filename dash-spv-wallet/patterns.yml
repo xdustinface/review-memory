@@ -1835,3 +1835,14 @@
   first_seen: 2026-04-03
   last_seen: 2026-04-03
   escalated: false
+- id: pat-1775262571840
+  finding_title: dashboard still inlines transaction row rendering instead of
+    reusing transactionrow
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-04-04
+  last_seen: 2026-04-04
+  escalated: false
