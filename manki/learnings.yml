@@ -1155,3 +1155,9 @@
   scope: repo
   source: xdustinface/manki#430
   created_at: 2026-04-04
+- id: learn-1775303762568
+  content: 'User context on "src/review.ts": Fixed — added break on first agent
+    failure in multi-pass loop'
+  scope: repo
+  source: xdustinface/manki#430
+  created_at: 2026-04-04
