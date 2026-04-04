@@ -1167,3 +1167,12 @@
   scope: repo
   source: xdustinface/manki#430
   created_at: 2026-04-04
+- id: learn-1775304243458
+  content: 'User context on "src/review.ts": Valid observation — the remaining
+    agents show as reviewing in the progress comment. However, the dashboard is
+    immediately overwritten with the complete/failed state (dashboard.phase =
+    complete) in the incomplete review handler in index.ts, so users never see
+    the stale agent states. The visual glitch is transient.'
+  scope: repo
+  source: xdustinface/manki#430
+  created_at: 2026-04-04
