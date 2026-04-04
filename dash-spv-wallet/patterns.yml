@@ -2029,3 +2029,13 @@
   first_seen: 2026-04-04
   last_seen: 2026-04-04
   escalated: false
+- id: pat-1775263755471
+  finding_title: transactiontype::coinjoin absent from format_transaction_type_badges
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-04-04
+  last_seen: 2026-04-04
+  escalated: false
