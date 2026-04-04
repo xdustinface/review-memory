@@ -883,3 +883,11 @@
   scope: repo
   source: xdustinface/manki#412
   created_at: 2026-04-04
+- id: learn-1775262483390
+  content: 'User context on "src/review.ts": Fixed: `focusAreas` values are now
+    validated to be strings, bounded to 500 chars, and only accepted for known
+    agent names. The null case is also handled (explicit `=== null` check).
+    Non-string values are dropped.'
+  scope: repo
+  source: xdustinface/manki#412
+  created_at: 2026-04-04
