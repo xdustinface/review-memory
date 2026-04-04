@@ -872,3 +872,14 @@
   scope: repo
   source: xdustinface/manki#410
   created_at: 2026-04-03
+- id: learn-1775262463287
+  content: 'User context on "src/review.ts": The hunk snippets are truncated to 60
+    characters and placed in the planner user message (not system prompt). The
+    planner output is fully validated: agents are matched against `AGENT_POOL`,
+    `focusAreas` values are type-checked and length-bounded to 500 chars, and
+    malformed responses fall back to heuristic selection. The risk from a
+    60-char snippet in a user message is minimal and not worth the added
+    complexity of sanitization.'
+  scope: repo
+  source: xdustinface/manki#412
+  created_at: 2026-04-04
