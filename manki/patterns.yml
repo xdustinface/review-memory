@@ -16238,3 +16238,14 @@
   first_seen: 2026-04-04
   last_seen: 2026-04-04
   escalated: false
+- id: pat-1775265606005
+  finding_title: "`determinelevelfromsize` thresholds are implicitly coupled to
+    planner prompt constants"
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-04-04
+  last_seen: 2026-04-04
+  escalated: false
