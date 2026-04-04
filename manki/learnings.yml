@@ -990,3 +990,9 @@
   scope: repo
   source: xdustinface/manki#415
   created_at: 2026-04-04
+- id: learn-1775271868845
+  content: 'User context on "src/judge.ts": Already implemented — early return
+    only when both findings empty AND no open threads'
+  scope: repo
+  source: xdustinface/manki#415
+  created_at: 2026-04-04
