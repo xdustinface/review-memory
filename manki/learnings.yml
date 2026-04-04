@@ -1114,3 +1114,12 @@
   scope: repo
   source: xdustinface/manki#421
   created_at: 2026-04-04
+- id: learn-1775299706950
+  content: 'User context on "src/index.ts": Acknowledged — the pulls.get call is
+    reused later in the flow for PR context (title, body, base branch). Moving
+    it earlier adds one extra API call only when isReviewInProgress
+    short-circuits, which is a rare path. The simplicity of having pr data
+    available early outweighs the marginal cost.'
+  scope: repo
+  source: xdustinface/manki#421
+  created_at: 2026-04-04
