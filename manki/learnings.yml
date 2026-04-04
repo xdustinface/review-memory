@@ -948,3 +948,9 @@
   scope: repo
   source: xdustinface/manki#412
   created_at: 2026-04-04
+- id: learn-1775263349380
+  content: 'User context on "src/review.test.ts": Fixed — added test verifying
+    custom reviewers are appended to the planner-selected team.'
+  scope: repo
+  source: xdustinface/manki#412
+  created_at: 2026-04-04
