@@ -1877,3 +1877,14 @@
   first_seen: 2026-04-04
   last_seen: 2026-04-04
   escalated: false
+- id: pat-1775262574279
+  finding_title: three provider type badge variants untested in
+    `format_transaction_type_badges`
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-04-04
+  last_seen: 2026-04-04
+  escalated: false
