@@ -16137,3 +16137,14 @@
   first_seen: 2026-04-04
   last_seen: 2026-04-04
   escalated: false
+- id: pat-1775264829324
+  finding_title: runreview integration test doesn't verify focus areas reach
+    reviewer sendmessage calls
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-04-04
+  last_seen: 2026-04-04
+  escalated: false
