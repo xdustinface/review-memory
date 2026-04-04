@@ -16320,3 +16320,14 @@
   first_seen: 2026-04-04
   last_seen: 2026-04-04
   escalated: false
+- id: pat-1775266559921
+  finding_title: "second-order prompt injection: pr content flows through planner
+    into reviewer system prompts"
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-04-04
+  last_seen: 2026-04-04
+  escalated: false
