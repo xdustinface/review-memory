@@ -1137,3 +1137,9 @@
   scope: repo
   source: xdustinface/manki#428
   created_at: 2026-04-04
+- id: learn-1775302312118
+  content: 'User context on "src/github.ts": Fixed — restored BOT_LOGIN filter
+    instead of BOT_MARKER body check'
+  scope: repo
+  source: xdustinface/manki#425
+  created_at: 2026-04-04
