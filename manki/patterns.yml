@@ -17261,3 +17261,14 @@
   first_seen: 2026-04-04
   last_seen: 2026-04-04
   escalated: false
+- id: pat-1775346376604
+  finding_title: prompt injection via pr body can force teamsize=1, bypassing
+    security & safety reviewer
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-04-04
+  last_seen: 2026-04-04
+  escalated: false
