@@ -1866,3 +1866,14 @@
   first_seen: 2026-04-04
   last_seen: 2026-04-04
   escalated: false
+- id: pat-1775262573616
+  finding_title: transactionview.address_short computed but never consumed by
+    either rendering path
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-04-04
+  last_seen: 2026-04-04
+  escalated: false
