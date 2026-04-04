@@ -17182,7 +17182,7 @@
   escalated: false
 - id: pat-1775303549135
   finding_title: dead default value for judgesummary
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
