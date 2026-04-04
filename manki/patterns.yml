@@ -17282,3 +17282,14 @@
   first_seen: 2026-04-04
   last_seen: 2026-04-04
   escalated: false
+- id: pat-1775346379376
+  finding_title: trivial_verifier_agent lives outside agent_pool, fragmenting the
+    agent registry
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-04-04
+  last_seen: 2026-04-04
+  escalated: false
