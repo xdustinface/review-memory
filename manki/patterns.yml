@@ -16351,3 +16351,13 @@
   first_seen: 2026-04-04
   last_seen: 2026-04-04
   escalated: false
+- id: pat-1775266563276
+  finding_title: stale `teamsize` field in runplanner valid-response mock
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-04-04
+  last_seen: 2026-04-04
+  escalated: false
