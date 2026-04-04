@@ -1161,3 +1161,9 @@
   scope: repo
   source: xdustinface/manki#430
   created_at: 2026-04-04
+- id: learn-1775303763995
+  content: 'User context on "src/review.test.ts": Fixed — added judge-not-called
+    assertion to single-pass failure test'
+  scope: repo
+  source: xdustinface/manki#430
+  created_at: 2026-04-04
