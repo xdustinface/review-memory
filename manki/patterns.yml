@@ -16066,3 +16066,13 @@
   first_seen: 2026-04-04
   last_seen: 2026-04-04
   escalated: false
+- id: pat-1775263020979
+  finding_title: buildplannersummary name breaks build*usermessage convention
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-04-04
+  last_seen: 2026-04-04
+  escalated: false
