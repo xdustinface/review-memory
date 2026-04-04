@@ -1078,3 +1078,9 @@
   scope: repo
   source: xdustinface/manki#418
   created_at: 2026-04-04
+- id: learn-1775298810382
+  content: 'User context on "src/index.ts": Fixed — filter now only matches
+    BOT_LOGIN, not any bot'
+  scope: repo
+  source: xdustinface/manki#421
+  created_at: 2026-04-04
