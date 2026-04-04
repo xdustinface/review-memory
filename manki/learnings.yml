@@ -1191,3 +1191,9 @@
   scope: repo
   source: xdustinface/manki#438
   created_at: 2026-04-04
+- id: learn-1775347106442
+  content: 'User context on "src/review.ts": Fixed in 4601d88 — removed
+    `prContext.body` from `buildPlannerSummary`.'
+  scope: repo
+  source: xdustinface/manki#438
+  created_at: 2026-04-04
