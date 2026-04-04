@@ -1149,3 +1149,9 @@
   scope: repo
   source: xdustinface/manki#425
   created_at: 2026-04-04
+- id: learn-1775303227525
+  content: 'User context on "src/review.test.ts": Fixed — added assertion that
+    judge is not called when agents fail'
+  scope: repo
+  source: xdustinface/manki#430
+  created_at: 2026-04-04
