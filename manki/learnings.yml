@@ -1020,3 +1020,9 @@
   scope: repo
   source: xdustinface/manki#415
   created_at: 2026-04-04
+- id: learn-1775296443019
+  content: 'User context on "src/types.ts": Fixed — plannerInfo now uses
+    Pick＜PlannerResult, ...＞ instead of inline type'
+  scope: repo
+  source: xdustinface/manki#418
+  created_at: 2026-04-04
