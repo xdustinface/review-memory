@@ -1224,3 +1224,9 @@
   scope: repo
   source: xdustinface/manki#438
   created_at: 2026-04-05
+- id: learn-1775348357718
+  content: 'User context on "src/review.test.ts": Fixed in c0fac8e: wrapped
+    `infoSpy` in try/finally.'
+  scope: repo
+  source: xdustinface/manki#438
+  created_at: 2026-04-05
