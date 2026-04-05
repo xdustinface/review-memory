@@ -1390,3 +1390,13 @@
   scope: repo
   source: xdustinface/manki#472
   created_at: 2026-04-05
+- id: learn-1775396998516
+  content: 'User context on "src/index.ts": Good catch. Fixed in cd97264:
+    `runReview` now returns `suppressionCount`, and the `mergedDuplicates`
+    formula subtracts it so the metric reflects only judge consolidation (not
+    memory suppressions). Added a regression test in `index.test.ts` covering
+    suppression accounting and extended the existing suppression test in
+    `review.test.ts` to assert the new field.'
+  scope: repo
+  source: xdustinface/manki#472
+  created_at: 2026-04-05
