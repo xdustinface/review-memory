@@ -1237,3 +1237,10 @@
   scope: repo
   source: xdustinface/manki#438
   created_at: 2026-04-05
+- id: learn-1775390468972
+  content: "User context on \"src/github.ts\": Fixed in 028c2a5 —
+    `findProgressComment` now requires `c.user?.login === BOT_LOGIN` in addition
+    to `type === 'Bot'`, matching the prior regression fix."
+  scope: repo
+  source: xdustinface/manki#466
+  created_at: 2026-04-05
