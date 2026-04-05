@@ -2059,3 +2059,13 @@
   first_seen: 2026-04-04
   last_seen: 2026-04-04
   escalated: false
+- id: pat-1775387034915
+  finding_title: "`bg: &'static str` prop leaks css class names into component api"
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-04-05
+  last_seen: 2026-04-05
+  escalated: false
