@@ -1279,3 +1279,15 @@
   scope: repo
   source: xdustinface/manki#466
   created_at: 2026-04-05
+- id: learn-1775390562572
+  content: "User context on \"src/github.ts\": Skipping. `sanitizeMarkdown` is
+    designed for untrusted LLM-generated content (strips HTML, escapes mentions,
+    etc.) and applying it to `originalBody` would break the dashboard's own
+    structural markup — the `＜details＞`/`＜summary＞` blocks, `BOT_MARKER` HTML
+    comment, and `manki-run-id` marker are all authored by manki itself, not
+    untrusted content. The original body content was already sanitized at its
+    construction site (reviewer/judge findings pass through `sanitizeMarkdown`
+    at formatting time), so"
+  scope: repo
+  source: xdustinface/manki#466
+  created_at: 2026-04-05
