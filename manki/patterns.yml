@@ -17578,3 +17578,14 @@
   first_seen: 2026-04-05
   last_seen: 2026-04-05
   escalated: false
+- id: pat-1775388220753
+  finding_title: both run_id_marker_prefix and run_id_marker_regex exported —
+    derived constant lacks co-location guarantee
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-04-05
+  last_seen: 2026-04-05
+  escalated: false
