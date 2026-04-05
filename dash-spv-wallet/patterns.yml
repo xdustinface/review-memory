@@ -2069,3 +2069,13 @@
   first_seen: 2026-04-05
   last_seen: 2026-04-05
   escalated: false
+- id: pat-1775387035718
+  finding_title: coinjoin type badge is redundant when direction is already coinjoin
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-04-05
+  last_seen: 2026-04-05
+  escalated: false
