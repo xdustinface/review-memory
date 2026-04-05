@@ -1258,3 +1258,12 @@
   scope: repo
   source: xdustinface/manki#466
   created_at: 2026-04-05
+- id: learn-1775390491500
+  content: "User context on \"src/github.ts\": Already addressed on the branch —
+    `describe('markOwnProgressCommentCancelled', ...)` in `src/github.test.ts`
+    covers all four requested branches: match + update, no matching runId,
+    early-return on `CANCELLED_MARKER`, and `listComments` API error. Added one
+    additional case for the BOT_LOGIN filter in 028c2a5."
+  scope: repo
+  source: xdustinface/manki#466
+  created_at: 2026-04-05
