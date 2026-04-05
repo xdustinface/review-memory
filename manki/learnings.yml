@@ -1307,3 +1307,14 @@
   scope: repo
   source: xdustinface/manki#466
   created_at: 2026-04-05
+- id: learn-1775391831584
+  content: "User context on \"src/github.ts\": This is already covered by the test
+    at `src/github.test.ts:2288` — `returns false (without querying Actions API)
+    when run_id matches current run`, which sets `github.context.runId` to 4242,
+    creates a progress comment embedding run-id 4242, invokes
+    `isReviewInProgress`, and asserts (a) result is `false`, (b)
+    `getWorkflowRun` is not called, and (c) `updateComment` is not called.
+    That's the exact scenario requested."
+  scope: repo
+  source: xdustinface/manki#466
+  created_at: 2026-04-05
