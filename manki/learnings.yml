@@ -1400,3 +1400,13 @@
   scope: repo
   source: xdustinface/manki#472
   created_at: 2026-04-05
+- id: learn-1775397634560
+  content: 'User context on "src/review.ts": Added test `emits judgeInputCount in
+    judging progress event reflecting post-suppression post-dedup count` in
+    `src/review.test.ts` that constructs a scenario with 3 raw findings,
+    suppresses 1, then static-dedups the remaining 2 against a previous resolved
+    finding, and asserts the `judging` progress event emits `rawFindingCount: 3`
+    and `judgeInputCount: 0` (post-suppression, post-dedup). Pushed in cfbc212.'
+  scope: repo
+  source: xdustinface/manki#472
+  created_at: 2026-04-05
