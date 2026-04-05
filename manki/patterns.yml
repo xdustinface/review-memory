@@ -17730,3 +17730,14 @@
   first_seen: 2026-04-05
   last_seen: 2026-04-05
   escalated: false
+- id: pat-1775389955448
+  finding_title: "isreviewinprogress: queued/waiting/pending/requested statuses
+    not covered in test plan"
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-04-05
+  last_seen: 2026-04-05
+  escalated: false
