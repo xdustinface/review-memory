@@ -18027,3 +18027,13 @@
   first_seen: 2026-04-05
   last_seen: 2026-04-05
   escalated: false
+- id: pat-1775396477748
+  finding_title: runreview has grown to 13 positional parameters
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-04-05
+  last_seen: 2026-04-05
+  escalated: false
