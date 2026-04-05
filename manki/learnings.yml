@@ -1230,3 +1230,10 @@
   scope: repo
   source: xdustinface/manki#438
   created_at: 2026-04-05
+- id: learn-1775348368353
+  content: 'User context on "src/review.ts": Deferred to issue #440 — agreed the
+    conflation is a real concern but adding a new union variant touches
+    dashboard/progress-comment/logging paths beyond this PR scope.'
+  scope: repo
+  source: xdustinface/manki#438
+  created_at: 2026-04-05
