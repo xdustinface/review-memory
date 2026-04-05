@@ -1291,3 +1291,19 @@
   scope: repo
   source: xdustinface/manki#466
   created_at: 2026-04-05
+- id: learn-1775391828741
+  content: >-
+    User context on "src/index.ts": Both scenarios are already covered:
+
+
+    1. **Post-phase dispatch** — `src/index.test.ts:1010` (`saves state to
+    signal post phase on first (main) invocation`) mocks `core.getState` to
+    return `''` and asserts `core.saveState` is called with
+    `('manki_post_phase', 'true')`. The `postCleanup (via main dispatch)`
+    describe block at line 1026 uses `runPostPhase()` which mocks
+    `core.getState` to return `'true'` and then verifies
+    `markOwnProgressCommentCancelled` is invoked — demonstrating `postCleanup`
+    runs
+  scope: repo
+  source: xdustinface/manki#466
+  created_at: 2026-04-05
