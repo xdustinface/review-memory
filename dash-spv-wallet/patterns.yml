@@ -1940,13 +1940,13 @@
   escalated: false
 - id: pat-1775263022301
   finding_title: format_transaction_coinjoin missing amount_class assertion
-  occurrences: 2
+  occurrences: 3
   accepted_count: 0
   rejected_count: 0
   repos:
     - dash-spv-wallet
   first_seen: 2026-04-04
-  last_seen: 2026-04-04
+  last_seen: 2026-04-05
   escalated: false
 - id: pat-1775263023570
   finding_title: unnecessary vec clone when tx is already owned
