@@ -17649,3 +17649,14 @@
   first_seen: 2026-04-05
   last_seen: 2026-04-05
   escalated: false
+- id: pat-1775389946733
+  finding_title: findprogresscomment checks user.type='bot' but not bot_login,
+    regression from prior fix
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-04-05
+  last_seen: 2026-04-05
+  escalated: false
