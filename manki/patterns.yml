@@ -17813,3 +17813,14 @@
   first_seen: 2026-04-05
   last_seen: 2026-04-05
   escalated: false
+- id: pat-1775392198767
+  finding_title: "`postreviewskippedcomment` finds existing comment by `user.type`
+    only, not `bot_login`"
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-04-05
+  last_seen: 2026-04-05
+  escalated: false
