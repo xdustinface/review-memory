@@ -17589,3 +17589,13 @@
   first_seen: 2026-04-05
   last_seen: 2026-04-05
   escalated: false
+- id: pat-1775388222176
+  finding_title: "`markprogresscommentcancelled` accepts stale `currentbody` from caller"
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-04-05
+  last_seen: 2026-04-05
+  escalated: false
