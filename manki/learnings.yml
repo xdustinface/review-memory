@@ -1382,3 +1382,11 @@
   scope: repo
   source: xdustinface/manki#472
   created_at: 2026-04-05
+- id: learn-1775396993579
+  content: 'User context on "src/review.ts": Agreed this would improve
+    readability, but the refactor touches ~25 test call sites that currently
+    rely on positional `undefined`s, so it is out of scope for this PR. Tracked
+    as follow-up in [#474](https://github.com/xdustinface/manki/issues/474).'
+  scope: repo
+  source: xdustinface/manki#472
+  created_at: 2026-04-05
