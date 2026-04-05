@@ -17986,3 +17986,14 @@
   first_seen: 2026-04-05
   last_seen: 2026-04-05
   escalated: false
+- id: pat-1775395627473
+  finding_title: dedupclient constructed unconditionally, used only when
+    previousfindings is non-empty
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-04-05
+  last_seen: 2026-04-05
+  escalated: false
