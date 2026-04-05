@@ -1267,14 +1267,15 @@
   scope: repo
   source: xdustinface/manki#466
   created_at: 2026-04-05
-- id: learn-1775390493111
-  content: "User context on \"src/github.ts\": Already addressed on the branch —
-    the 'returns true for each active workflow status' test in
-    `describe('isReviewInProgress', ...)` iterates over `['queued', 'waiting',
-    'pending', 'requested']` (and now `'action_required'` after 028c2a5),
-    asserting `result === true` for each. The `in_progress` case is covered by
-    the dedicated 'returns true when embedded run_id is still in_progress'
-    test."
+- id: learn-1775390493490
+  content: "User context on \"src/github.ts\": Skipping this one: `originalBody`
+    is internally constructed from bot code (`buildDashboard` + metadata), and
+    its planner-derived fields are already sanitized at construction time via
+    `sanitizeMarkdown`. Re-running `sanitizeMarkdown` over the full
+    `originalBody` would strip our own structural markup
+    (`＜details＞`/`＜summary＞`, the `BOT_MARKER` HTML comment, etc.) — the
+    function's doc explicitly notes that 'structural markup is added AFTER
+    sanitization and is never passed through here'. Leaving thre"
   scope: repo
   source: xdustinface/manki#466
   created_at: 2026-04-05
