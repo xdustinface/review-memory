@@ -1318,3 +1318,14 @@
   scope: repo
   source: xdustinface/manki#466
   created_at: 2026-04-05
+- id: learn-1775391833601
+  content: 'User context on "src/index.ts": This is already covered by
+    `src/index.test.ts:1082` — `falls back to issue.pull_request when PR is not
+    directly in payload`. It sets an `issue_comment` event payload with `issue:
+    { number: 55, pull_request: { url: ... } }` (no top-level `pull_request`),
+    runs the post phase, and asserts `markOwnProgressCommentCancelled` is
+    invoked with `prNumber` 55 — the exact extraction path the comment asks
+    about.'
+  scope: repo
+  source: xdustinface/manki#466
+  created_at: 2026-04-05
