@@ -1372,3 +1372,13 @@
   scope: repo
   source: xdustinface/manki#472
   created_at: 2026-04-05
+- id: learn-1775396186532
+  content: 'User context on "src/index.ts": Fixed in
+    [19836e6](https://github.com/xdustinface/manki/commit/19836e6). `runReview`
+    now returns `rawFindings` (pre-suppression, pre-dedup agent output), and
+    `agentMetrics.findingsRaw` is computed from that set. Per-agent raw counts
+    once again reflect the true agent output before any filtering, matching the
+    semantics of top-level `stats.findingsRaw`.'
+  scope: repo
+  source: xdustinface/manki#472
+  created_at: 2026-04-05
