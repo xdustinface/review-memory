@@ -1436,12 +1436,11 @@
   scope: repo
   source: xdustinface/manki#476
   created_at: 2026-04-06
-- id: learn-1775435815287
-  content: 'User context on "src/github.ts": Fixed in 5f048a7. Added a
-    `SEVERITY_ORDER` array and rewrote `renderSeverityBreakdown` to iterate in
-    canonical order (`required`, `suggestion`, `nit`, `ignore`) instead of
-    relying on `Object.entries` insertion order. Updated the test expectation to
-    match the deterministic ordering.'
+- id: learn-1775435815989
+  content: "User context on \"src/github.test.ts\": Fixed in 5f048a7. Added
+    assertions for `**Planner**` and the fallback line `150 lines · 5 agents` to
+    the existing \"renders the started phase\" test, which exercises the
+    else-branch where neither `phase === 'planning'` nor `plannerInfo` is set."
   scope: repo
   source: xdustinface/manki#476
   created_at: 2026-04-06
