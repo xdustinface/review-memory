@@ -18403,3 +18403,13 @@
   first_seen: 2026-04-06
   last_seen: 2026-04-06
   escalated: false
+- id: pat-1775437042357
+  finding_title: o(n²) title+file lookup for dropped finding severity
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-04-06
+  last_seen: 2026-04-06
+  escalated: false
