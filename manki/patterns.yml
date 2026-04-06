@@ -18181,7 +18181,7 @@
   escalated: false
 - id: pat-1775435346216
   finding_title: "`indent` constant duplicated between source and test"
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
