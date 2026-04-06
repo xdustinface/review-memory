@@ -18373,7 +18373,7 @@
   escalated: false
 - id: pat-1775437038911
   finding_title: originalseverity lookup by title+file can collide on duplicate keys
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
