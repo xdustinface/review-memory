@@ -1565,3 +1565,10 @@
   scope: repo
   source: xdustinface/manki#478
   created_at: 2026-04-06
+- id: learn-1775438647597
+  content: 'User context on "src/github.test.ts": Fixed in 9d0119f — exported
+    `INDENT` from `github.ts` and imported it in the test file, removing the
+    duplicate local constant.'
+  scope: repo
+  source: xdustinface/manki#476
+  created_at: 2026-04-06
