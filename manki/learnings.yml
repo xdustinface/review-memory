@@ -1436,3 +1436,12 @@
   scope: repo
   source: xdustinface/manki#476
   created_at: 2026-04-06
+- id: learn-1775435815287
+  content: 'User context on "src/github.ts": Fixed in 5f048a7. Added a
+    `SEVERITY_ORDER` array and rewrote `renderSeverityBreakdown` to iterate in
+    canonical order (`required`, `suggestion`, `nit`, `ignore`) instead of
+    relying on `Object.entries` insertion order. Updated the test expectation to
+    match the deterministic ordering.'
+  scope: repo
+  source: xdustinface/manki#476
+  created_at: 2026-04-06
