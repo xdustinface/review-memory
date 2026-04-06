@@ -1427,3 +1427,12 @@
   scope: repo
   source: xdustinface/manki#472
   created_at: 2026-04-05
+- id: learn-1775435809745
+  content: 'User context on "src/index.ts": Fixed in 5f048a7. The
+    `droppedSeverities` bucket now uses the pre-judge severity by looking up the
+    original finding in `rawFindings` instead of using the post-judge `ignore`
+    severity. Added test coverage in `index.test.ts` that verifies the correct
+    severity distribution is passed to the dashboard.'
+  scope: repo
+  source: xdustinface/manki#476
+  created_at: 2026-04-06
