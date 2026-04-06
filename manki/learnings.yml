@@ -1470,3 +1470,11 @@
   scope: repo
   source: xdustinface/manki#476
   created_at: 2026-04-06
+- id: learn-1775436866195
+  content: 'User context on "src/index.ts": Fixed in d8d6fc3. Added
+    `originalSeverity?: FindingSeverity` to the `JudgeDecision` interface in
+    `types.ts` (Option A from the suggestion). The field is already populated at
+    runtime, so this just makes the type contract match reality.'
+  scope: repo
+  source: xdustinface/manki#476
+  created_at: 2026-04-06
