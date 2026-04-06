@@ -1526,3 +1526,9 @@
   scope: repo
   source: xdustinface/manki#478
   created_at: 2026-04-06
+- id: learn-1775437933669
+  content: 'User context on "docs/copy.js": Fixed in 0a623ef — added null guard:
+    `const el = document.querySelector(btn.dataset.copy); if (!el) return;`'
+  scope: repo
+  source: xdustinface/manki#478
+  created_at: 2026-04-06
