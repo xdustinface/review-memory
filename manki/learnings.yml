@@ -1544,3 +1544,10 @@
   scope: repo
   source: xdustinface/manki#478
   created_at: 2026-04-06
+- id: learn-1775437951147
+  content: 'User context on "docs/index.html": Fixed in 0a623ef — wrapped all
+    sections (hero through FAQ) in a `＜main＞` element, with `＜footer＞` outside
+    it.'
+  scope: repo
+  source: xdustinface/manki#478
+  created_at: 2026-04-06
