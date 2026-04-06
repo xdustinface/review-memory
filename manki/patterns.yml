@@ -18503,3 +18503,13 @@
   first_seen: 2026-04-06
   last_seen: 2026-04-06
   escalated: false
+- id: pat-1775438064437
+  finding_title: planning phase test missing assertions for indented `pending` state
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-04-06
+  last_seen: 2026-04-06
+  escalated: false
