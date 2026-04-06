@@ -18189,3 +18189,13 @@
   first_seen: 2026-04-06
   last_seen: 2026-04-06
   escalated: false
+- id: pat-1775435347732
+  finding_title: missing test for planner fallback rendering (new else-branch)
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-04-06
+  last_seen: 2026-04-06
+  escalated: false
