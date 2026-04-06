@@ -18423,3 +18423,13 @@
   first_seen: 2026-04-06
   last_seen: 2026-04-06
   escalated: false
+- id: pat-1775437294320
+  finding_title: test assertion for `${indent}pending` is ambiguous across sections
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - manki
+  first_seen: 2026-04-06
+  last_seen: 2026-04-06
+  escalated: false
