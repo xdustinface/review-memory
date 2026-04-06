@@ -18323,7 +18323,7 @@
   escalated: false
 - id: pat-1775436816399
   finding_title: missing <main> landmark breaks accessibility navigation
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
