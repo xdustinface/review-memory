@@ -1558,3 +1558,10 @@
   scope: repo
   source: xdustinface/manki#478
   created_at: 2026-04-06
+- id: learn-1775437953266
+  content: 'User context on "docs/style.css": This was already fixed in a previous
+    push — `.section-title` color is now `#5a8a5e` (not `#3a4d3d`), which passes
+    WCAG AA contrast on `#0f1114`.'
+  scope: repo
+  source: xdustinface/manki#478
+  created_at: 2026-04-06
