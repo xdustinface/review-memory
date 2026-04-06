@@ -18545,7 +18545,7 @@
   escalated: false
 - id: pat-1775445529957
   finding_title: untitled finding
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
