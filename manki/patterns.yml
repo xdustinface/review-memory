@@ -18303,7 +18303,7 @@
   escalated: false
 - id: pat-1775436651529
   finding_title: missing .catch() on clipboard write — silent failure
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
