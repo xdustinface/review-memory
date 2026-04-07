@@ -2099,3 +2099,13 @@
   first_seen: 2026-04-05
   last_seen: 2026-04-05
   escalated: false
+- id: pat-1775522627672
+  finding_title: five-tuple for direction-dependent fields is fragile and unreadable
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-04-07
+  last_seen: 2026-04-07
+  escalated: false
