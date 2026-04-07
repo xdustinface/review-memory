@@ -2119,3 +2119,13 @@
   first_seen: 2026-04-07
   last_seen: 2026-04-07
   escalated: false
+- id: pat-1775522630002
+  finding_title: full transactioninfo clone followed by redundant addresses clone
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-04-07
+  last_seen: 2026-04-07
+  escalated: false
