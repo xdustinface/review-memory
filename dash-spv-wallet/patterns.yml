@@ -2139,3 +2139,13 @@
   first_seen: 2026-04-07
   last_seen: 2026-04-07
   escalated: false
+- id: pat-1775523042411
+  finding_title: redundant clone of `addresses` when move is possible
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-04-07
+  last_seen: 2026-04-07
+  escalated: false
