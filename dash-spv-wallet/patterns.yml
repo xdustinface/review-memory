@@ -2109,3 +2109,13 @@
   first_seen: 2026-04-07
   last_seen: 2026-04-07
   escalated: false
+- id: pat-1775522628902
+  finding_title: "`transactionview` and its fields use `pub` instead of `pub(crate)`"
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-04-07
+  last_seen: 2026-04-07
+  escalated: false
