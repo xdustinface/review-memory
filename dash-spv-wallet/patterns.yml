@@ -2159,3 +2159,14 @@
   first_seen: 2026-04-12
   last_seen: 2026-04-12
   escalated: false
+- id: pat-1775990492946
+  finding_title: silent data loss when ffi output index is out of bounds or tx
+    deserialization fails
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-04-12
+  last_seen: 2026-04-12
+  escalated: false
