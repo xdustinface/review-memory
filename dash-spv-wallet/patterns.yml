@@ -2200,3 +2200,13 @@
   first_seen: 2026-04-12
   last_seen: 2026-04-12
   escalated: false
+- id: pat-1775990496763
+  finding_title: magic number 5 for collapse threshold duplicated in inputs and outputs blocks
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-04-12
+  last_seen: 2026-04-12
+  escalated: false
