@@ -285,3 +285,12 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#156
   created_at: 2026-04-13
+- id: learn-1776038764657
+  content: 'User context on "src/screens/transactions.rs": Fixed. The toggle
+    handlers now read the current value into a local variable and flip it
+    (`!current`). The button is always shown when `input_count ＞
+    collapse_threshold` and its label switches between "Show all N inputs" and
+    "Show less" based on the expanded state.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#156
+  created_at: 2026-04-13
