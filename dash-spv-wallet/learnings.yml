@@ -480,3 +480,11 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#156
   created_at: 2026-04-13
+- id: learn-1776044506271
+  content: 'User context on "src/state/view_models.rs": Fixed in 8a9fab13. Added
+    `visible_output_views_all_shown_when_under_threshold` mirroring the existing
+    input-side test: 3 outputs under a threshold of 5 returns all 3 with
+    `has_more = false`.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#156
+  created_at: 2026-04-13
