@@ -515,3 +515,12 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#156
   created_at: 2026-04-13
+- id: learn-1776045356234
+  content: 'User context on "src/state/view_models.rs": Fixed in 3732aa13. Added
+    `visible_input_views_equal_to_threshold_shows_all` and
+    `visible_output_views_equal_to_threshold_shows_all` — both use exactly 5
+    items with threshold=5, collapsed, and assert all 5 are returned with
+    `has_more = false`.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#156
+  created_at: 2026-04-13
