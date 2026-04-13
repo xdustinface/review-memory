@@ -2805,3 +2805,13 @@
   first_seen: 2026-04-13
   last_seen: 2026-04-13
   escalated: false
+- id: pat-1776044922425
+  finding_title: "`show_all_inputs`/`show_all_outputs` contains a dead clause"
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-04-13
+  last_seen: 2026-04-13
+  escalated: false
