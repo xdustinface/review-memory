@@ -2547,3 +2547,13 @@
   first_seen: 2026-04-13
   last_seen: 2026-04-13
   escalated: false
+- id: pat-1776042272351
+  finding_title: arithmetic overflow in mock_io for extreme amount values
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-04-13
+  last_seen: 2026-04-13
+  escalated: false
