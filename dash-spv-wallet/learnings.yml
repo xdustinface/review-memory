@@ -407,3 +407,13 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#156
   created_at: 2026-04-13
+- id: learn-1776040998916
+  content: 'User context on "src/backend/ffi.rs": Added happy-path test
+    `extract_ffi_outputs_valid_tx_extracts_value_and_address` in 89e4d5b1. It
+    builds a real `Transaction::dummy`, serializes it with
+    `dashcore::consensus::serialize`, wires up an `FFITransactionRecord` with
+    two output details, and asserts the returned `OutputInfo` entries have the
+    expected values and addresses.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#156
+  created_at: 2026-04-13
