@@ -348,3 +348,16 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#156
   created_at: 2026-04-13
+- id: learn-1776039998668
+  content: 'User context on "src/screens/transactions.rs": Fixed in commit
+    8bc24076. Moved `inputs_expanded` and `outputs_expanded` inside
+    `TransactionRow` as local `use_signal` calls. Removed all four props
+    (`inputs_expanded`, `outputs_expanded`, `on_toggle_inputs`,
+    `on_toggle_outputs`) and the reset calls from the parent.
+    Reset-on-row-switch behavior is preserved naturally: when a different row is
+    expanded, the previous `TransactionRow` is unmounted and its signals are
+    dropped; re-expanding it creates a fresh component instance with both
+    signals reset'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#156
+  created_at: 2026-04-13
