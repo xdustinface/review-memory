@@ -2415,3 +2415,14 @@
   first_seen: 2026-04-13
   last_seen: 2026-04-13
   escalated: false
+- id: pat-1776039660903
+  finding_title: default_config_path() exposes production path to test code,
+    weakening structural isolation
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-04-13
+  last_seen: 2026-04-13
+  escalated: false
