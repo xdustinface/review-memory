@@ -429,3 +429,13 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#156
   created_at: 2026-04-13
+- id: learn-1776042669795
+  content: 'User context on "src/backend/mock.rs": Dropped the second output
+    entirely in 138eb4f6 rather than mislabeling it. The enum has no "external"
+    or "not ours" variant, so `OutputRole::Sent` was the only alternative — but
+    that reads as "we sent this" in the UI. Since no test asserted on the second
+    output and the incoming mock only needs to demonstrate the `Received` path,
+    removing it is cleaner.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#156
+  created_at: 2026-04-13
