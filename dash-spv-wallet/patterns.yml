@@ -2230,3 +2230,13 @@
   first_seen: 2026-04-12
   last_seen: 2026-04-12
   escalated: false
+- id: pat-1776038608084
+  finding_title: save() should be pub(crate) per project visibility rules
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-04-13
+  last_seen: 2026-04-13
+  escalated: false
