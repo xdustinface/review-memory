@@ -260,3 +260,12 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#149
   created_at: 2026-04-03
+- id: learn-1776038746312
+  content: 'User context on "src/backend/native.rs": Fixed. Added preservation of
+    `inputs` and `outputs` in `apply_event` using the same guard pattern as
+    `amount == 0`: if the incoming event carries empty vecs, the existing values
+    are kept. Added a test `status_update_preserves_inputs_and_outputs` to pin
+    this behavior.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#156
+  created_at: 2026-04-13
