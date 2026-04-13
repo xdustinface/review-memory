@@ -2837,3 +2837,15 @@
   first_seen: 2026-04-13
   last_seen: 2026-04-13
   escalated: false
+- id: pat-1776044924933
+  finding_title: "missing boundary test:
+    `visible_input_views`/`visible_output_views` when count equals threshold
+    exactly"
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-04-13
+  last_seen: 2026-04-13
+  escalated: false
