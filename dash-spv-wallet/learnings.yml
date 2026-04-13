@@ -306,3 +306,14 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#156
   created_at: 2026-04-13
+- id: learn-1776038780298
+  content: 'User context on "src/backend/native.rs": Fixed. Added three direct
+    tests: `extract_record_inputs_maps_index_value_address` (verifies index,
+    value, and address mapping from `InputDetail`),
+    `extract_record_outputs_enriches_value_and_address_from_tx` (verifies
+    value/address extraction from raw tx outputs and role mapping), and
+    `extract_record_outputs_oob_index_falls_back_to_zero` (verifies OOB index
+    produces value=0 and empty address).'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#156
+  created_at: 2026-04-13
