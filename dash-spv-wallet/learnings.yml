@@ -269,3 +269,11 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#156
   created_at: 2026-04-13
+- id: learn-1776038756462
+  content: 'User context on "src/backend/ffi.rs": Fixed. Added a `tracing::warn!`
+    log when `consensus::deserialize` fails, so callers can distinguish a
+    deserialization failure from a legitimate empty case in logs. The behavior
+    (falling back to zero/empty address) is unchanged.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#156
+  created_at: 2026-04-13
