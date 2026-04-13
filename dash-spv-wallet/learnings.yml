@@ -387,3 +387,15 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#156
   created_at: 2026-04-13
+- id: learn-1776040022023
+  content: 'User context on "src/backend/ffi.rs": Fixed in commit 9d4c9c75. Added
+    five tests in the `ffi::tests` module:
+    `extract_ffi_inputs_null_pointer_returns_empty`,
+    `extract_ffi_inputs_maps_index_value_address`,
+    `extract_ffi_inputs_null_address_falls_back_to_empty_string`,
+    `extract_ffi_outputs_null_pointer_returns_empty`,
+    `extract_ffi_outputs_bad_tx_data_falls_back_to_zero_value_empty_address`,
+    and `extract_ffi_outputs_oversized_tx_len_skips_enrichment`. All pass.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#156
+  created_at: 2026-04-13
