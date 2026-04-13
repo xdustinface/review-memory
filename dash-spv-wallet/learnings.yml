@@ -378,3 +378,12 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#156
   created_at: 2026-04-13
+- id: learn-1776040018791
+  content: 'User context on "src/backend/ffi.rs": Fixed in commit 9d4c9c75.
+    Extracted the `t.output.get(d.index as usize)` result into a local `out`
+    variable and added `if out.is_none() && tx.is_some() { tracing::warn!("FFI:
+    output index {} out of bounds", d.index); }` before the value/address
+    extraction.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#156
+  created_at: 2026-04-13
