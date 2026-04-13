@@ -323,3 +323,9 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#162
   created_at: 2026-04-13
+- id: learn-1776039523926
+  content: 'User context on "src/config/settings.rs": Added test
+    `load_with_cli_first_run_writes_to_specified_path` in 06dab1e3.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#162
+  created_at: 2026-04-13
