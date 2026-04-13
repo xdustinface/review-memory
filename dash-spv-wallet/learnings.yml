@@ -507,3 +507,11 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#156
   created_at: 2026-04-13
+- id: learn-1776045345111
+  content: 'User context on "src/backend/mock.rs": Fixed in 1792911e. Extended
+    `mock_transaction_populates_io_structure` with assertions for `Internal` and
+    `CoinJoin`: both must produce empty inputs and outputs, confirming the
+    explicit match arm behavior.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#156
+  created_at: 2026-04-13
