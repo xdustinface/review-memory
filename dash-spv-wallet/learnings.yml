@@ -458,3 +458,14 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#156
   created_at: 2026-04-13
+- id: learn-1776044493276
+  content: 'User context on "src/backend/ffi.rs": Skipping. `FFIOutputRole` is
+    defined in the upstream `key-wallet-ffi` crate as `#[repr(C)]` with explicit
+    discriminants 0-3. The C caller is also the upstream Rust FFI layer, which
+    always populates the field via `From＜OutputRole＞`, so an out-of-range bit
+    pattern cannot arise in practice. Fixing this would require changing the
+    upstream struct definition in a separate crate and is out of scope for this
+    PR.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#156
+  created_at: 2026-04-13
