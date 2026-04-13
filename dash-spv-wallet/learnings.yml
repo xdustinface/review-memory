@@ -317,3 +317,9 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#156
   created_at: 2026-04-13
+- id: learn-1776038943472
+  content: 'User context on "src/config/settings.rs": Switched to
+    `tempfile::tempdir()` in edcfd826, cleanup is now automatic.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#162
+  created_at: 2026-04-13
