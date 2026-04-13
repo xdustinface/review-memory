@@ -2496,3 +2496,14 @@
   first_seen: 2026-04-13
   last_seen: 2026-04-13
   escalated: false
+- id: pat-1776041379923
+  finding_title: max_detail_count = 1_000_000 is orders of magnitude larger than
+    any real dash transaction
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-04-13
+  last_seen: 2026-04-13
+  escalated: false
