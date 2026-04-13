@@ -448,3 +448,13 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#156
   created_at: 2026-04-13
+- id: learn-1776043359558
+  content: 'User context on "src/screens/transactions.rs": Changed
+    `TransactionRow` to accept `Rc＜Vec＜InputInfo＞＞` and `Rc＜Vec＜OutputInfo＞＞`
+    props instead of plain `Vec`. The call site now wraps with
+    `Rc::new(tx.inputs)` / `Rc::new(tx.outputs)` (moving, not cloning), so the
+    prop clone on re-render is a cheap ref-count increment rather than a full
+    deep copy. No changes to `TransactionInfo` or backend types were needed.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#156
+  created_at: 2026-04-13
