@@ -361,3 +361,12 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#156
   created_at: 2026-04-13
+- id: learn-1776040003483
+  content: 'User context on "src/screens/transactions.rs": Fixed in commit
+    8bc24076. Replaced `cursor-pointer hover:underline` with `text-muted
+    text-xs` on the `View full details` span so it renders as plain
+    non-interactive text until the navigation handler is wired up in a
+    follow-up.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#156
+  created_at: 2026-04-13
