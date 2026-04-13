@@ -499,3 +499,11 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#156
   created_at: 2026-04-13
+- id: learn-1776045326663
+  content: 'User context on "src/backend/mock.rs": Fixed in 1792911e. Replaced the
+    `_` arm with explicit `TransactionDirection::Internal |
+    TransactionDirection::CoinJoin` — the match is now exhaustive and will fail
+    to compile if a new variant is added.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#156
+  created_at: 2026-04-13
