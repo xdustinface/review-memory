@@ -329,3 +329,11 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#162
   created_at: 2026-04-13
+- id: learn-1776039978922
+  content: "User context on \"src/screens/transactions.rs\": Fixed in commit
+    8bc24076. Added `e.stop_propagation()` to both the inputs and outputs toggle
+    button `onclick` handlers so clicks no longer bubble up to the row's
+    expand/collapse handler."
+  scope: repo
+  source: xdustinface/dash-spv-wallet#156
+  created_at: 2026-04-13
