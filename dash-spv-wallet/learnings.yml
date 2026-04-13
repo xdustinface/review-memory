@@ -417,3 +417,9 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#156
   created_at: 2026-04-13
+- id: learn-1776041835742
+  content: 'User context on "src/backend/ffi.rs": Lowered `MAX_DETAIL_COUNT` to
+    `10_000` in e68b25f5.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#156
+  created_at: 2026-04-13
