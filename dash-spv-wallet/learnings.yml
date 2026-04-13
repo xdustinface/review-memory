@@ -294,3 +294,15 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#156
   created_at: 2026-04-13
+- id: learn-1776038774846
+  content: 'User context on "src/screens/transactions.rs": Skipping intentionally.
+    The current design explicitly resets `inputs_expanded`/`outputs_expanded` to
+    `false` when a different row is clicked (this is the desired
+    reset-on-row-switch behavior). Moving this state inside `TransactionRow`
+    would require a `use_effect` to watch `is_expanded` and reset on collapse,
+    making the code more complex without a real gain. The shared-signal coupling
+    concern is theoretical — the single-expanded-row invariant via
+    `expanded_txid` is maintained unconditionally. Kee'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#156
+  created_at: 2026-04-13
