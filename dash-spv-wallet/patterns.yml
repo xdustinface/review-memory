@@ -2240,3 +2240,14 @@
   first_seen: 2026-04-13
   last_seen: 2026-04-13
   escalated: false
+- id: pat-1776038609180
+  finding_title: save_writes_valid_toml uses fixed-name temp path instead of
+    tempfile::tempdir()
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-04-13
+  last_seen: 2026-04-13
+  escalated: false
