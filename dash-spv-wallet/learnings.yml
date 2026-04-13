@@ -370,3 +370,11 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#156
   created_at: 2026-04-13
+- id: learn-1776040016512
+  content: 'User context on "src/backend/ffi.rs": Fixed in commit 9d4c9c75. Added
+    an upper-bound check: if `record.tx_len ＞ 1_048_576`, a `tracing::warn!` is
+    emitted and the tx deserialization is skipped entirely, returning zero value
+    and empty address for each output detail.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#156
+  created_at: 2026-04-13
