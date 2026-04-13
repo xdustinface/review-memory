@@ -2815,3 +2815,14 @@
   first_seen: 2026-04-13
   last_seen: 2026-04-13
   escalated: false
+- id: pat-1776044923266
+  finding_title: "`mock_io` `_` arm is untested — internal/coinjoin silently
+    produce empty i/o"
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-04-13
+  last_seen: 2026-04-13
+  escalated: false
