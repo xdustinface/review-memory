@@ -439,3 +439,12 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#156
   created_at: 2026-04-13
+- id: learn-1776043355178
+  content: 'User context on "src/backend/mock.rs": Added
+    `mock_transaction_populates_io_structure` in `src/backend/mock.rs`. It
+    verifies that `Incoming` produces at least one input and a `Received`
+    output, and that `Outgoing` produces at least one input plus both `Sent` and
+    `Change` outputs — matching what `mock_io` generates.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#156
+  created_at: 2026-04-13
