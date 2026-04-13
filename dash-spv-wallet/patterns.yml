@@ -2192,13 +2192,13 @@
   escalated: false
 - id: pat-1775990495853
   finding_title: inputs_expanded/outputs_expanded state hoisted to parent unnecessarily
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
     - dash-spv-wallet
   first_seen: 2026-04-12
-  last_seen: 2026-04-12
+  last_seen: 2026-04-13
   escalated: false
 - id: pat-1775990496763
   finding_title: magic number 5 for collapse threshold duplicated in inputs and outputs blocks
