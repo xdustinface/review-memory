@@ -507,11 +507,11 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#156
   created_at: 2026-04-13
-- id: learn-1776045345111
-  content: 'User context on "src/backend/mock.rs": Fixed in 1792911e. Extended
-    `mock_transaction_populates_io_structure` with assertions for `Internal` and
-    `CoinJoin`: both must produce empty inputs and outputs, confirming the
-    explicit match arm behavior.'
+- id: learn-1776045345059
+  content: 'User context on "src/backend/ffi.rs": Fixed in 3732aa13. Added
+    `extract_ffi_outputs_oversized_count_skips_extraction` — symmetric to the
+    existing inputs test: sets `output_details_count = MAX_DETAIL_COUNT + 1`
+    with a non-null pointer and asserts an empty Vec is returned.'
   scope: repo
   source: xdustinface/dash-spv-wallet#156
   created_at: 2026-04-13
