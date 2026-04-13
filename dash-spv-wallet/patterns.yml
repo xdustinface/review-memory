@@ -2588,3 +2588,13 @@
   first_seen: 2026-04-13
   last_seen: 2026-04-13
   escalated: false
+- id: pat-1776042278157
+  finding_title: dead sub-expression in show_all_inputs/outputs toggle variables
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-04-13
+  last_seen: 2026-04-13
+  escalated: false
