@@ -337,3 +337,14 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#156
   created_at: 2026-04-13
+- id: learn-1776039988624
+  content: 'User context on "src/screens/transactions.rs": Fixed in commit
+    8bc24076. Moved `collapse_threshold`, `show_all_inputs/outputs`, and
+    `visible_inputs/outputs` out of the component. Added `visible_input_views`
+    and `visible_output_views` helpers to `view_models.rs` that take a slice,
+    expanded flag, threshold, and unit and return `(Vec＜InputView/OutputView＞,
+    has_more: bool)`. The component now calls these helpers and renders the
+    pre-built views directly. Added tests for both helpers in `view_models.rs`.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#156
+  created_at: 2026-04-13
