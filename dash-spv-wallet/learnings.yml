@@ -488,3 +488,14 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#156
   created_at: 2026-04-13
+- id: learn-1776044519084
+  content: 'User context on "src/screens/transactions.rs": Skipping. The visible
+    list is filtered and paginated to a small number of rows on screen. The deep
+    clone of I/O vecs is bounded by MAX_DETAIL_COUNT = 10_000 entries which is
+    cheap in practice and not user-visible. Changing
+    `TransactionInfo.inputs`/`.outputs` to `Rc＜Vec＜_＞＞` would touch all
+    construction sites across both backends and is a larger change than
+    warranted this late in review. Deferring to a follow-up optimization.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#156
+  created_at: 2026-04-13
