@@ -546,3 +546,10 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#170
   created_at: 2026-05-08
+- id: learn-1778228589742
+  content: 'User context on "src/backend/ffi.rs": Fixed in faa77eaa: added three
+    tests for on_transaction_detected covering null-record-with-balance,
+    non-null-record-null-balance, and both-null paths.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#170
+  created_at: 2026-05-08
