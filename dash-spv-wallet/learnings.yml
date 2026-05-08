@@ -560,3 +560,11 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#170
   created_at: 2026-05-08
+- id: learn-1778236236948
+  content: 'User context on "src/backend/native.rs": Fixed in 15862df1: added
+    `from_record_non_empty_label_is_preserved` and
+    `from_record_empty_label_maps_to_none` tests covering both branches of the
+    `if record.label.is_empty()` mapping.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#170
+  created_at: 2026-05-08
