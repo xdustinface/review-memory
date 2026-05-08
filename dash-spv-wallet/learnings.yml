@@ -538,3 +538,11 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#170
   created_at: 2026-05-08
+- id: learn-1778228569789
+  content: 'User context on "src/backend/mock.rs": Skipping: updating UI labels
+    for upstream semantic changes is out of scope for a dependency upgrade PR.
+    The test correctly reflects the new upstream behavior. A separate follow-up
+    issue can track the label/tooltip update.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#170
+  created_at: 2026-05-08
