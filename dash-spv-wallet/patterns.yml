@@ -2881,3 +2881,13 @@
   first_seen: 2026-04-13
   last_seen: 2026-04-13
   escalated: false
+- id: pat-1778225675695
+  finding_title: unbounded slice from c-supplied count in `on_wallet_block_processed`
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-05-08
+  last_seen: 2026-05-08
+  escalated: false
