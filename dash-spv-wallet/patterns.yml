@@ -2952,8 +2952,8 @@
   first_seen: 2026-05-08
   last_seen: 2026-05-08
   escalated: false
-- id: pat-1778225689594
-  finding_title: on_wallet_block_processed send_records closure logic is untested
+- id: pat-1778225690691
+  finding_title: map_wallet_event_block_processed_emits_balance test name is misleading
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
