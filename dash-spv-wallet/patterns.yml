@@ -2883,7 +2883,7 @@
   escalated: false
 - id: pat-1778225675695
   finding_title: unbounded slice from c-supplied count in `on_wallet_block_processed`
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
