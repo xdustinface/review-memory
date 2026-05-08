@@ -2964,7 +2964,7 @@
   escalated: false
 - id: pat-1778226527528
   finding_title: "`is_trusted` hardcoded `false` in ffi utxo construction"
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
