@@ -2901,8 +2901,8 @@
   first_seen: 2026-05-08
   last_seen: 2026-05-08
   escalated: false
-- id: pat-1778225678915
-  finding_title: transactioninstantlocked discards is_instant_send status propagation
+- id: pat-1778225680203
+  finding_title: is_trusted hardcoded false in ffi utxo construction
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
