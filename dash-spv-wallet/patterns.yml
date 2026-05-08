@@ -2932,8 +2932,8 @@
   first_seen: 2026-05-08
   last_seen: 2026-05-08
   escalated: false
-- id: pat-1778225685008
-  finding_title: walletcorebalance::spendable() now includes unconfirmed funds
+- id: pat-1778225686264
+  finding_title: ffi_record_to_info recomputes fallback timestamp per call
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
