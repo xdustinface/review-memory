@@ -204,7 +204,8 @@
           "title": "`is_trusted` hardcoded `false` in FFI UTXO construction",
           "authorReply": "none",
           "specialist": "Security & Safety",
-          "suggestedFix": "// Derive from confirmations: treat any confirmed UTXO as trusted.\nis_trusted: ffi_utxo.confirmations > 0,"
+          "suggestedFix": "// Derive from confirmations: treat any confirmed UTXO as trusted.\nis_trusted: ffi_utxo.confirmations > 0,",
+          "threadId": "PRRT_kwDORrozjM6AjiXw"
         },
         {
           "fingerprint": {
@@ -216,7 +217,8 @@
           "severity": "warning",
           "title": "Peer list not cleared before adding user peers in FFI backend",
           "authorReply": "none",
-          "specialist": "Dependencies & Integration"
+          "specialist": "Dependencies & Integration",
+          "threadId": "PRRT_kwDORrozjM6AjiXz"
         },
         {
           "fingerprint": {
@@ -319,7 +321,8 @@
           "title": "ffi_record_to_info has no direct test",
           "authorReply": "none",
           "specialist": "Testing & Coverage",
-          "suggestedFix": "#[test]\nfn ffi_record_to_info_mempool_uses_fallback_timestamp() {\n    let record = empty_record(); // context_type == Mempool\n    let info = ffi_record_to_info(&record, Network::Testnet);\n    // fallback_timestamp is ~now; just check height and instant_send flags\n    assert_eq!(info.height, None);\n    assert!(!info.is_instant_send);\n    assert!(!info.is_chain_locked);\n    assert_eq!(info.amount, 0);\n}"
+          "suggestedFix": "#[test]\nfn ffi_record_to_info_mempool_uses_fallback_timestamp() {\n    let record = empty_record(); // context_type == Mempool\n    let info = ffi_record_to_info(&record, Network::Testnet);\n    // fallback_timestamp is ~now; just check height and instant_send flags\n    assert_eq!(info.height, None);\n    assert!(!info.is_instant_send);\n    assert!(!info.is_chain_locked);\n    assert_eq!(info.amount, 0);\n}",
+          "threadId": "PRRT_kwDORrozjM6AjiYM"
         },
         {
           "fingerprint": {
@@ -336,6 +339,82 @@
         }
       ],
       "judgeSummary": "The inter-round diff only adds `clear_borrowed_pointers` for test cleanup — none of the 8 open threads from round 1 were addressed. The unbounded `from_raw_parts` in `send_records` remains unguarded despite `MAX_DETAIL_COUNT` being used just 140 lines below in the same file, and `TransactionInstantLocked` still silently drops the txid on both native and FFI paths.",
+      "agents": [
+        "Security & Safety",
+        "Architecture & Design",
+        "Correctness & Logic",
+        "Dependencies & Integration",
+        "Testing & Coverage"
+      ]
+    },
+    {
+      "round": 3,
+      "commitSha": "926f9246246d95b01e84a12f0a948b7708fc0ffe",
+      "timestamp": "2026-05-08T08:11:53.971Z",
+      "findings": [
+        {
+          "fingerprint": {
+            "file": "src/backend/ffi.rs",
+            "lineStart": 1564,
+            "lineEnd": 1564,
+            "slug": "on-transaction-instant-locked-discards-txid---instant-send-status-never-reaches-UI"
+          },
+          "severity": "warning",
+          "title": "on_transaction_instant_locked discards txid — instant-send status never reaches UI",
+          "authorReply": "none",
+          "specialist": "Security & Safety",
+          "suggestedFix": "if !_txid.is_null() {\n    let txid_bytes = unsafe { *_txid };\n    let _ = ctx.event_tx.send(SpvEvent::TransactionReceived(Box::new(TransactionInfo {\n        txid: dashcore::Txid::from_byte_array(txid_bytes),\n        is_instant_send: true,\n        amount: 0,\n        direction: TransactionDirection::Incoming,\n        transaction_type: TransactionType::Standard,\n        timestamp: 0,\n        height: None,\n        fee: None,\n        addresses: Vec::new(),\n        block_hash: None,\n        is_chain_locked: false,\n        label: None,\n        inputs: Vec::new(),\n        outputs: Vec::new(),\n    })));\n}"
+        },
+        {
+          "fingerprint": {
+            "file": "src/backend/ffi.rs",
+            "lineStart": 186,
+            "lineEnd": 186,
+            "slug": "Peer-list-not-cleared-before-adding-configured-peers-in-FFI-backend"
+          },
+          "severity": "warning",
+          "title": "Peer list not cleared before adding configured peers in FFI backend",
+          "authorReply": "none",
+          "specialist": "Security & Safety"
+        },
+        {
+          "fingerprint": {
+            "file": "src/backend/ffi.rs",
+            "lineStart": 824,
+            "lineEnd": 824,
+            "slug": "-is-trusted--hardcoded--false--in-FFI-UTXO-construction"
+          },
+          "severity": "warning",
+          "title": "`is_trusted` hardcoded `false` in FFI UTXO construction",
+          "authorReply": "none",
+          "specialist": "Security & Safety"
+        },
+        {
+          "fingerprint": {
+            "file": "src/backend/mock.rs",
+            "lineStart": 660,
+            "lineEnd": 660,
+            "slug": "WalletCoreBalance--spendable---now-silently-includes-unconfirmed-funds"
+          },
+          "severity": "suggestion",
+          "title": "WalletCoreBalance::spendable() now silently includes unconfirmed funds",
+          "authorReply": "none",
+          "specialist": "Security & Safety"
+        },
+        {
+          "fingerprint": {
+            "file": "src/backend/ffi.rs",
+            "lineStart": 1527,
+            "lineEnd": 1527,
+            "slug": "-on-transaction-detected--null-record-and-null-balance-paths-are-untested"
+          },
+          "severity": "suggestion",
+          "title": "`on_transaction_detected` null-record and null-balance paths are untested",
+          "authorReply": "none",
+          "specialist": "Testing & Coverage"
+        }
+      ],
+      "judgeSummary": "Previous blocker (unbounded slice in `on_wallet_block_processed`) is fixed with a `MAX_DETAIL_COUNT` guard, and the test cleanup ordering UB is resolved. However, the native backend's `TransactionInstantLocked` arm was fixed to emit `TransactionReceived` with `is_instant_send: true`, but the FFI backend's `on_transaction_instant_locked` still only emits `BalanceUpdated` — widening the backend parity gap. Three prior warnings (peer list clear, `is_trusted` hardcoded, spendable semantics) remain unaddressed.",
       "agents": [
         "Security & Safety",
         "Architecture & Design",
