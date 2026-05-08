@@ -3075,3 +3075,14 @@
   first_seen: 2026-05-08
   last_seen: 2026-05-08
   escalated: false
+- id: pat-1778228850748
+  finding_title: "`keep-finalized-transactions` feature added with no migration
+    path for existing wallet data"
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-05-08
+  last_seen: 2026-05-08
+  escalated: false
