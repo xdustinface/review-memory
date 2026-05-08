@@ -2993,8 +2993,8 @@
   first_seen: 2026-05-08
   last_seen: 2026-05-08
   escalated: false
-- id: pat-1778226532789
-  finding_title: ffi_record_to_info safety contract not documented at the function boundary
+- id: pat-1778226533699
+  finding_title: "inconsistent naming: ffi_record_to_info vs extract_* helper pattern"
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
