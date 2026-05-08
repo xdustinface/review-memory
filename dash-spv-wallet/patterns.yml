@@ -3086,3 +3086,13 @@
   first_seen: 2026-05-08
   last_seen: 2026-05-08
   escalated: false
+- id: pat-1778228851735
+  finding_title: on_wallet_block_processed null balance branch is untested
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-05-08
+  last_seen: 2026-05-08
+  escalated: false
