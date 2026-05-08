@@ -3096,3 +3096,13 @@
   first_seen: 2026-05-08
   last_seen: 2026-05-08
   escalated: false
+- id: pat-1778236582761
+  finding_title: on_transaction_instant_locked has no unit test
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-05-08
+  last_seen: 2026-05-08
+  escalated: false
