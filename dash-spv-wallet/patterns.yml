@@ -2883,7 +2883,7 @@
   escalated: false
 - id: pat-1778225675695
   finding_title: unbounded slice from c-supplied count in `on_wallet_block_processed`
-  occurrences: 2
+  occurrences: 1
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -2903,7 +2903,7 @@
   escalated: false
 - id: pat-1778225678915
   finding_title: transactioninstantlocked discards is_instant_send status propagation
-  occurrences: 1
+  occurrences: 2
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -2962,8 +2962,8 @@
   first_seen: 2026-05-08
   last_seen: 2026-05-08
   escalated: false
-- id: pat-1778226527528
-  finding_title: "`is_trusted` hardcoded `false` in ffi utxo construction"
+- id: pat-1778226528692
+  finding_title: peer list not cleared before adding user peers in ffi backend
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
