@@ -399,7 +399,7 @@
           },
           "severity": "suggestion",
           "title": "WalletCoreBalance::spendable() now silently includes unconfirmed funds",
-          "authorReply": "none",
+          "authorReply": "partial",
           "specialist": "Security & Safety",
           "threadId": "PRRT_kwDORrozjM6Aj4JV"
         },
@@ -452,9 +452,10 @@
           },
           "severity": "suggestion",
           "title": "`keep-finalized-transactions` feature added with no migration path for existing wallet data",
-          "authorReply": "none",
+          "authorReply": "partial",
           "specialist": "Dependencies & Integration",
-          "suggestedFix": "At minimum, emit a `tracing::warn!` during `load_wallet` when `wallet_transaction_history` returns `Ok([])` but the wallet already has a non-zero balance, indicating finalized records were not stored under the previous feature flag. A more robust approach is to persist a feature-flag marker in the wallet database and clear/re-index automatically when it changes."
+          "suggestedFix": "At minimum, emit a `tracing::warn!` during `load_wallet` when `wallet_transaction_history` returns `Ok([])` but the wallet already has a non-zero balance, indicating finalized records were not stored under the previous feature flag. A more robust approach is to persist a feature-flag marker in the wallet database and clear/re-index automatically when it changes.",
+          "threadId": "PRRT_kwDORrozjM6AkGMv"
         },
         {
           "fingerprint": {
@@ -465,9 +466,10 @@
           },
           "severity": "suggestion",
           "title": "on_wallet_block_processed null balance branch is untested",
-          "authorReply": "none",
+          "authorReply": "agree",
           "specialist": "Testing & Coverage",
-          "suggestedFix": "#[test]\nfn on_wallet_block_processed_null_balance_emits_only_records() {\n    let (tx, mut rx) = super::super::events::event_channel(32);\n    let ctx = CallbackContext { event_tx: tx, progress: Arc::new(RwLock::new(SyncProgress::default())), network: Network::Mainnet };\n    let mut r1 = empty_record();\n    r1.net_amount = 5_000;\n    on_wallet_block_processed(ptr::null(), 1, &r1 as *const _, 1, ptr::null(), 0, ptr::null(), 0, ptr::null(), ptr::null(), 0, ptr::null(), 0, &ctx as *const _ as *mut c_void);\n    clear_borrowed_pointers(&mut r1);\n    let ev = rx.try_recv().unwrap();\n    assert!(matches!(ev, SpvEvent::TransactionReceived(_)));\n    assert!(rx.try_recv().is_err(), \"null balance must not emit BalanceUpdated\");\n}"
+          "suggestedFix": "#[test]\nfn on_wallet_block_processed_null_balance_emits_only_records() {\n    let (tx, mut rx) = super::super::events::event_channel(32);\n    let ctx = CallbackContext { event_tx: tx, progress: Arc::new(RwLock::new(SyncProgress::default())), network: Network::Mainnet };\n    let mut r1 = empty_record();\n    r1.net_amount = 5_000;\n    on_wallet_block_processed(ptr::null(), 1, &r1 as *const _, 1, ptr::null(), 0, ptr::null(), 0, ptr::null(), ptr::null(), 0, ptr::null(), 0, &ctx as *const _ as *mut c_void);\n    clear_borrowed_pointers(&mut r1);\n    let ev = rx.try_recv().unwrap();\n    assert!(matches!(ev, SpvEvent::TransactionReceived(_)));\n    assert!(rx.try_recv().is_err(), \"null balance must not emit BalanceUpdated\");\n}",
+          "threadId": "PRRT_kwDORrozjM6AkGM5"
         },
         {
           "fingerprint": {
@@ -484,6 +486,60 @@
         }
       ],
       "judgeSummary": "Previous `is_trusted` hardcoding and missing null-path tests are addressed in the inter-round diff. The new `on_transaction_instant_locked` body emits a stub `TransactionReceived` with all-zero placeholder fields (amount=0, timestamp=0, empty addresses), which will show a ghost transaction in the UI — that's the most interesting remaining concern. The `ffi_balance_to_core` total-field findings are real but low-impact since `WalletCoreBalance::new` recomputes internally.",
+      "agents": [
+        "Security & Safety",
+        "Architecture & Design",
+        "Correctness & Logic",
+        "Dependencies & Integration",
+        "Testing & Coverage"
+      ]
+    },
+    {
+      "round": 5,
+      "commitSha": "15862df14cf280f86791b259527479e7fd1a277c",
+      "timestamp": "2026-05-08T10:36:25.752Z",
+      "findings": [
+        {
+          "fingerprint": {
+            "file": "src/backend/ffi.rs",
+            "lineStart": 1623,
+            "lineEnd": 1623,
+            "slug": "on-transaction-instant-locked-has-no-unit-test"
+          },
+          "severity": "warning",
+          "title": "on_transaction_instant_locked has no unit test",
+          "authorReply": "none",
+          "specialist": "Correctness & Logic",
+          "suggestedFix": "#[test]\nfn on_transaction_instant_locked_null_txid_emits_only_balance() {\n    let (tx, mut rx) = super::super::events::event_channel(32);\n    let ctx = CallbackContext { event_tx: tx, progress: Arc::new(RwLock::new(SyncProgress::default())), network: Network::Mainnet };\n    let balance = FFIBalance { confirmed: 1_000, unconfirmed: 0, immature: 0, locked: 0, total: 1_000 };\n    on_transaction_instant_locked(ptr::null(), ptr::null(), ptr::null(), 0, &balance as *const _, ptr::null(), 0, &ctx as *const _ as *mut _);\n    assert!(matches!(rx.try_recv().unwrap(), SpvEvent::BalanceUpdated(_)));\n    assert!(rx.try_recv().is_err());\n}\n\n#[test]\nfn on_transaction_instant_locked_non_null_txid_emits_received_with_is_instant_send() {\n    let (tx, mut rx) = super::super::events::event_channel(32);\n    let ctx = CallbackContext { event_tx: tx, progress: Arc::new(RwLock::new(SyncProgress::default())), network: Network::Mainnet };\n    let txid: [u8; 32] = [0xAB; 32];\n    on_transaction_instant_locked(ptr::null(), &txid as *const _, ptr::null(), 0, ptr::null(), ptr::null(), 0, &ctx as *const _ as *mut _);\n    match rx.try_recv().unwrap() {\n        SpvEvent::TransactionReceived(info) => {\n            assert!(info.is_instant_send);\n            assert_eq!(info.amount, 0);\n        }\n        other => panic!(\"expected TransactionReceived, got {:?}\", other),\n    }\n    assert!(rx.try_recv().is_err());\n}\n\n#[test]\nfn on_transaction_instant_locked_both_null_emits_nothing() {\n    let (tx, mut rx) = super::super::events::event_channel(32);\n    let ctx = CallbackContext { event_tx: tx, progress: Arc::new(RwLock::new(SyncProgress::default())), network: Network::Mainnet };\n    on_transaction_instant_locked(ptr::null(), ptr::null(), ptr::null(), 0, ptr::null(), ptr::null(), 0, &ctx as *const _ as *mut _);\n    assert!(rx.try_recv().is_err());\n}"
+        },
+        {
+          "fingerprint": {
+            "file": "src/backend/ffi.rs",
+            "lineStart": 1496,
+            "lineEnd": 1496,
+            "slug": "ffi-balance-to-core-silently-discards-FFIBalance-total"
+          },
+          "severity": "nitpick",
+          "title": "ffi_balance_to_core silently discards FFIBalance.total",
+          "authorReply": "none",
+          "specialist": "Dependencies & Integration",
+          "suggestedFix": "fn ffi_balance_to_core(balance: &key_wallet_ffi::types::FFIBalance) -> WalletCoreBalance {\n    let computed = balance.confirmed\n        .saturating_add(balance.unconfirmed)\n        .saturating_add(balance.immature)\n        .saturating_add(balance.locked);\n    if computed != balance.total {\n        tracing::warn!(\n            computed,\n            reported = balance.total,\n            \"FFI balance total mismatch\"\n        );\n    }\n    WalletCoreBalance::new(\n        balance.confirmed,\n        balance.unconfirmed,\n        balance.immature,\n        balance.locked,\n    )\n}"
+        },
+        {
+          "fingerprint": {
+            "file": "src/backend/ffi.rs",
+            "lineStart": 2213,
+            "lineEnd": 2213,
+            "slug": "ffi-balance-to-core-field-mapping-unverified---assertions-use-matches--without-destructuring"
+          },
+          "severity": "suggestion",
+          "title": "ffi_balance_to_core field mapping unverified — assertions use matches! without destructuring",
+          "authorReply": "none",
+          "specialist": "Testing & Coverage",
+          "suggestedFix": "```rust\nmatch rx.try_recv().unwrap() {\n    SpvEvent::BalanceUpdated(b) => {\n        assert_eq!(b.confirmed(), 5_000, \"confirmed\");\n        assert_eq!(b.unconfirmed(), 0, \"unconfirmed\");\n        assert_eq!(b.immature(), 0, \"immature\");\n        assert_eq!(b.locked(), 0, \"locked\");\n    }\n    other => panic!(\"expected BalanceUpdated, got {:?}\", other),\n}\n```\nCaveat: requires that `WalletCoreBalance` exposes accessor methods or `PartialEq`; adjust if the API differs."
+        }
+      ],
+      "judgeSummary": "Two of three open threads addressed with targeted tests (null-balance branch in ffi.rs, label mapping in native.rs). The `keep-finalized-transactions` migration thread remains unchanged. Main new concern: `on_transaction_instant_locked` still has zero test coverage despite sibling callbacks each having 3+ tests — this is the most significant gap given CLAUDE.md's testing requirement for backend functions.",
       "agents": [
         "Security & Safety",
         "Architecture & Design",
