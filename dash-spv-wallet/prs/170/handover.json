@@ -1,0 +1,160 @@
+{
+  "prNumber": 170,
+  "repo": "dash-spv-wallet",
+  "rounds": [
+    {
+      "round": 1,
+      "commitSha": "413ed659232fd4cbe5b3d08045071a17c6727322",
+      "timestamp": "2026-05-08T07:34:52.198Z",
+      "findings": [
+        {
+          "fingerprint": {
+            "file": "src/backend/ffi.rs",
+            "lineStart": 1606,
+            "lineEnd": 1606,
+            "slug": "Unbounded-slice-from-C-supplied-count-in--on-wallet-block-processed-"
+          },
+          "severity": "blocker",
+          "title": "Unbounded slice from C-supplied count in `on_wallet_block_processed`",
+          "authorReply": "none",
+          "specialist": "Security & Safety",
+          "suggestedFix": "Apply the same `MAX_DETAIL_COUNT` guard used in `extract_ffi_inputs`/`extract_ffi_outputs`: `if count > MAX_DETAIL_COUNT { tracing::warn!(\"FFI: record count {} exceeds limit\", count); return; }` at the top of the `send_records` closure, before the `from_raw_parts` call."
+        },
+        {
+          "fingerprint": {
+            "file": "src/backend/ffi.rs",
+            "lineStart": 186,
+            "lineEnd": 186,
+            "slug": "Missing-peer-list-clear-before-adding-configured-peers-in-FFI-backend"
+          },
+          "severity": "warning",
+          "title": "Missing peer list clear before adding configured peers in FFI backend",
+          "authorReply": "none",
+          "specialist": "Security & Safety",
+          "suggestedFix": "Before the `for peer in &peers` loop, check whether the upstream API still exposes a clear-peers function under a new name, or call the native equivalent if available. If the FFI config object guarantees an empty peer list on construction, add a comment explaining that invariant so the omission is clearly intentional."
+        },
+        {
+          "fingerprint": {
+            "file": "src/backend/native.rs",
+            "lineStart": 685,
+            "lineEnd": 685,
+            "slug": "TransactionInstantLocked-discards-is-instant-send-status-propagation"
+          },
+          "severity": "warning",
+          "title": "TransactionInstantLocked discards is_instant_send status propagation",
+          "authorReply": "none",
+          "specialist": "Architecture & Design",
+          "suggestedFix": "// Until upstream adds the record to TransactionInstantLocked,\n// emit a status-only TransactionReceived that wallet.rs can merge:\nWalletEvent::TransactionInstantLocked { txid, balance, .. } => vec![\n    SpvEvent::TransactionReceived(Box::new(TransactionInfo {\n        txid,\n        amount: 0,\n        is_instant_send: true,\n        // ... zero/None for all other fields so apply_event merges\n    })),\n    SpvEvent::BalanceUpdated(balance),\n],\n// Caveat: requires upstream to expose the txid field in TransactionInstantLocked,\n// and wallet.rs::apply_event must keep treating amount==0 events as status-only merges."
+        },
+        {
+          "fingerprint": {
+            "file": "src/backend/ffi.rs",
+            "lineStart": 821,
+            "lineEnd": 821,
+            "slug": "is-trusted-hardcoded-false-in-FFI-UTXO-construction"
+          },
+          "severity": "warning",
+          "title": "is_trusted hardcoded false in FFI UTXO construction",
+          "authorReply": "none",
+          "specialist": "Architecture & Design",
+          "suggestedFix": "is_trusted: ffi_utxo.confirmations >= 6, // or > 0; mirror whatever native derives\n// Caveat: `confirmations` field availability in FFIUTXO should be verified\n// against the upstream FFI struct definition before shipping."
+        },
+        {
+          "fingerprint": {
+            "file": "src/backend/native.rs",
+            "lineStart": 692,
+            "lineEnd": 692,
+            "slug": "WalletEvent--TransactionInstantLocked-arm-in-map-wallet-event-is-completely-untested"
+          },
+          "severity": "suggestion",
+          "title": "WalletEvent::TransactionInstantLocked arm in map_wallet_event is completely untested",
+          "authorReply": "none",
+          "specialist": "Testing & Coverage",
+          "suggestedFix": "#[test]\nfn map_wallet_event_transaction_instant_locked_emits_balance() {\n    let balance = WalletCoreBalance::new(99_000, 1_000, 0, 0);\n    let event = WalletEvent::TransactionInstantLocked {\n        wallet_id: [0; 32],\n        txid: Txid::all_zeros(),\n        balance: balance.clone(),\n        account_balances: Default::default(),\n    };\n    let mapped = map_wallet_event(event, Network::Mainnet);\n    assert_eq!(mapped.len(), 1);\n    assert_eq!(mapped[0], SpvEvent::BalanceUpdated(balance));\n}"
+        },
+        {
+          "fingerprint": {
+            "file": "src/backend/native.rs",
+            "lineStart": 949,
+            "lineEnd": 949,
+            "slug": "BlockProcessed-with-non-empty-record-arrays-is-never-exercised"
+          },
+          "severity": "suggestion",
+          "title": "BlockProcessed with non-empty record arrays is never exercised",
+          "authorReply": "none",
+          "specialist": "Testing & Coverage",
+          "suggestedFix": "#[test]\nfn map_wallet_event_block_processed_with_records_emits_transaction_and_balance() {\n    let tx = Transaction::dummy_empty();\n    let record = make_record(tx, TransactionContext::Mempool, vec![], vec![], 1_000);\n    let balance = WalletCoreBalance::new(1_000, 0, 0, 0);\n    let event = WalletEvent::BlockProcessed {\n        wallet_id: [0; 32],\n        height: 500,\n        inserted: vec![record],\n        updated: vec![],\n        matured: vec![],\n        balance: balance.clone(),\n        account_balances: Default::default(),\n        addresses_derived: vec![],\n    };\n    let mapped = map_wallet_event(event, Network::Mainnet);\n    assert_eq!(mapped.len(), 2);\n    assert!(matches!(mapped[0], SpvEvent::TransactionReceived(_)));\n    assert_eq!(mapped[1], SpvEvent::BalanceUpdated(balance));\n}"
+        },
+        {
+          "fingerprint": {
+            "file": "src/backend/mock.rs",
+            "lineStart": 660,
+            "lineEnd": 660,
+            "slug": "WalletCoreBalance--spendable---now-includes-unconfirmed-funds"
+          },
+          "severity": "suggestion",
+          "title": "WalletCoreBalance::spendable() now includes unconfirmed funds",
+          "authorReply": "none",
+          "specialist": "Dependencies & Integration"
+        },
+        {
+          "fingerprint": {
+            "file": "src/backend/ffi.rs",
+            "lineStart": 1467,
+            "lineEnd": 1467,
+            "slug": "ffi-record-to-info-recomputes-fallback-timestamp-per-call"
+          },
+          "severity": "nitpick",
+          "title": "ffi_record_to_info recomputes fallback timestamp per call",
+          "authorReply": "none",
+          "specialist": "Correctness & Logic"
+        },
+        {
+          "fingerprint": {
+            "file": "src/backend/ffi.rs",
+            "lineStart": 1509,
+            "lineEnd": 1509,
+            "slug": "ffi-balance-to-core-helper-has-no-unit-test"
+          },
+          "severity": "nitpick",
+          "title": "ffi_balance_to_core helper has no unit test",
+          "authorReply": "none",
+          "specialist": "Testing & Coverage",
+          "suggestedFix": "#[test]\nfn ffi_balance_to_core_maps_all_fields() {\n    use key_wallet_ffi::types::FFIBalance;\n    let b = FFIBalance { confirmed: 100, unconfirmed: 50, immature: 25, locked: 10 };\n    let result = ffi_balance_to_core(&b);\n    assert_eq!(result, WalletCoreBalance::new(100, 50, 25, 10));\n}"
+        },
+        {
+          "fingerprint": {
+            "file": "src/backend/ffi.rs",
+            "lineStart": 1570,
+            "lineEnd": 1570,
+            "slug": "on-wallet-block-processed-send-records-closure-logic-is-untested"
+          },
+          "severity": "suggestion",
+          "title": "on_wallet_block_processed send_records closure logic is untested",
+          "authorReply": "none",
+          "specialist": "Testing & Coverage"
+        },
+        {
+          "fingerprint": {
+            "file": "src/backend/native.rs",
+            "lineStart": 949,
+            "lineEnd": 949,
+            "slug": "map-wallet-event-block-processed-emits-balance-test-name-is-misleading"
+          },
+          "severity": "nitpick",
+          "title": "map_wallet_event_block_processed_emits_balance test name is misleading",
+          "authorReply": "none",
+          "specialist": "Testing & Coverage"
+        }
+      ],
+      "judgeSummary": "The `send_records` closure in FFI `on_wallet_block_processed` lacks the `MAX_DETAIL_COUNT` bound check that protects every other raw-slice creation in the file — a real unsafe gap. The peer-clear removal and missing InstantSend status propagation are the other substantive issues, though both depend on upstream behavior that may have changed. Test coverage gaps for the new event arms are real but lower severity.",
+      "agents": [
+        "Security & Safety",
+        "Architecture & Design",
+        "Correctness & Logic",
+        "Dependencies & Integration",
+        "Testing & Coverage"
+      ]
+    }
+  ]
+}
