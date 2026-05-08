@@ -375,7 +375,8 @@
           "severity": "warning",
           "title": "Peer list not cleared before adding configured peers in FFI backend",
           "authorReply": "none",
-          "specialist": "Security & Safety"
+          "specialist": "Security & Safety",
+          "threadId": "PRRT_kwDORrozjM6Aj4JM"
         },
         {
           "fingerprint": {
@@ -399,7 +400,8 @@
           "severity": "suggestion",
           "title": "WalletCoreBalance::spendable() now silently includes unconfirmed funds",
           "authorReply": "none",
-          "specialist": "Security & Safety"
+          "specialist": "Security & Safety",
+          "threadId": "PRRT_kwDORrozjM6Aj4JV"
         },
         {
           "fingerprint": {
@@ -415,6 +417,73 @@
         }
       ],
       "judgeSummary": "Previous blocker (unbounded slice in `on_wallet_block_processed`) is fixed with a `MAX_DETAIL_COUNT` guard, and the test cleanup ordering UB is resolved. However, the native backend's `TransactionInstantLocked` arm was fixed to emit `TransactionReceived` with `is_instant_send: true`, but the FFI backend's `on_transaction_instant_locked` still only emits `BalanceUpdated` — widening the backend parity gap. Three prior warnings (peer list clear, `is_trusted` hardcoded, spendable semantics) remain unaddressed.",
+      "agents": [
+        "Security & Safety",
+        "Architecture & Design",
+        "Correctness & Logic",
+        "Dependencies & Integration",
+        "Testing & Coverage"
+      ]
+    },
+    {
+      "round": 4,
+      "commitSha": "faa77eaa5b25457b3e757056206eeab0bcd424ff",
+      "timestamp": "2026-05-08T08:27:34.298Z",
+      "findings": [
+        {
+          "fingerprint": {
+            "file": "src/backend/ffi.rs",
+            "lineStart": 1528,
+            "lineEnd": 1528,
+            "slug": "ffi-balance-to-core-silently-discards-the--total--field-of-FFIBalance"
+          },
+          "severity": "nitpick",
+          "title": "ffi_balance_to_core silently discards the `total` field of FFIBalance",
+          "authorReply": "none",
+          "specialist": "Architecture & Design",
+          "suggestedFix": "fn ffi_balance_to_core(balance: &key_wallet_ffi::types::FFIBalance) -> WalletCoreBalance {\n    // `total` is informational; WalletCoreBalance recomputes it from components.\n    debug_assert_eq!(\n        balance.total,\n        balance.confirmed.saturating_add(balance.unconfirmed),\n        \"FFI balance total field diverges from components\"\n    );\n    WalletCoreBalance::new(\n        balance.confirmed,\n        balance.unconfirmed,\n        balance.immature,\n        balance.locked,\n    )\n}"
+        },
+        {
+          "fingerprint": {
+            "file": "Cargo.toml",
+            "lineStart": 21,
+            "lineEnd": 21,
+            "slug": "-keep-finalized-transactions--feature-added-with-no-migration-path-for-existing-wallet-data"
+          },
+          "severity": "suggestion",
+          "title": "`keep-finalized-transactions` feature added with no migration path for existing wallet data",
+          "authorReply": "none",
+          "specialist": "Dependencies & Integration",
+          "suggestedFix": "At minimum, emit a `tracing::warn!` during `load_wallet` when `wallet_transaction_history` returns `Ok([])` but the wallet already has a non-zero balance, indicating finalized records were not stored under the previous feature flag. A more robust approach is to persist a feature-flag marker in the wallet database and clear/re-index automatically when it changes."
+        },
+        {
+          "fingerprint": {
+            "file": "src/backend/ffi.rs",
+            "lineStart": 1662,
+            "lineEnd": 1662,
+            "slug": "on-wallet-block-processed-null-balance-branch-is-untested"
+          },
+          "severity": "suggestion",
+          "title": "on_wallet_block_processed null balance branch is untested",
+          "authorReply": "none",
+          "specialist": "Testing & Coverage",
+          "suggestedFix": "#[test]\nfn on_wallet_block_processed_null_balance_emits_only_records() {\n    let (tx, mut rx) = super::super::events::event_channel(32);\n    let ctx = CallbackContext { event_tx: tx, progress: Arc::new(RwLock::new(SyncProgress::default())), network: Network::Mainnet };\n    let mut r1 = empty_record();\n    r1.net_amount = 5_000;\n    on_wallet_block_processed(ptr::null(), 1, &r1 as *const _, 1, ptr::null(), 0, ptr::null(), 0, ptr::null(), ptr::null(), 0, ptr::null(), 0, &ctx as *const _ as *mut c_void);\n    clear_borrowed_pointers(&mut r1);\n    let ev = rx.try_recv().unwrap();\n    assert!(matches!(ev, SpvEvent::TransactionReceived(_)));\n    assert!(rx.try_recv().is_err(), \"null balance must not emit BalanceUpdated\");\n}"
+        },
+        {
+          "fingerprint": {
+            "file": "src/backend/native.rs",
+            "lineStart": 548,
+            "lineEnd": 548,
+            "slug": "from-record-label-String-Option-String--mapping-is-untested-in-native-rs"
+          },
+          "severity": "suggestion",
+          "title": "from_record label String→Option<String> mapping is untested in native.rs",
+          "authorReply": "none",
+          "specialist": "Testing & Coverage",
+          "suggestedFix": "Extend `make_record` to accept a label, or add a helper:\n\n#[test]\nfn from_record_non_empty_label_is_preserved() {\n    let tx = Transaction::dummy_empty();\n    let mut record = make_record(tx, TransactionContext::Mempool, Vec::new(), Vec::new(), 1_000);\n    record.label = \"grocery store\".to_string();\n    let info = TransactionInfo::from_record(&record, 0, Network::Testnet);\n    assert_eq!(info.label, Some(\"grocery store\".to_string()));\n}\n\n#[test]\nfn from_record_empty_label_maps_to_none() {\n    let tx = Transaction::dummy_empty();\n    let record = make_record(tx, TransactionContext::Mempool, Vec::new(), Vec::new(), 1_000);\n    // record.label is \"\" by default\n    let info = TransactionInfo::from_record(&record, 0, Network::Testnet);\n    assert_eq!(info.label, None);\n}"
+        }
+      ],
+      "judgeSummary": "Previous `is_trusted` hardcoding and missing null-path tests are addressed in the inter-round diff. The new `on_transaction_instant_locked` body emits a stub `TransactionReceived` with all-zero placeholder fields (amount=0, timestamp=0, empty addresses), which will show a ghost transaction in the UI — that's the most interesting remaining concern. The `ffi_balance_to_core` total-field findings are real but low-impact since `WalletCoreBalance::new` recomputes internally.",
       "agents": [
         "Security & Safety",
         "Architecture & Design",
