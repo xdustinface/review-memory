@@ -2922,3 +2922,13 @@
   first_seen: 2026-05-08
   last_seen: 2026-05-08
   escalated: false
+- id: pat-1778225683909
+  finding_title: blockprocessed with non-empty record arrays is never exercised
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-05-08
+  last_seen: 2026-05-08
+  escalated: false
