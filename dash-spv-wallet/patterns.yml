@@ -2932,8 +2932,18 @@
   first_seen: 2026-05-08
   last_seen: 2026-05-08
   escalated: false
-- id: pat-1778225686264
-  finding_title: ffi_record_to_info recomputes fallback timestamp per call
+- id: pat-1778225685008
+  finding_title: walletcorebalance::spendable() now includes unconfirmed funds
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-05-08
+  last_seen: 2026-05-08
+  escalated: false
+- id: pat-1778225687918
+  finding_title: ffi_balance_to_core helper has no unit test
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
