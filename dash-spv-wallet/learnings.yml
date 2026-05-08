@@ -553,3 +553,12 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#170
   created_at: 2026-05-08
+- id: learn-1778236232882
+  content: 'User context on "Cargo.toml": Skipping: adding a migration-path
+    warning or database feature-flag marker for `keep-finalized-transactions` is
+    new feature work that is out of scope for a dependency upgrade PR. The
+    feature flag is intentionally enabled to match the upstream v0.42-dev API. A
+    follow-up issue can track the migration UX if needed.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#170
+  created_at: 2026-05-08
