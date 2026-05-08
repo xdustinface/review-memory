@@ -2964,7 +2964,7 @@
   escalated: false
 - id: pat-1778226527528
   finding_title: "`is_trusted` hardcoded `false` in ffi utxo construction"
-  occurrences: 2
+  occurrences: 1
   accepted_count: 0
   rejected_count: 0
   repos:
@@ -3037,6 +3037,16 @@
   escalated: false
 - id: pat-1778227908480
   finding_title: peer list not cleared before adding configured peers in ffi backend
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-05-08
+  last_seen: 2026-05-08
+  escalated: false
+- id: pat-1778227911296
+  finding_title: walletcorebalance::spendable() now silently includes unconfirmed funds
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
