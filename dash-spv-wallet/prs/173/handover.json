@@ -83,7 +83,8 @@
           "title": "TransactionsChainlocked no-op leaves per-transaction is_chain_locked stale",
           "authorReply": "none",
           "specialist": "Security & Safety",
-          "suggestedFix": "// Emit a new SpvEvent variant, e.g.:\nWalletEvent::TransactionsChainlocked { per_account, .. } => {\n    let txids: Vec<[u8; 32]> = per_account\n        .values()\n        .flat_map(|records| records.iter().map(|r| r.txid))\n        .collect();\n    if txids.is_empty() {\n        vec![]\n    } else {\n        vec![SpvEvent::TransactionsChainLocked(txids)]\n    }\n}\n// Then handle SpvEvent::TransactionsChainLocked in WalletState::apply_event\n// to set is_chain_locked = true on matching transactions.\n// Caveat: requires a new SpvEvent variant and WalletState handler — non-trivial."
+          "suggestedFix": "// Emit a new SpvEvent variant, e.g.:\nWalletEvent::TransactionsChainlocked { per_account, .. } => {\n    let txids: Vec<[u8; 32]> = per_account\n        .values()\n        .flat_map(|records| records.iter().map(|r| r.txid))\n        .collect();\n    if txids.is_empty() {\n        vec![]\n    } else {\n        vec![SpvEvent::TransactionsChainLocked(txids)]\n    }\n}\n// Then handle SpvEvent::TransactionsChainLocked in WalletState::apply_event\n// to set is_chain_locked = true on matching transactions.\n// Caveat: requires a new SpvEvent variant and WalletState handler — non-trivial.",
+          "threadId": "PRRT_kwDORrozjM6DBQkm"
         },
         {
           "fingerprint": {
@@ -96,7 +97,8 @@
           "title": "Actual fee paid logged at debug but not surfaced through the trait",
           "authorReply": "none",
           "specialist": "Architecture & Design",
-          "suggestedFix": "// trait.rs\nasync fn send(&self, address: &str, amount: u64, fee_rate: u32) -> BackendResult<([u8; 32], u64)>;\n\n// native.rs / ffi.rs — return (txid.to_byte_array(), actual_fee)\n// mock.rs — return (txid, 0) or a configurable stub fee"
+          "suggestedFix": "// trait.rs\nasync fn send(&self, address: &str, amount: u64, fee_rate: u32) -> BackendResult<([u8; 32], u64)>;\n\n// native.rs / ffi.rs — return (txid.to_byte_array(), actual_fee)\n// mock.rs — return (txid, 0) or a configurable stub fee",
+          "threadId": "PRRT_kwDORrozjM6DBQkt"
         },
         {
           "fingerprint": {
@@ -113,6 +115,33 @@
         }
       ],
       "judgeSummary": "Previous `_fee` discard addressed with `tracing::debug!` logging and a new test for the `TransactionsChainlocked` no-op arm. The chainlock staleness and fee-not-surfaced-to-UI concerns remain as pre-existing design gaps acknowledged in prior rounds — reasonable to defer to follow-up issues given this is a dependency upgrade PR.",
+      "agents": [
+        "Security & Safety",
+        "Architecture & Design",
+        "Correctness & Logic",
+        "Dependencies & Integration"
+      ]
+    },
+    {
+      "round": 3,
+      "commitSha": "31ce02ffb805cb35c94e79ef141fd8695249f9db",
+      "timestamp": "2026-05-19T02:27:42.327Z",
+      "findings": [
+        {
+          "fingerprint": {
+            "file": "src/backend/native.rs",
+            "lineStart": 452,
+            "lineEnd": 452,
+            "slug": "Asymmetric--BuilderError-----BackendError--mapping-between-backends"
+          },
+          "severity": "suggestion",
+          "title": "Asymmetric `BuilderError` → `BackendError` mapping between backends",
+          "authorReply": "none",
+          "specialist": "Architecture & Design",
+          "suggestedFix": "// backend/mod.rs\npub(super) fn builder_error_to_backend(e: BuilderError) -> BackendError {\n    match e {\n        BuilderError::InsufficientFunds { available, required } =>\n            BackendError::InsufficientFunds { available, required },\n        BuilderError::CoinSelection(SelectionError::InsufficientFunds { available, required }) =>\n            BackendError::InsufficientFunds { available, required },\n        other => BackendError::Internal(other.to_string()),\n    }\n}\n// native.rs send(): .map_err(super::builder_error_to_backend)?\n// ffi.rs send(): .map_err(super::builder_error_to_backend)?"
+        }
+      ],
+      "judgeSummary": "Findings 1, 4, and 5 are false positives — reviewers hallucinated a `build_signed().await` call that doesn't exist; both backends use synchronous `builder.build()`. Finding 2 references a `path_resolver` closure that also doesn't exist in the current code. The only real finding is the duplicated error-mapping logic (Finding 3), which is a repeat from prior rounds.",
       "agents": [
         "Security & Safety",
         "Architecture & Design",
