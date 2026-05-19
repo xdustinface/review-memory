@@ -178,7 +178,8 @@
           "title": "Duplicated `path_resolver` closure not extracted alongside `builder_error_to_backend`",
           "authorReply": "none",
           "specialist": "Architecture & Design",
-          "suggestedFix": "// In src/backend/mod.rs:\nuse key_wallet::wallet::managed_wallet_info::wallet_accounts::WalletAccounts;\nuse key_wallet::DerivationPath;\n\npub(super) fn make_path_resolver(\n    accounts: &WalletAccounts,\n) -> impl Fn(dashcore::Address) -> Option<DerivationPath> + '_ {\n    move |address| {\n        accounts\n            .standard_bip44_accounts\n            .values()\n            .chain(accounts.standard_bip32_accounts.values())\n            .find_map(|account| account.address_derivation_path(&address))\n    }\n}\n\n// Both backends then call:\nlet path_resolver = super::make_path_resolver(accounts);"
+          "suggestedFix": "// In src/backend/mod.rs:\nuse key_wallet::wallet::managed_wallet_info::wallet_accounts::WalletAccounts;\nuse key_wallet::DerivationPath;\n\npub(super) fn make_path_resolver(\n    accounts: &WalletAccounts,\n) -> impl Fn(dashcore::Address) -> Option<DerivationPath> + '_ {\n    move |address| {\n        accounts\n            .standard_bip44_accounts\n            .values()\n            .chain(accounts.standard_bip32_accounts.values())\n            .find_map(|account| account.address_derivation_path(&address))\n    }\n}\n\n// Both backends then call:\nlet path_resolver = super::make_path_resolver(accounts);",
+          "threadId": "PRRT_kwDORrozjM6DHM9u"
         },
         {
           "fingerprint": {
@@ -195,6 +196,19 @@
         }
       ],
       "judgeSummary": "Previous round findings (duplicate path_resolver, stale chainlock, discarded fee) all carried forward with no author replies. Three new findings this round: an FFI null-guard comment request, the recurring path_resolver duplication, and async lock holding. All are legitimate observations but none represent correctness bugs in the current code.",
+      "agents": [
+        "Security & Safety",
+        "Architecture & Design",
+        "Correctness & Logic",
+        "Dependencies & Integration"
+      ]
+    },
+    {
+      "round": 5,
+      "commitSha": "4b463c824cbb464cd9183dabda9912f51cc5b287",
+      "timestamp": "2026-05-19T10:36:55.317Z",
+      "findings": [],
+      "judgeSummary": "All previous suggestions (path_resolver duplication, async lock holding, FFI null guards, error mapping asymmetry) went unaddressed but were appropriately scoped as suggestions/nitpicks for a dependency-upgrade PR. No new findings from this round — the upgrade looks mechanically correct.",
       "agents": [
         "Security & Safety",
         "Architecture & Design",
