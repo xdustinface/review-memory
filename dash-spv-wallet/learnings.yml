@@ -604,3 +604,12 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#173
   created_at: 2026-05-19
+- id: learn-1779186777514
+  content: 'User context on "src/backend/ffi.rs": Deliberately out of scope for
+    this mechanical rust-dashcore upgrade. An earlier cleanup pass evaluated
+    this exact duplication and chose to leave it (a lifetime-annotated
+    returned-closure helper is debatably more complex than the 4-line
+    duplication). Tracked as a standalone decision in #178.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#173
+  created_at: 2026-05-19
