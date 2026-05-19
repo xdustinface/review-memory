@@ -148,6 +148,59 @@
         "Correctness & Logic",
         "Dependencies & Integration"
       ]
+    },
+    {
+      "round": 4,
+      "commitSha": "4b463c824cbb464cd9183dabda9912f51cc5b287",
+      "timestamp": "2026-05-19T10:05:30.151Z",
+      "findings": [
+        {
+          "fingerprint": {
+            "file": "src/backend/ffi.rs",
+            "lineStart": 1520,
+            "lineEnd": 1520,
+            "slug": "New-FFI-raw-pointer-params-lack-null-guard-reminder-for-future-use"
+          },
+          "severity": "nitpick",
+          "title": "New FFI raw pointer params lack null-guard reminder for future use",
+          "authorReply": "none",
+          "specialist": "Security & Safety",
+          "suggestedFix": "// Safety: _cl_hash and _cl_signature may be null (caller passes null when no\n// chainlock accompanies the block). Null-check both before dereferencing when\n// this no-op is filled in for issue #175.\n_cl_height: u32,\n_cl_hash: *const [u8; 32],\n_cl_signature: *const [u8; 96],"
+        },
+        {
+          "fingerprint": {
+            "file": "src/backend/ffi.rs",
+            "lineStart": 897,
+            "lineEnd": 897,
+            "slug": "Duplicated--path-resolver--closure-not-extracted-alongside--builder-error-to-backend-"
+          },
+          "severity": "suggestion",
+          "title": "Duplicated `path_resolver` closure not extracted alongside `builder_error_to_backend`",
+          "authorReply": "none",
+          "specialist": "Architecture & Design",
+          "suggestedFix": "// In src/backend/mod.rs:\nuse key_wallet::wallet::managed_wallet_info::wallet_accounts::WalletAccounts;\nuse key_wallet::DerivationPath;\n\npub(super) fn make_path_resolver(\n    accounts: &WalletAccounts,\n) -> impl Fn(dashcore::Address) -> Option<DerivationPath> + '_ {\n    move |address| {\n        accounts\n            .standard_bip44_accounts\n            .values()\n            .chain(accounts.standard_bip32_accounts.values())\n            .find_map(|account| account.address_derivation_path(&address))\n    }\n}\n\n// Both backends then call:\nlet path_resolver = super::make_path_resolver(accounts);"
+        },
+        {
+          "fingerprint": {
+            "file": "src/backend/native.rs",
+            "lineStart": 458,
+            "lineEnd": 458,
+            "slug": "Wallet-write-lock-held-across-async--build-signed--await-point"
+          },
+          "severity": "suggestion",
+          "title": "Wallet write lock held across async `build_signed` await point",
+          "authorReply": "none",
+          "specialist": "Correctness & Logic",
+          "suggestedFix": "// Two-phase approach to avoid holding the write lock across await:\nlet paths: HashMap<Txid, DerivationPath> = {\n    let guard = self.wallet.write().await;\n    // ... collect all derivation paths synchronously\n    // drop guard here\n};\n// Then call a version of build_signed that takes owned paths instead of a closure borrow"
+        }
+      ],
+      "judgeSummary": "Previous round findings (duplicate path_resolver, stale chainlock, discarded fee) all carried forward with no author replies. Three new findings this round: an FFI null-guard comment request, the recurring path_resolver duplication, and async lock holding. All are legitimate observations but none represent correctness bugs in the current code.",
+      "agents": [
+        "Security & Safety",
+        "Architecture & Design",
+        "Correctness & Logic",
+        "Dependencies & Integration"
+      ]
     }
   ]
 }
