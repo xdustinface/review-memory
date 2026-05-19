@@ -568,3 +568,12 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#170
   created_at: 2026-05-08
+- id: learn-1779156770942
+  content: 'User context on "src/backend/native.rs": The no-op is intentional for
+    this mechanical upgrade PR — the scope is limited to adapting the API
+    surface. The staleness of `is_chain_locked` for late-chainlocked
+    transactions is tracked in
+    [#175](https://github.com/xdustinface/dash-spv-wallet/issues/175).'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#173
+  created_at: 2026-05-19
