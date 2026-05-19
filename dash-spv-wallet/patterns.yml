@@ -3117,3 +3117,13 @@
   first_seen: 2026-05-08
   last_seen: 2026-05-08
   escalated: false
+- id: pat-1779156184725
+  finding_title: missing test for new `walletevent::transactionschainlocked` no-op arm
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-05-19
+  last_seen: 2026-05-19
+  escalated: false
