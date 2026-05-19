@@ -3188,3 +3188,13 @@
   first_seen: 2026-05-19
   last_seen: 2026-05-19
   escalated: false
+- id: pat-1779185124938
+  finding_title: new ffi raw pointer params lack null-guard reminder for future use
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-05-19
+  last_seen: 2026-05-19
+  escalated: false
