@@ -577,3 +577,12 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#173
   created_at: 2026-05-19
+- id: learn-1779157303545
+  content: 'User context on "src/backend/native.rs": Intentional no-op for this
+    mechanical rust-dashcore upgrade — scope is limited to adapting the changed
+    API surface, not new UI behavior. The per-transaction `is_chain_locked`
+    promotion for late-chainlocked transactions is tracked as a follow-up in
+    #175.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#173
+  created_at: 2026-05-19
