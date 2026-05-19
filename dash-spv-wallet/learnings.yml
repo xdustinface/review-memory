@@ -586,3 +586,11 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#173
   created_at: 2026-05-19
+- id: learn-1779157304896
+  content: 'User context on "src/backend/native.rs": Agreed this is out of scope
+    for the mechanical upgrade (it would change the `SpvBackend` trait
+    signature, the mock, all call sites, and the UI). Not a regression — the old
+    API did not expose the fee at all. Tracked as a follow-up in #176.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#173
+  created_at: 2026-05-19
