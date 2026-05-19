@@ -3178,3 +3178,13 @@
   first_seen: 2026-05-19
   last_seen: 2026-05-19
   escalated: false
+- id: pat-1779157661405
+  finding_title: asymmetric `buildererror` → `backenderror` mapping between backends
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-05-19
+  last_seen: 2026-05-19
+  escalated: false
