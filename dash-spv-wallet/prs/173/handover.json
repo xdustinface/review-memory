@@ -66,6 +66,59 @@
         "Correctness & Logic",
         "Dependencies & Integration"
       ]
+    },
+    {
+      "round": 2,
+      "commitSha": "31ce02ffb805cb35c94e79ef141fd8695249f9db",
+      "timestamp": "2026-05-19T02:16:09.800Z",
+      "findings": [
+        {
+          "fingerprint": {
+            "file": "src/backend/native.rs",
+            "lineStart": 619,
+            "lineEnd": 619,
+            "slug": "TransactionsChainlocked-no-op-leaves-per-transaction-is-chain-locked-stale"
+          },
+          "severity": "suggestion",
+          "title": "TransactionsChainlocked no-op leaves per-transaction is_chain_locked stale",
+          "authorReply": "none",
+          "specialist": "Security & Safety",
+          "suggestedFix": "// Emit a new SpvEvent variant, e.g.:\nWalletEvent::TransactionsChainlocked { per_account, .. } => {\n    let txids: Vec<[u8; 32]> = per_account\n        .values()\n        .flat_map(|records| records.iter().map(|r| r.txid))\n        .collect();\n    if txids.is_empty() {\n        vec![]\n    } else {\n        vec![SpvEvent::TransactionsChainLocked(txids)]\n    }\n}\n// Then handle SpvEvent::TransactionsChainLocked in WalletState::apply_event\n// to set is_chain_locked = true on matching transactions.\n// Caveat: requires a new SpvEvent variant and WalletState handler — non-trivial."
+        },
+        {
+          "fingerprint": {
+            "file": "src/backend/native.rs",
+            "lineStart": 469,
+            "lineEnd": 469,
+            "slug": "Actual-fee-paid-logged-at-debug-but-not-surfaced-through-the-trait"
+          },
+          "severity": "suggestion",
+          "title": "Actual fee paid logged at debug but not surfaced through the trait",
+          "authorReply": "none",
+          "specialist": "Architecture & Design",
+          "suggestedFix": "// trait.rs\nasync fn send(&self, address: &str, amount: u64, fee_rate: u32) -> BackendResult<([u8; 32], u64)>;\n\n// native.rs / ffi.rs — return (txid.to_byte_array(), actual_fee)\n// mock.rs — return (txid, 0) or a configurable stub fee"
+        },
+        {
+          "fingerprint": {
+            "file": "src/backend/native.rs",
+            "lineStart": 436,
+            "lineEnd": 436,
+            "slug": "Duplicate--path-resolver--closure-across-both-backends"
+          },
+          "severity": "nitpick",
+          "title": "Duplicate `path_resolver` closure across both backends",
+          "authorReply": "none",
+          "specialist": "Architecture & Design",
+          "suggestedFix": "// In backend/mod.rs:\npub(crate) fn resolve_derivation_path(\n    accounts: &key_wallet::wallet::managed_wallet_info::Accounts,\n    address: dashcore::Address,\n) -> Option<key_wallet::DerivationPath> {\n    accounts\n        .standard_bip44_accounts\n        .values()\n        .chain(accounts.standard_bip32_accounts.values())\n        .find_map(|account| account.address_derivation_path(&address))\n}\n\n// In native.rs / ffi.rs:\nlet path_resolver = |address| super::resolve_derivation_path(accounts, address);"
+        }
+      ],
+      "judgeSummary": "Previous `_fee` discard addressed with `tracing::debug!` logging and a new test for the `TransactionsChainlocked` no-op arm. The chainlock staleness and fee-not-surfaced-to-UI concerns remain as pre-existing design gaps acknowledged in prior rounds — reasonable to defer to follow-up issues given this is a dependency upgrade PR.",
+      "agents": [
+        "Security & Safety",
+        "Architecture & Design",
+        "Correctness & Logic",
+        "Dependencies & Integration"
+      ]
     }
   ]
 }
