@@ -594,3 +594,13 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#173
   created_at: 2026-05-19
+- id: learn-1779184781749
+  content: 'User context on "src/backend/native.rs": Consolidated —
+    `builder_error_to_backend` is now in `backend/mod.rs` (private visibility,
+    accessible to both submodules via `super::`). Both `native.rs` and `ffi.rs`
+    now call `super::builder_error_to_backend`. The inline match in `native.rs`
+    and the duplicate local definition in `ffi.rs` are removed, along with the
+    now-unused `BuilderError`/`SelectionError` imports from both backends.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#173
+  created_at: 2026-05-19
