@@ -3198,3 +3198,14 @@
   first_seen: 2026-05-19
   last_seen: 2026-05-19
   escalated: false
+- id: pat-1779185126922
+  finding_title: duplicated `path_resolver` closure not extracted alongside
+    `builder_error_to_backend`
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-05-19
+  last_seen: 2026-05-19
+  escalated: false
