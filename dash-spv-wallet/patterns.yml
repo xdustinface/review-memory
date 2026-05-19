@@ -3158,8 +3158,18 @@
   first_seen: 2026-05-19
   last_seen: 2026-05-19
   escalated: false
-- id: pat-1779156967402
-  finding_title: actual fee paid logged at debug but not surfaced through the trait
+- id: pat-1779156966338
+  finding_title: transactionschainlocked no-op leaves per-transaction is_chain_locked stale
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-05-19
+  last_seen: 2026-05-19
+  escalated: false
+- id: pat-1779156968788
+  finding_title: duplicate `path_resolver` closure across both backends
   occurrences: 1
   accepted_count: 0
   rejected_count: 0
