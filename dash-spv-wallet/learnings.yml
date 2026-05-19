@@ -613,3 +613,11 @@
   scope: repo
   source: xdustinface/dash-spv-wallet#173
   created_at: 2026-05-19
+- id: learn-1779186788722
+  content: 'User context on "src/backend/native.rs": Agreed and acknowledged as
+    inherent to the new upstream async build_signed API, not introduced by new
+    logic here. A proper fix needs a two-phase signing redesign, out of scope
+    for this mechanical upgrade. Tracked in #177.'
+  scope: repo
+  source: xdustinface/dash-spv-wallet#173
+  created_at: 2026-05-19
