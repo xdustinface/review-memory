@@ -1,0 +1,71 @@
+{
+  "prNumber": 173,
+  "repo": "dash-spv-wallet",
+  "rounds": [
+    {
+      "round": 1,
+      "commitSha": "2e33f5a6a0f8018dffd057606893b63711d4896f",
+      "timestamp": "2026-05-19T02:03:08.721Z",
+      "findings": [
+        {
+          "fingerprint": {
+            "file": "src/backend/native.rs",
+            "lineStart": 618,
+            "lineEnd": 618,
+            "slug": "Missing-test-for-new--WalletEvent--TransactionsChainlocked--no-op-arm"
+          },
+          "severity": "suggestion",
+          "title": "Missing test for new `WalletEvent::TransactionsChainlocked` no-op arm",
+          "authorReply": "none",
+          "specialist": "Architecture & Design",
+          "suggestedFix": "#[test]\nfn map_wallet_event_transactions_chainlocked_is_empty() {\n    let event = WalletEvent::TransactionsChainlocked {\n        wallet_id: [0; 32],\n        txids: Vec::new(),\n    };\n    let mapped = map_wallet_event(event, Network::Mainnet);\n    assert!(mapped.is_empty());\n}"
+        },
+        {
+          "fingerprint": {
+            "file": "src/backend/native.rs",
+            "lineStart": 443,
+            "lineEnd": 443,
+            "slug": "Identical--path-resolver--closure-duplicated-across-both-backends"
+          },
+          "severity": "nitpick",
+          "title": "Identical `path_resolver` closure duplicated across both backends",
+          "authorReply": "none",
+          "specialist": "Architecture & Design",
+          "suggestedFix": "// in backend/types.rs or a new backend/wallet_utils.rs:\npub(super) fn resolve_derivation_path(\n    accounts: &key_wallet::wallet::managed_wallet_info::ManagedAccountsInfo,\n    address: dashcore::Address,\n) -> Option<key_wallet::DerivationPath> {\n    accounts\n        .standard_bip44_accounts\n        .values()\n        .chain(accounts.standard_bip32_accounts.values())\n        .find_map(|account| account.address_derivation_path(&address))\n}\n// Then both call sites become:\nlet path_resolver = |address| resolve_derivation_path(accounts, address);"
+        },
+        {
+          "fingerprint": {
+            "file": "src/backend/native.rs",
+            "lineStart": 618,
+            "lineEnd": 618,
+            "slug": "TransactionsChainlocked-no-op-leaves-is-chain-locked-permanently-stale-for-late-chainlocked-transactions"
+          },
+          "severity": "suggestion",
+          "title": "TransactionsChainlocked no-op leaves is_chain_locked permanently stale for late-chainlocked transactions",
+          "authorReply": "none",
+          "specialist": "Correctness & Logic"
+        },
+        {
+          "fingerprint": {
+            "file": "src/backend/native.rs",
+            "lineStart": 456,
+            "lineEnd": 456,
+            "slug": "Actual-fee-paid-silently-discarded"
+          },
+          "severity": "suggestion",
+          "title": "Actual fee paid silently discarded",
+          "authorReply": "none",
+          "specialist": "Dependencies & Integration",
+          "suggestedFix": "let (tx, actual_fee) = TransactionBuilder::new()\n    // ...\n    .build_signed(wallet, path_resolver)\n    .await\n    .map_err(|e| { /* ... */ })?;\n\ntracing::debug!(txid = %tx.txid(), actual_fee, \"transaction built\");"
+        }
+      ],
+      "judgeSummary": "Dependency upgrade is mechanical and correct. The one gap worth closing is the missing test for `TransactionsChainlocked` — every other `map_wallet_event` arm has one, and CLAUDE.md requires edge-case coverage. The discarded `_fee` and duplicated `path_resolver` are real but low-priority follow-up items, not blockers for a dep bump.",
+      "agents": [
+        "Security & Safety",
+        "Architecture & Design",
+        "Correctness & Logic",
+        "Dependencies & Integration"
+      ]
+    }
+  ]
+}
