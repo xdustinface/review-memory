@@ -3209,3 +3209,13 @@
   first_seen: 2026-05-19
   last_seen: 2026-05-19
   escalated: false
+- id: pat-1779185128743
+  finding_title: wallet write lock held across async `build_signed` await point
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-05-19
+  last_seen: 2026-05-19
+  escalated: false
