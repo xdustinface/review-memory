@@ -3137,3 +3137,14 @@
   first_seen: 2026-05-19
   last_seen: 2026-05-19
   escalated: false
+- id: pat-1779156186928
+  finding_title: transactionschainlocked no-op leaves is_chain_locked permanently
+    stale for late-chainlocked transactions
+  occurrences: 1
+  accepted_count: 0
+  rejected_count: 0
+  repos:
+    - dash-spv-wallet
+  first_seen: 2026-05-19
+  last_seen: 2026-05-19
+  escalated: false
